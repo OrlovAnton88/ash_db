@@ -5,15 +5,14 @@ import aorlov.ashdb.core.Dancer;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 
+import java.util.Collection;
 import java.util.Set;
 
 public interface FileReader {
 
-    public Object testRead() throws Exception;
+    public Collection<Dancer> getDancers() throws Exception;
 
-    public XSSFSheet getSheet(String fileName, int sheetNumber) throws Exception ;
-
-    public Dancer constructPerson(Row header, Row row);
+    public Collection<Dancer> getDancers(int maxNumber) throws Exception;
 
     public Set<Club> getClubs() throws Exception;
 

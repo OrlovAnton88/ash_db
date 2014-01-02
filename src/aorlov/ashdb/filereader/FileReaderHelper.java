@@ -8,8 +8,14 @@ import org.apache.log4j.Logger;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 
@@ -66,7 +72,6 @@ public class FileReaderHelper {
     }
 
     private static Date decodeRegDate(Cell cellIn) {
-//        HSSFDateUtil.
          if(cellIn.getCellType() == Cell.CELL_TYPE_NUMERIC)  {
            return cellIn.getDateCellValue();
          }
@@ -132,8 +137,9 @@ public class FileReaderHelper {
      * @param headerIn
      * @param fieldColumnMap
      * @return    number of columns
+     * @deprecated
      */
-    public static Integer  matchColumnToFieldMatcher(Row headerIn,  Map<Integer, String> fieldColumnMap){
+    public static Integer doColumnToFieldMatching(Row headerIn, Map<Integer, String> fieldColumnMap){
         Iterator<Cell> headerСellIterator = headerIn.cellIterator();
         int counter = 0;
         while (headerСellIterator.hasNext()) {
@@ -143,6 +149,20 @@ public class FileReaderHelper {
             counter++;
         }
         return counter;
+    }
+
+    public static Map <Integer, String> getColumnToFiledMap(Row headerIn){
+        Map<Integer, String> columnFieldMap = new HashMap<Integer, String>();
+        Iterator<Cell> headerСellIterator = headerIn.cellIterator();
+        int counter = 0;
+        while (headerСellIterator.hasNext()) {
+            Cell cell = headerСellIterator.next();
+            String value = decodeHeaderValue(cell);
+            columnToFieldMatcher(columnFieldMap, value, counter);
+            counter++;
+        }
+
+    return columnFieldMap;
     }
 
     private static String decodeHeaderValue(Cell cellIn) {
@@ -155,5 +175,55 @@ public class FileReaderHelper {
             value = cellIn.toString().trim().toLowerCase();
         }
         return value;
+    }
+
+
+    /**
+     * Get Excel Sheet by name
+     * @param fileName
+     * @param sheetName
+     * @return
+     * @throws Exception
+     */
+    public static XSSFSheet getSheet(String fileName, String sheetName) throws Exception {
+
+        FileInputStream fileInputStream = getInputStream(fileName);
+        XSSFWorkbook workbook = null;
+        try {
+            workbook = new XSSFWorkbook(fileInputStream);
+        } catch (IOException ex) {
+            throw new Exception("Error in creating work book", ex);
+        }
+        int index = workbook.getSheetIndex(sheetName);
+        LOGGER.debug("Sheet index: [" + index +']');
+
+        XSSFSheet sheet = workbook.getSheetAt(index);
+        return sheet;
+    }
+
+
+    public static XSSFSheet getSheet(String fileName, int sheetNumber) throws Exception {
+
+        FileInputStream fileInputStream = getInputStream(fileName);
+        XSSFWorkbook workbook = null;
+        try {
+            workbook = new XSSFWorkbook(fileInputStream);
+        } catch (IOException ex) {
+            throw new Exception("Error in creating work book", ex);
+        }
+        XSSFSheet sheet = workbook.getSheetAt(sheetNumber);
+        return sheet;
+    }
+
+    private static FileInputStream getInputStream(String fileName) throws Exception {
+        FileInputStream fileInputStream = null;
+        try {
+            fileInputStream = new FileInputStream(new File(fileName));
+        } catch (FileNotFoundException ex) {
+            String error = "File " + fileName + "not found";
+            LOGGER.error(error);
+            throw new Exception("File " + fileName + "not found");
+        }
+        return fileInputStream;
     }
 }

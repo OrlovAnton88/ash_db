@@ -1,7 +1,6 @@
 <component name="libraryTable">
-  <library name="ooxml-lib">
+  <library name="ooxml-lib1">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/lib/ooxml-lib" />
       <root url="file://$PROJECT_DIR$/lib/ooxml-lib" />
     </CLASSES>
     <JAVADOC />
