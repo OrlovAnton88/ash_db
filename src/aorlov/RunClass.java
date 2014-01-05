@@ -44,7 +44,7 @@ public class RunClass {
 //               logger.info(dancer.toString());
 //            }
 
-            fl.getEvents ();
+//            fl.getEvents ();
         } catch(Exception ex){
             logger.info("fuck up", ex);
         }

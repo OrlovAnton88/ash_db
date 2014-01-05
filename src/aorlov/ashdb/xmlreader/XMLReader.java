@@ -45,9 +45,9 @@ public class XMLReader {
 
             cities = handler.getCities();
 
-//            for (City city : cities) {
-//                LOGGER.info(city.toString());
-//            }
+            for (City city : cities) {
+                LOGGER.info(city.toString());
+            }
         } catch (Exception ex) {
             LOGGER.error(ex);
         }

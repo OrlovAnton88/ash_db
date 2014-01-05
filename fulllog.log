@@ -1,286 +1,1003 @@
-22:56:18,986  INFO EventHelper:26 - Открытый Кубок  г.Новосибирска
-22:56:18,986  INFO EventHelper:26 - Открытый Кубок г.Минск
-22:56:18,986  INFO EventHelper:26 - Кубок морской  славы  г.СПб
-22:56:18,987  INFO EventHelper:26 - Осенний кубок  Ренессанса  г.Барнаул
-22:56:18,987  INFO EventHelper:26 - Надежды  России г.Москва
-22:56:18,987  INFO EventHelper:26 - Чемпионат Сибири  г.Красноярск
-22:56:18,987  INFO EventHelper:26 - Кубок Буревестника  2013
-22:56:18,988  INFO EventHelper:26 - Чемпионат  юга России  г.Ростов-на-Дону
-22:56:18,988  INFO EventHelper:26 - Dance weekend  г.СПб
-22:56:18,988  INFO EventHelper:26 - Открытый кубок  для E+D  г.Красноярск
-22:56:18,988  INFO EventHelper:26 - Шаг Вперед-2  г.Красноярск
-22:56:18,989  INFO EventHelper:26 - Открытие  Сезона  г.Москва
-22:56:18,989  INFO EventHelper:26 - Летний Кубок  г.Новосибирск
-22:56:18,989  INFO EventHelper:26 - Летний кубок  г.Минск
-22:56:18,990  INFO EventHelper:26 - Кубок Лета  г.СПб
-22:56:18,991  INFO EventHelper:26 - На пути  к звездам  г.Красноярск
-22:56:18,991  INFO EventHelper:26 - Командное  первенство  г.Москва
-22:56:18,991  INFO EventHelper:26 - Новая волна  2103  г.Новосибирск
-22:56:18,991  INFO EventHelper:26 - Чемпионат  Москвы 2013
-22:56:18,991  INFO EventHelper:26 - Кубок Ренессанса  2013  г.Барнаул
-22:56:18,992  INFO EventHelper:26 - Турнир для  E+D класса.  г.Красноярск
-22:56:18,992  INFO EventHelper:26 - For Friends  Only 2013  г.СПб
-22:56:18,992  INFO EventHelper:26 - Dance Voyage г.Моска
-22:56:18,992  INFO EventHelper:26 - Танцевальный  Район  г.Москва
-22:56:18,993  INFO EventHelper:26 - Открытый Кубок  Альтернатива  г.Кемерово
-22:56:18,993  INFO EventHelper:26 - Nord Cup  г.Санкт-Петербург
-22:56:18,993  INFO EventHelper:26 - Открытый Кубок  Движения  г.Красноярск
-22:56:18,993  INFO EventHelper:26 - Кубок АСХ  2013 г.Москва
-22:56:18,993  INFO EventHelper:26 - Чемпионат  Урала  г.Екатеринбург
-22:56:18,994  INFO EventHelper:26 - Февральский  марафон  г.Новосибирск
-22:56:18,994  INFO EventHelper:26 - Зимний Кубок  2013  г.Минск
-22:56:18,994  INFO EventHelper:26 - Шаг вперед  г.Красноярск
-22:56:18,994  INFO EventHelper:26 - Кубок Чемпионов  г.Москва
-22:56:18,994  INFO EventHelper:26 - Зимний Кубок  Сибири 2013  г. Красноярск
-22:56:18,995  INFO EventHelper:26 - Звезды Сибири  г.Новосибирск
-22:56:18,995  INFO EventHelper:26 - Космос 2012  г.СПб
-22:56:18,995  INFO EventHelper:26 - AbsolutCup г.Моска
-22:56:18,995  INFO EventHelper:26 - Держи Ритм г.Москва
-22:56:18,995  INFO EventHelper:26 - Кубок Морской  Славы г.СПб
-22:56:18,996  INFO EventHelper:26 - IV КУБОК МИНСКА  2012
-22:56:18,996  INFO EventHelper:26 - Classic Cup г.Москва
-22:56:18,996  INFO EventHelper:26 - Чемпионат Сибири г.Красноярск
-22:56:18,996  INFO EventHelper:26 - Чемпионат  России  2012  г.Москва
-22:56:18,996  INFO EventHelper:26 - Надежды  России г.Москва
-22:56:18,997  INFO EventHelper:26 - Открытый  турнир ED  г.Красноярск
-22:56:18,997  INFO EventHelper:26 - Star Cup г.Москва
-22:56:18,997  INFO EventHelper:26 - Осенний Кубок  Ренессанса  г.Барнаул
-22:56:18,997  INFO EventHelper:26 - Чемпионат  Юга России  г.Ростов-на-Дону
-22:56:18,997  INFO EventHelper:26 - DanceWeekend  г.СПб
-22:56:18,998  INFO EventHelper:26 - Осенний  кубок 2012 г.Москва
-22:56:18,998  INFO EventHelper:26 - Grand Prix г.Москва
-22:56:18,998  INFO EventHelper:26 - HUSTLE  DanсeFest  г.СПб
-22:56:18,998  INFO EventHelper:26 - Открытие  сезона г.Москва
-22:56:18,998  INFO EventHelper:26 - Летний Кубок г.Новосибирск
-22:56:18,999  INFO EventHelper:26 - Premier Cup г.Москва
-22:56:18,999  INFO EventHelper:26 - Жара г.Омск
-22:56:18,999  INFO EventHelper:26 - EnergyCup
-22:56:18,999  INFO EventHelper:26 - Летний кубок  Академии  Танца г.Саратов
-22:56:18,999  INFO EventHelper:26 - Red Cup
-22:56:19,000  INFO EventHelper:26 - Кубок  Лета 2012 г.СПб
-22:56:19,000  INFO EventHelper:26 - Летний  Кубок  г.Минск
-22:56:19,000  INFO EventHelper:26 - На пути к  звездам  Красноярск
-22:56:19,000  INFO EventHelper:26 - Командное  первенство  2012
-22:56:19,001  INFO EventHelper:26 - Чемпионат Москвы 2012
-22:56:19,001  INFO EventHelper:26 - Новая волна 2012 г.Новосибирск
-22:56:19,001  INFO EventHelper:26 - Кубок  Ренессанса  г.Барнаул
-22:56:19,001  INFO EventHelper:26 - Открытый  турнир г.Красноярск
-22:56:19,001  INFO EventHelper:26 - Весенний Кубок
-22:56:19,002  INFO EventHelper:26 - Кубок Северной Столицы
-22:56:19,002  INFO EventHelper:26 - Танцевальный район
-22:56:19,002  INFO EventHelper:26 - Кубок Мечты
-22:56:19,003  INFO EventHelper:26 - Держи Ритм
-22:56:19,003  INFO EventHelper:26 - Кубок АСХ  2012
-22:56:19,003  INFO EventHelper:26 - Кубок  КХК "Движение"  Красноярск
-22:56:19,003  INFO EventHelper:26 - Кубок  Северо- Запада
-22:56:19,004  INFO EventHelper:26 - Белый Кубок
-22:56:19,004  INFO EventHelper:26 - Февральский  Марафон  г.Новосибирск
-22:56:19,004  INFO EventHelper:26 - Зимний Кубок Vestadance
-22:56:19,005  INFO EventHelper:26 - Открытый  кубок ЕД  (Красноярск)
-22:56:19,005  INFO EventHelper:26 - Кубок  Чемпионов
-22:56:19,005  INFO EventHelper:26 - Step by Step Красноярск
-22:56:19,005  INFO EventHelper:26 - Позитивный Кубок (СПб)
-22:56:19,006  INFO EventHelper:26 - Кубок Дракона
-22:56:19,006  INFO EventHelper:26 - Открытие Года 2012
-22:56:19,006  INFO EventHelper:26 - Чемпионат России 2011
-22:56:19,007  INFO EventHelper:26 - Открытый  кубок  Новосибирска
-22:56:19,007  INFO EventHelper:26 - Космос 2011
-22:56:19,007  INFO EventHelper:26 - Буревестник 2011
-22:56:19,007  INFO EventHelper:26 - :Держи Ритм
-22:56:19,008  INFO EventHelper:26 - Чемпионат Сибири Красноярск
-22:56:19,008  INFO EventHelper:26 - Кубок Морской Славы
-22:56:19,008  INFO EventHelper:26 - Осенний  Кубок  Ренессанса
-22:56:19,009  INFO EventHelper:26 - Открытый  турнир  Красноярск
-22:56:19,009  INFO EventHelper:26 - Танц.  Weekend
-22:56:19,009  INFO EventHelper:26 - Надежды России
-22:56:19,009  INFO EventHelper:26 - Пламя осени
-22:56:19,010  INFO EventHelper:26 - Золото осени 2011
-22:56:19,010  INFO EventHelper:26 - Чемпионат  Поволжья Саратов
-22:56:19,010  INFO EventHelper:26 - Динамиада
-22:56:19,010  INFO EventHelper:26 - Открытие  Сезона
-22:56:19,011  INFO EventHelper:26 - Держи Ритм
-22:56:19,011  INFO EventHelper:26 - Динамиада
-22:56:19,011  INFO EventHelper:26 - Летний Кубок  Новосибирска
-22:56:19,012  INFO EventHelper:26 - Летний Кубок Vestadance
-22:56:19,012  INFO EventHelper:26 - Новый формат
-22:56:19,012  INFO EventHelper:26 - Чемпионат Юга России
-22:56:19,012  INFO EventHelper:26 - Летний кубок (г.Саратов)
-22:56:19,013  INFO EventHelper:26 - Кубок Лета  2011 (г.СПб)
-22:56:19,013  INFO EventHelper:26 - Динамиада
-22:56:19,013  INFO EventHelper:26 - Держи Ритм 16
-22:56:19,013  INFO EventHelper:26 - Кубок  В.Новгорода 2011
-22:56:19,014  INFO EventHelper:26 - Командное  первенство  2011
-22:56:19,014  INFO EventHelper:26 - На пути  к звёздам
-22:56:19,014  INFO EventHelper:26 - Весенний Кубок VestaDance
-22:56:19,015  INFO EventHelper:26 - Чемпионат Москвы 2011
-22:56:19,015  INFO EventHelper:26 - Кубок  Ренессанса 2011
-22:56:19,015  INFO EventHelper:26 - Открытый турнир  E+D класс
-22:56:19,015  INFO EventHelper:26 - Держи  Ритм 15
-22:56:19,016  INFO EventHelper:26 - Кубок  Северной Столицы
-22:56:19,016  INFO EventHelper:26 - Динамиада
-22:56:19,016  INFO EventHelper:26 - Кубок АСХ
-22:56:19,016  INFO EventHelper:26 - Новая волна
-22:56:19,017  INFO EventHelper:26 - Кубок  Движения г.Красноярск
-22:56:19,017  INFO EventHelper:26 - Весенний Кубок Сокольников
-22:56:19,017  INFO EventHelper:26 - Зимний Кубок  СПб
-22:56:19,017  INFO EventHelper:26 - Зимний кубок  Vestadance
-22:56:19,018  INFO EventHelper:26 - Держи Ритм 14
-22:56:19,018  INFO EventHelper:26 - Открытый турнир г.Красноярск
-22:56:19,018  INFO EventHelper:26 - Кубок  Чемпионов 2
-22:56:19,018  INFO EventHelper:26 - Дебют-2011
-22:56:19,019  INFO EventHelper:26 - Зимний Кубок  Академии Танца
-22:56:19,019  INFO EventHelper:26 - Кубок Лета,  4 тур (СПб)
-22:56:19,019  INFO EventHelper:26 - Откр.Кубок Новосибирска
-22:56:19,020  INFO EventHelper:26 - Кубок Особняка
-22:56:19,020  INFO EventHelper:26 - Чемпионат России + Будущ.чемпионы
-22:56:19,020  INFO EventHelper:26 - Кубок Лета 2010
-22:56:19,020  INFO EventHelper:26 - EuroDance - 3
-22:56:19,021  INFO EventHelper:26 - Кубок Сибири
-22:56:19,021  INFO EventHelper:26 - Осенний Кубок
-22:56:19,021  INFO EventHelper:26 - Надежды России
-22:56:19,021  INFO EventHelper:26 - Кубок ОДС
-22:56:19,021  INFO EventHelper:26 - Держи Ритм 13
-22:56:19,022  INFO EventHelper:26 - Золото Осени (СПб)
-22:56:19,022  INFO EventHelper:26 - Кубок Лета  2010 (2й тур)
-22:56:19,022  INFO EventHelper:26 - Открытие  сезона
-22:56:19,023  INFO EventHelper:26 - Летний кубок
-22:56:19,023  INFO EventHelper:26 - Держи Ритм 12
-22:56:19,023  INFO EventHelper:26 - Командное Первенство
-22:56:19,023  INFO EventHelper:26 - Чемпионат  Москвы
-22:56:19,024  INFO EventHelper:26 - На пути к  Звездам
-22:56:19,024  INFO EventHelper:26 - Куб.Великого Новгорода
-22:56:19,024  INFO EventHelper:26 - Держи Ритм 11
-22:56:19,024  INFO EventHelper:26 - Куб.Ренессанса
-22:56:19,025  INFO EventHelper:26 - Кубок Салюта
-22:56:19,025  INFO EventHelper:26 - Кубок Сев.Стол.
-22:56:19,025  INFO EventHelper:26 - Кубок Поволжья
-22:56:19,025  INFO EventHelper:26 - Звезды Хастл
-22:56:19,026  INFO EventHelper:26 - Простые движ. (СПб)
-22:56:19,026  INFO EventHelper:26 - Весенний Кубок
-22:56:19,026  INFO EventHelper:26 - Кубок Движения  Красноярск
-22:56:19,026  INFO EventHelper:26 - Кубок АСХ
-22:56:19,026  INFO EventHelper:26 - Держи Ритм
-22:56:19,027  INFO EventHelper:26 - Кубок Св.Вал.
-22:56:19,027  INFO EventHelper:26 - Кубок  Чемпионов
-22:56:19,027  INFO EventHelper:26 - Зимн.Кубок СПБ
-22:56:19,027  INFO EventHelper:26 - Дебют
-22:56:19,028  INFO EventHelper:26 - Кубок в Новосиб.
-22:56:19,028  INFO EventHelper:26 - Зимний кубок
-22:56:19,028  INFO EventHelper:26 - Чемпионат России  2009 г.Москва
-22:56:19,028  INFO EventHelper:26 - EuroDance 2
-22:56:19,029  INFO EventHelper:26 - Чемпионат Сибири
-22:56:19,029  INFO EventHelper:26 - Держи Ритм 9
-22:56:19,029  INFO EventHelper:26 - Кубок Октября
-22:56:19,029  INFO EventHelper:26 - Осенний  Кубок
-22:56:19,030  INFO EventHelper:26 - Чемпионат  РЦ Самолета
-22:56:19,030  INFO EventHelper:26 - Открытие  Сезона
-22:56:19,030  INFO EventHelper:26 - Держи ритм
-22:56:19,030  INFO EventHelper:26 - Летний кубок
-22:56:19,031  INFO EventHelper:26 - Держи ритм
-22:56:19,031  INFO EventHelper:26 - Чемпионат  Москвы 2009
-22:56:19,031  INFO EventHelper:26 - EuroDance
-22:56:19,031  INFO EventHelper:26 - Держи ритм
-22:56:19,032  INFO EventHelper:26 - Полет 2009
-22:56:19,032  INFO EventHelper:26 - Весенний  кубок 2009
-22:56:19,032  INFO EventHelper:26 - 2-й Cибирский  межрегион. конкурс
-22:56:19,032  INFO EventHelper:26 - Звезды  Хастла  2009
-22:56:19,033  INFO EventHelper:26 - Кубок АСХ 2009
-22:56:19,033  INFO EventHelper:26 - Держи ритм
-22:56:19,033  INFO EventHelper:26 - Дебют 2009
-22:56:19,033  INFO EventHelper:26 - Зимний Кубок
-22:56:19,034  INFO EventHelper:26 - Открытый  межрегион. Кубок Сибири
-22:56:19,034  INFO EventHelper:26 - Чемпионат  РЦ Самолет
-22:56:19,034  INFO EventHelper:26 - Чемпионат России 2008
-22:56:19,034  INFO EventHelper:26 - Осенний  кубок  Vestadance
-22:56:19,035  INFO EventHelper:26 - Держи ритм
-22:56:19,035  INFO EventHelper:26 - Чемпионат  Москвы 2008
-22:56:19,035  INFO EventHelper:26 - Летний  кубок Весты
-22:56:19,035  INFO EventHelper:26 - Летнее  первенство  2008
-22:56:19,036  INFO EventHelper:26 - Держи ритм
-22:56:19,036  INFO EventHelper:26 - Кубок Спартака  2008
-22:56:19,036  INFO EventHelper:26 - Кубок Столицы
-22:56:19,036  INFO EventHelper:26 - Майский Бал  N Club’а 2008  
-22:56:19,037  INFO EventHelper:26 - Полёт-2
-22:56:19,037  INFO EventHelper:26 - Весенний Кубок Vestadance
-22:56:19,037  INFO EventHelper:26 - Звезды Хастла 2008
-22:56:19,037  INFO EventHelper:26 - Держи Ритм 2
-22:56:19,038  INFO EventHelper:26 - Чемпионат  АСХ
-22:56:19,038  INFO EventHelper:26 - Дебют 3
-22:56:19,038  INFO EventHelper:26 - 1й рейтинговый турнир ХЦ
-22:56:19,038  INFO EventHelper:26 - Чемпионат РЦ Самолет
-22:56:19,039  INFO EventHelper:26 - Чемпионат Москвы 2007
-22:56:19,039  INFO EventHelper:26 - Осенний Бал N'Club
-22:56:19,039  INFO EventHelper:26 - Осенний Кубок Vestadance
-22:56:19,039  INFO EventHelper:26 - Гран При России
-22:56:19,039  INFO EventHelper:26 - Держи Ритм
-22:56:19,040  INFO EventHelper:26 - Майский Бал N'Club
-22:56:19,040  INFO EventHelper:26 - Звезды  Хастла
-22:56:19,040  INFO EventHelper:26 - Зимний Бал N'Club
-22:56:19,041  INFO EventHelper:26 - Кубок  VestaDance  "Дебют-2"
-00:34:51,476  INFO RunClass:49 - fuck up
-java.lang.IllegalStateException: Cannot get a text value from a numeric cell
-	at org.apache.poi.xssf.usermodel.XSSFCell.typeMismatch(XSSFCell.java:845)
-	at org.apache.poi.xssf.usermodel.XSSFCell.getRichStringCellValue(XSSFCell.java:294)
-	at org.apache.poi.xssf.usermodel.XSSFCell.getStringCellValue(XSSFCell.java:246)
-	at aorlov.ashdb.filereader.FileReaderImpl.getEvents(FileReaderImpl.java:138)
-	at aorlov.RunClass.main(RunClass.java:47)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:601)
-	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:120)
-00:35:49,364  INFO RunClass:49 - fuck up
-java.lang.NullPointerException
-	at aorlov.ashdb.filereader.FileReaderImpl.getEvents(FileReaderImpl.java:133)
-	at aorlov.RunClass.main(RunClass.java:47)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:601)
-	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:120)
-00:57:01,347  INFO RunClass:49 - fuck up
-java.lang.NullPointerException
-	at aorlov.ashdb.filereader.FileReaderImpl.getEvents(FileReaderImpl.java:135)
-	at aorlov.RunClass.main(RunClass.java:47)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:601)
-	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:120)
-01:10:52,898  INFO RunClass:49 - fuck up
-java.lang.NullPointerException
-	at aorlov.ashdb.filereader.FileReaderImpl.getEvents(FileReaderImpl.java:136)
-	at aorlov.RunClass.main(RunClass.java:47)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:601)
-	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:120)
-01:33:28,729  INFO RunClass:49 - fuck up
-java.lang.NullPointerException
-	at aorlov.ashdb.filereader.FileReaderImpl.getEvents(FileReaderImpl.java:136)
-	at aorlov.RunClass.main(RunClass.java:47)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:601)
-	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:120)
-01:58:17,583  INFO RunClass:49 - fuck up
-java.util.NoSuchElementException
-	at java.util.TreeMap$PrivateEntryIterator.nextEntry(TreeMap.java:1113)
-	at java.util.TreeMap$ValueIterator.next(TreeMap.java:1160)
-	at aorlov.ashdb.filereader.FileReaderImpl.getEvents(FileReaderImpl.java:117)
-	at aorlov.RunClass.main(RunClass.java:47)
-01:58:26,976  INFO RunClass:49 - fuck up
-java.util.NoSuchElementException
-	at java.util.TreeMap$PrivateEntryIterator.nextEntry(TreeMap.java:1113)
-	at java.util.TreeMap$ValueIterator.next(TreeMap.java:1160)
-	at aorlov.ashdb.filereader.FileReaderImpl.getEvents(FileReaderImpl.java:117)
-	at aorlov.RunClass.main(RunClass.java:47)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:601)
-	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:120)
-03:17:02,102 ERROR FileReaderImpl:135 - NOT DATE
-03:20:58,075 ERROR FileReaderImpl:135 - NOT DATE
+07:09:05,154  INFO XMLReader:49 - City [id: 10247 name: Нижнегорский regionId: 0 countryid: 0]
+07:09:05,155  INFO XMLReader:49 - City [id: 10248 name: Первомайское regionId: 0 countryid: 0]
+07:09:05,155  INFO XMLReader:49 - City [id: 10249 name: Раздольное regionId: 0 countryid: 0]
+07:09:05,156  INFO XMLReader:49 - City [id: 10250 name: Саки regionId: 0 countryid: 0]
+07:09:05,156  INFO XMLReader:49 - City [id: 10251 name: Севастополь regionId: 0 countryid: 0]
+07:09:05,156  INFO XMLReader:49 - City [id: 10252 name: Симферополь regionId: 0 countryid: 0]
+07:09:05,172  INFO XMLReader:49 - City [id: 10253 name: Советский regionId: 0 countryid: 0]
+07:09:05,172  INFO XMLReader:49 - City [id: 10254 name: Судак regionId: 0 countryid: 0]
+07:09:05,172  INFO XMLReader:49 - City [id: 10255 name: Феодосия regionId: 0 countryid: 0]
+07:09:05,173  INFO XMLReader:49 - City [id: 10256 name: Форос regionId: 0 countryid: 0]
+07:09:05,173  INFO XMLReader:49 - City [id: 10257 name: Черноморское regionId: 0 countryid: 0]
+07:09:05,173  INFO XMLReader:49 - City [id: 5908510 name: Щёлкино regionId: 0 countryid: 0]
+07:09:05,174  INFO XMLReader:49 - City [id: 10258 name: Ялта regionId: 0 countryid: 0]
+07:09:05,174  INFO XMLReader:49 - City [id: 10260 name: Алексадровск regionId: 0 countryid: 0]
+07:09:05,174  INFO XMLReader:49 - City [id: 10261 name: Алчевск regionId: 0 countryid: 0]
+07:09:05,174  INFO XMLReader:49 - City [id: 10262 name: Антрацит regionId: 0 countryid: 0]
+07:09:05,175  INFO XMLReader:49 - City [id: 10263 name: Артемовск regionId: 0 countryid: 0]
+07:09:05,175  INFO XMLReader:49 - City [id: 10264 name: Байрачки regionId: 0 countryid: 0]
+07:09:05,175  INFO XMLReader:49 - City [id: 10265 name: Беловодск regionId: 0 countryid: 0]
+07:09:05,175  INFO XMLReader:49 - City [id: 10266 name: Белогоровка regionId: 0 countryid: 0]
+07:09:05,176  INFO XMLReader:49 - City [id: 10267 name: Белое regionId: 0 countryid: 0]
+07:09:05,176  INFO XMLReader:49 - City [id: 10268 name: Белокуракино regionId: 0 countryid: 0]
+07:09:05,176  INFO XMLReader:49 - City [id: 10269 name: Белолуцк regionId: 0 countryid: 0]
+07:09:05,177  INFO XMLReader:49 - City [id: 10270 name: Бирюково regionId: 0 countryid: 0]
+07:09:05,177  INFO XMLReader:49 - City [id: 10271 name: Боково-Платово regionId: 0 countryid: 0]
+07:09:05,177  INFO XMLReader:49 - City [id: 10272 name: Боровское regionId: 0 countryid: 0]
+07:09:05,178  INFO XMLReader:49 - City [id: 10273 name: Брянка regionId: 0 countryid: 0]
+07:09:05,178  INFO XMLReader:49 - City [id: 10274 name: Бугаевка regionId: 0 countryid: 0]
+07:09:05,178  INFO XMLReader:49 - City [id: 10275 name: Вахрушево regionId: 0 countryid: 0]
+07:09:05,179  INFO XMLReader:49 - City [id: 10276 name: Великий Лог regionId: 0 countryid: 0]
+07:09:05,179  INFO XMLReader:49 - City [id: 10277 name: Вергулевка regionId: 0 countryid: 0]
+07:09:05,179  INFO XMLReader:49 - City [id: 10278 name: Володарск regionId: 0 countryid: 0]
+07:09:05,180  INFO XMLReader:49 - City [id: 10279 name: Волчеяровка regionId: 0 countryid: 0]
+07:09:05,180  INFO XMLReader:49 - City [id: 10280 name: Ворошиловград regionId: 0 countryid: 0]
+07:09:05,180  INFO XMLReader:49 - City [id: 10281 name: Врубовка regionId: 0 countryid: 0]
+07:09:05,180  INFO XMLReader:49 - City [id: 10282 name: Врубовский regionId: 0 countryid: 0]
+07:09:05,189  INFO XMLReader:49 - City [id: 10283 name: Георгиевка regionId: 0 countryid: 0]
+07:09:05,189  INFO XMLReader:49 - City [id: 10284 name: Горское regionId: 0 countryid: 0]
+07:09:05,189  INFO XMLReader:49 - City [id: 10285 name: Есауловка regionId: 0 countryid: 0]
+07:09:05,190  INFO XMLReader:49 - City [id: 10286 name: Зимогорье regionId: 0 countryid: 0]
+07:09:05,190  INFO XMLReader:49 - City [id: 10287 name: Золотое regionId: 0 countryid: 0]
+07:09:05,190  INFO XMLReader:49 - City [id: 10288 name: Зоринск regionId: 0 countryid: 0]
+07:09:05,191  INFO XMLReader:49 - City [id: 10289 name: Изварино regionId: 0 countryid: 0]
+07:09:05,191  INFO XMLReader:49 - City [id: 10290 name: Калининский regionId: 0 countryid: 0]
+07:09:05,191  INFO XMLReader:49 - City [id: 10291 name: Калиново regionId: 0 countryid: 0]
+07:09:05,192  INFO XMLReader:49 - City [id: 10292 name: Камышеваха regionId: 0 countryid: 0]
+07:09:05,192  INFO XMLReader:49 - City [id: 10293 name: Кировск regionId: 0 countryid: 0]
+07:09:05,192  INFO XMLReader:49 - City [id: 10294 name: Коммунарск regionId: 0 countryid: 0]
+07:09:05,192  INFO XMLReader:49 - City [id: 10295 name: Краснодон regionId: 0 countryid: 0]
+07:09:05,193  INFO XMLReader:49 - City [id: 10296 name: Красный Луч regionId: 0 countryid: 0]
+07:09:05,193  INFO XMLReader:49 - City [id: 10297 name: Кременная regionId: 0 countryid: 0]
+07:09:05,193  INFO XMLReader:49 - City [id: 10298 name: Лисичанск regionId: 0 countryid: 0]
+07:09:05,193  INFO XMLReader:49 - City [id: 10299 name: Луганск regionId: 0 countryid: 0]
+07:09:05,197  INFO XMLReader:49 - City [id: 10300 name: Лутугино regionId: 0 countryid: 0]
+07:09:05,198  INFO XMLReader:49 - City [id: 10301 name: Марковка regionId: 0 countryid: 0]
+07:09:05,198  INFO XMLReader:49 - City [id: 10302 name: Меловое regionId: 0 countryid: 0]
+07:09:05,198  INFO XMLReader:49 - City [id: 10303 name: Новоайдар regionId: 0 countryid: 0]
+07:09:05,198  INFO XMLReader:49 - City [id: 10304 name: Новопсков regionId: 0 countryid: 0]
+07:09:05,199  INFO XMLReader:49 - City [id: 10305 name: Первомайск regionId: 0 countryid: 0]
+07:09:05,199  INFO XMLReader:49 - City [id: 10306 name: Перевальск regionId: 0 countryid: 0]
+07:09:05,200  INFO XMLReader:49 - City [id: 10307 name: Попасная regionId: 0 countryid: 0]
+07:09:05,200  INFO XMLReader:49 - City [id: 10308 name: Ровеньки regionId: 0 countryid: 0]
+07:09:05,200  INFO XMLReader:49 - City [id: 10309 name: Рубежное regionId: 0 countryid: 0]
+07:09:05,201  INFO XMLReader:49 - City [id: 10310 name: Сватово regionId: 0 countryid: 0]
+07:09:05,201  INFO XMLReader:49 - City [id: 10311 name: Свердловск regionId: 0 countryid: 0]
+07:09:05,201  INFO XMLReader:49 - City [id: 10312 name: Северодонецк regionId: 0 countryid: 0]
+07:09:05,201  INFO XMLReader:49 - City [id: 10313 name: Славяносербск regionId: 0 countryid: 0]
+07:09:05,202  INFO XMLReader:49 - City [id: 10314 name: Станично-Луганское regionId: 0 countryid: 0]
+07:09:05,202  INFO XMLReader:49 - City [id: 10315 name: Старобельск regionId: 0 countryid: 0]
+07:09:05,202  INFO XMLReader:49 - City [id: 10316 name: Стаханов regionId: 0 countryid: 0]
+07:09:05,202  INFO XMLReader:49 - City [id: 10317 name: Троицкое regionId: 0 countryid: 0]
+07:09:05,203  INFO XMLReader:49 - City [id: 10319 name: Белз regionId: 0 countryid: 0]
+07:09:05,203  INFO XMLReader:49 - City [id: 10320 name: Бобрка regionId: 0 countryid: 0]
+07:09:05,203  INFO XMLReader:49 - City [id: 10321 name: Борислав regionId: 0 countryid: 0]
+07:09:05,204  INFO XMLReader:49 - City [id: 10322 name: Броды regionId: 0 countryid: 0]
+07:09:05,204  INFO XMLReader:49 - City [id: 10323 name: Буск regionId: 0 countryid: 0]
+07:09:05,204  INFO XMLReader:49 - City [id: 10324 name: Великие Мосты regionId: 0 countryid: 0]
+07:09:05,205  INFO XMLReader:49 - City [id: 10325 name: Верхнее Синевидное regionId: 0 countryid: 0]
+07:09:05,205  INFO XMLReader:49 - City [id: 10326 name: Винники regionId: 0 countryid: 0]
+07:09:05,205  INFO XMLReader:49 - City [id: 10327 name: Глиняны regionId: 0 countryid: 0]
+07:09:05,206  INFO XMLReader:49 - City [id: 10328 name: Горняк regionId: 0 countryid: 0]
+07:09:05,206  INFO XMLReader:49 - City [id: 10329 name: Дашава regionId: 0 countryid: 0]
+07:09:05,206  INFO XMLReader:49 - City [id: 10330 name: Добротвор regionId: 0 countryid: 0]
+07:09:05,207  INFO XMLReader:49 - City [id: 10331 name: Дрогобыч regionId: 0 countryid: 0]
+07:09:05,207  INFO XMLReader:49 - City [id: 10332 name: Жидачов regionId: 0 countryid: 0]
+07:09:05,207  INFO XMLReader:49 - City [id: 10333 name: Жолкиев regionId: 0 countryid: 0]
+07:09:05,207  INFO XMLReader:49 - City [id: 10334 name: Золочев regionId: 0 countryid: 0]
+07:09:05,208  INFO XMLReader:49 - City [id: 10335 name: Ивано-Франково regionId: 0 countryid: 0]
+07:09:05,208  INFO XMLReader:49 - City [id: 10336 name: Каменка-Бугская regionId: 0 countryid: 0]
+07:09:05,208  INFO XMLReader:49 - City [id: 10337 name: Львов regionId: 0 countryid: 0]
+07:09:05,208  INFO XMLReader:49 - City [id: 10338 name: Мостиска regionId: 0 countryid: 0]
+07:09:05,208  INFO XMLReader:49 - City [id: 10339 name: Нестеров regionId: 0 countryid: 0]
+07:09:05,209  INFO XMLReader:49 - City [id: 10340 name: Николаев regionId: 0 countryid: 0]
+07:09:05,209  INFO XMLReader:49 - City [id: 10341 name: Перемышляны regionId: 0 countryid: 0]
+07:09:05,209  INFO XMLReader:49 - City [id: 10342 name: Пустомыты regionId: 0 countryid: 0]
+07:09:05,209  INFO XMLReader:49 - City [id: 10343 name: Рава Русская regionId: 0 countryid: 0]
+07:09:05,209  INFO XMLReader:49 - City [id: 10344 name: Радехов regionId: 0 countryid: 0]
+07:09:05,210  INFO XMLReader:49 - City [id: 10345 name: Самбор regionId: 0 countryid: 0]
+07:09:05,210  INFO XMLReader:49 - City [id: 10346 name: Сколе regionId: 0 countryid: 0]
+07:09:05,210  INFO XMLReader:49 - City [id: 10347 name: Сокаль regionId: 0 countryid: 0]
+07:09:05,210  INFO XMLReader:49 - City [id: 10348 name: Старый Самбор regionId: 0 countryid: 0]
+07:09:05,211  INFO XMLReader:49 - City [id: 10349 name: Стрый regionId: 0 countryid: 0]
+07:09:05,211  INFO XMLReader:49 - City [id: 10350 name: Трускавец regionId: 0 countryid: 0]
+07:09:05,211  INFO XMLReader:49 - City [id: 10351 name: Турка regionId: 0 countryid: 0]
+07:09:05,211  INFO XMLReader:49 - City [id: 10352 name: Червоноград regionId: 0 countryid: 0]
+07:09:05,211  INFO XMLReader:49 - City [id: 10353 name: Яворов regionId: 0 countryid: 0]
+07:09:05,212  INFO XMLReader:49 - City [id: 10355 name: Александровка regionId: 0 countryid: 0]
+07:09:05,212  INFO XMLReader:49 - City [id: 10356 name: Арбузинка regionId: 0 countryid: 0]
+07:09:05,212  INFO XMLReader:49 - City [id: 10357 name: Баштанка regionId: 0 countryid: 0]
+07:09:05,212  INFO XMLReader:49 - City [id: 10358 name: Березнеговатое regionId: 0 countryid: 0]
+07:09:05,213  INFO XMLReader:49 - City [id: 10359 name: Братское regionId: 0 countryid: 0]
+07:09:05,213  INFO XMLReader:49 - City [id: 10360 name: Великая Корениха regionId: 0 countryid: 0]
+07:09:05,213  INFO XMLReader:49 - City [id: 10361 name: Веселиново regionId: 0 countryid: 0]
+07:09:05,214  INFO XMLReader:49 - City [id: 10362 name: Вознесенск regionId: 0 countryid: 0]
+07:09:05,214  INFO XMLReader:49 - City [id: 10363 name: Доманевка regionId: 0 countryid: 0]
+07:09:05,214  INFO XMLReader:49 - City [id: 10364 name: Еланец regionId: 0 countryid: 0]
+07:09:05,215  INFO XMLReader:49 - City [id: 10365 name: Казанка regionId: 0 countryid: 0]
+07:09:05,215  INFO XMLReader:49 - City [id: 10366 name: Кривое Озеро regionId: 0 countryid: 0]
+07:09:05,216  INFO XMLReader:49 - City [id: 10367 name: Николаев regionId: 0 countryid: 0]
+07:09:05,216  INFO XMLReader:49 - City [id: 10368 name: Новая Одесса regionId: 0 countryid: 0]
+07:09:05,216  INFO XMLReader:49 - City [id: 10369 name: Новый Буг regionId: 0 countryid: 0]
+07:09:05,217  INFO XMLReader:49 - City [id: 10370 name: Очаков regionId: 0 countryid: 0]
+07:09:05,217  INFO XMLReader:49 - City [id: 10371 name: Первомайск regionId: 0 countryid: 0]
+07:09:05,217  INFO XMLReader:49 - City [id: 10372 name: Снигиревка regionId: 0 countryid: 0]
+07:09:05,218  INFO XMLReader:49 - City [id: 3845619 name: Южноукраинск regionId: 0 countryid: 0]
+07:09:05,218  INFO XMLReader:49 - City [id: 10374 name: Аккерман regionId: 0 countryid: 0]
+07:09:05,218  INFO XMLReader:49 - City [id: 10375 name: Ананьев regionId: 0 countryid: 0]
+07:09:05,219  INFO XMLReader:49 - City [id: 10376 name: Арциз regionId: 0 countryid: 0]
+07:09:05,219  INFO XMLReader:49 - City [id: 10377 name: Балта regionId: 0 countryid: 0]
+07:09:05,220  INFO XMLReader:49 - City [id: 10378 name: Белгород-Днестровский regionId: 0 countryid: 0]
+07:09:05,220  INFO XMLReader:49 - City [id: 10379 name: Беляевка regionId: 0 countryid: 0]
+07:09:05,220  INFO XMLReader:49 - City [id: 10380 name: Березино regionId: 0 countryid: 0]
+07:09:05,221  INFO XMLReader:49 - City [id: 10381 name: Березовка regionId: 0 countryid: 0]
+07:09:05,221  INFO XMLReader:49 - City [id: 10382 name: Болград regionId: 0 countryid: 0]
+07:09:05,222  INFO XMLReader:49 - City [id: 10383 name: Бородино regionId: 0 countryid: 0]
+07:09:05,222  INFO XMLReader:49 - City [id: 10384 name: Великая Михайловка regionId: 0 countryid: 0]
+07:09:05,222  INFO XMLReader:49 - City [id: 10385 name: Великодолининское regionId: 0 countryid: 0]
+07:09:05,223  INFO XMLReader:49 - City [id: 10386 name: Вилково regionId: 0 countryid: 0]
+07:09:05,223  INFO XMLReader:49 - City [id: 10387 name: Затишье regionId: 0 countryid: 0]
+07:09:05,223  INFO XMLReader:49 - City [id: 10388 name: Измаил regionId: 0 countryid: 0]
+07:09:05,224  INFO XMLReader:49 - City [id: 10389 name: Ильичевск regionId: 0 countryid: 0]
+07:09:05,224  INFO XMLReader:49 - City [id: 10390 name: Килия regionId: 0 countryid: 0]
+07:09:05,224  INFO XMLReader:49 - City [id: 10391 name: Кодыма regionId: 0 countryid: 0]
+07:09:05,225  INFO XMLReader:49 - City [id: 10392 name: Коминтерновское regionId: 0 countryid: 0]
+07:09:05,225  INFO XMLReader:49 - City [id: 10393 name: Котовск regionId: 0 countryid: 0]
+07:09:05,225  INFO XMLReader:49 - City [id: 10394 name: Красные Окны regionId: 0 countryid: 0]
+07:09:05,225  INFO XMLReader:49 - City [id: 10395 name: Любашевка regionId: 0 countryid: 0]
+07:09:05,226  INFO XMLReader:49 - City [id: 10396 name: Николаевка regionId: 0 countryid: 0]
+07:09:05,226  INFO XMLReader:49 - City [id: 10397 name: Овидиополь regionId: 0 countryid: 0]
+07:09:05,227  INFO XMLReader:49 - City [id: 10398 name: Одесса regionId: 0 countryid: 0]
+07:09:05,227  INFO XMLReader:49 - City [id: 10399 name: Раздельная regionId: 0 countryid: 0]
+07:09:05,227  INFO XMLReader:49 - City [id: 10400 name: Рени regionId: 0 countryid: 0]
+07:09:05,228  INFO XMLReader:49 - City [id: 10401 name: Саврань regionId: 0 countryid: 0]
+07:09:05,228  INFO XMLReader:49 - City [id: 10402 name: Сарата regionId: 0 countryid: 0]
+07:09:05,228  INFO XMLReader:49 - City [id: 10403 name: Тарутино regionId: 0 countryid: 0]
+07:09:05,229  INFO XMLReader:49 - City [id: 10404 name: Татарбунары regionId: 0 countryid: 0]
+07:09:05,229  INFO XMLReader:49 - City [id: 10405 name: Фрунзовка regionId: 0 countryid: 0]
+07:09:05,229  INFO XMLReader:49 - City [id: 10406 name: Ширяево regionId: 0 countryid: 0]
+07:09:05,230  INFO XMLReader:49 - City [id: 12370062 name: Южный regionId: 0 countryid: 0]
+07:09:05,230  INFO XMLReader:49 - City [id: 10408 name: Белики regionId: 0 countryid: 0]
+07:09:05,230  INFO XMLReader:49 - City [id: 10409 name: Великая Багачка regionId: 0 countryid: 0]
+07:09:05,231  INFO XMLReader:49 - City [id: 10410 name: Гадяч regionId: 0 countryid: 0]
+07:09:05,235  INFO XMLReader:49 - City [id: 10411 name: Глобино regionId: 0 countryid: 0]
+07:09:05,235  INFO XMLReader:49 - City [id: 10412 name: Гоголево regionId: 0 countryid: 0]
+07:09:05,236  INFO XMLReader:49 - City [id: 10413 name: Градижск regionId: 0 countryid: 0]
+07:09:05,236  INFO XMLReader:49 - City [id: 10414 name: Гребенка regionId: 0 countryid: 0]
+07:09:05,237  INFO XMLReader:49 - City [id: 10415 name: Диканька regionId: 0 countryid: 0]
+07:09:05,237  INFO XMLReader:49 - City [id: 10416 name: Зеньков regionId: 0 countryid: 0]
+07:09:05,237  INFO XMLReader:49 - City [id: 10417 name: Карловка regionId: 0 countryid: 0]
+07:09:05,237  INFO XMLReader:49 - City [id: 10418 name: Кобеляки regionId: 0 countryid: 0]
+07:09:05,238  INFO XMLReader:49 - City [id: 10419 name: Козельщина regionId: 0 countryid: 0]
+07:09:05,238  INFO XMLReader:49 - City [id: 11563592 name: Комсомольск regionId: 0 countryid: 0]
+07:09:05,238  INFO XMLReader:49 - City [id: 10420 name: Котельва regionId: 0 countryid: 0]
+07:09:05,239  INFO XMLReader:49 - City [id: 10421 name: Кременчуг regionId: 0 countryid: 0]
+07:09:05,239  INFO XMLReader:49 - City [id: 10422 name: Лохвица regionId: 0 countryid: 0]
+07:09:05,240  INFO XMLReader:49 - City [id: 10423 name: Лубны regionId: 0 countryid: 0]
+07:09:05,240  INFO XMLReader:49 - City [id: 10424 name: Машевка regionId: 0 countryid: 0]
+07:09:05,240  INFO XMLReader:49 - City [id: 10425 name: Миргород regionId: 0 countryid: 0]
+07:09:05,241  INFO XMLReader:49 - City [id: 10426 name: Новые Санжары regionId: 0 countryid: 0]
+07:09:05,241  INFO XMLReader:49 - City [id: 10427 name: Оржица regionId: 0 countryid: 0]
+07:09:05,241  INFO XMLReader:49 - City [id: 10428 name: Пирянтин regionId: 0 countryid: 0]
+07:09:05,242  INFO XMLReader:49 - City [id: 10429 name: Пирятин regionId: 0 countryid: 0]
+07:09:05,242  INFO XMLReader:49 - City [id: 10430 name: Полтава regionId: 0 countryid: 0]
+07:09:05,242  INFO XMLReader:49 - City [id: 10431 name: Решетиловка regionId: 0 countryid: 0]
+07:09:05,243  INFO XMLReader:49 - City [id: 10432 name: Семеновка regionId: 0 countryid: 0]
+07:09:05,243  INFO XMLReader:49 - City [id: 10433 name: Хорол regionId: 0 countryid: 0]
+07:09:05,243  INFO XMLReader:49 - City [id: 10434 name: Чернухи regionId: 0 countryid: 0]
+07:09:05,244  INFO XMLReader:49 - City [id: 10435 name: Чутово regionId: 0 countryid: 0]
+07:09:05,244  INFO XMLReader:49 - City [id: 10436 name: Шишаки regionId: 0 countryid: 0]
+07:09:05,244  INFO XMLReader:49 - City [id: 10438 name: Владимирец regionId: 0 countryid: 0]
+07:09:05,245  INFO XMLReader:49 - City [id: 10439 name: Гоща regionId: 0 countryid: 0]
+07:09:05,245  INFO XMLReader:49 - City [id: 10440 name: Демидовка regionId: 0 countryid: 0]
+07:09:05,245  INFO XMLReader:49 - City [id: 10441 name: Дубно regionId: 0 countryid: 0]
+07:09:05,246  INFO XMLReader:49 - City [id: 10442 name: Дубровица regionId: 0 countryid: 0]
+07:09:05,246  INFO XMLReader:49 - City [id: 10443 name: Заречное regionId: 0 countryid: 0]
+07:09:05,246  INFO XMLReader:49 - City [id: 10444 name: Здолбунов regionId: 0 countryid: 0]
+07:09:05,247  INFO XMLReader:49 - City [id: 10445 name: Клевань regionId: 0 countryid: 0]
+07:09:05,247  INFO XMLReader:49 - City [id: 10446 name: Клесов regionId: 0 countryid: 0]
+07:09:05,247  INFO XMLReader:49 - City [id: 10447 name: Корец regionId: 0 countryid: 0]
+07:09:05,248  INFO XMLReader:49 - City [id: 10448 name: Костополь regionId: 0 countryid: 0]
+07:09:05,248  INFO XMLReader:49 - City [id: 10449 name: Кузнецовск regionId: 0 countryid: 0]
+07:09:05,248  INFO XMLReader:49 - City [id: 10450 name: Млинов regionId: 0 countryid: 0]
+07:09:05,248  INFO XMLReader:49 - City [id: 10451 name: Острог regionId: 0 countryid: 0]
+07:09:05,249  INFO XMLReader:49 - City [id: 10452 name: Ровно regionId: 0 countryid: 0]
+07:09:05,249  INFO XMLReader:49 - City [id: 10453 name: Сарны regionId: 0 countryid: 0]
+07:09:05,249  INFO XMLReader:49 - City [id: 10454 name: Червоноармейск regionId: 0 countryid: 0]
+07:09:05,250  INFO XMLReader:49 - City [id: 10456 name: Ахтырка regionId: 0 countryid: 0]
+07:09:05,250  INFO XMLReader:49 - City [id: 10457 name: Белополье regionId: 0 countryid: 0]
+07:09:05,250  INFO XMLReader:49 - City [id: 10458 name: Бурынь regionId: 0 countryid: 0]
+07:09:05,251  INFO XMLReader:49 - City [id: 10459 name: Великая Писаревка regionId: 0 countryid: 0]
+07:09:05,252  INFO XMLReader:49 - City [id: 10460 name: Ворожба regionId: 0 countryid: 0]
+07:09:05,252  INFO XMLReader:49 - City [id: 10461 name: Воронеж regionId: 0 countryid: 0]
+07:09:05,253  INFO XMLReader:49 - City [id: 10462 name: Глухов regionId: 0 countryid: 0]
+07:09:05,253  INFO XMLReader:49 - City [id: 10463 name: Дружба regionId: 0 countryid: 0]
+07:09:05,254  INFO XMLReader:49 - City [id: 10464 name: Знобь-Новгородское regionId: 0 countryid: 0]
+07:09:05,254  INFO XMLReader:49 - City [id: 10465 name: Кириковка regionId: 0 countryid: 0]
+07:09:05,254  INFO XMLReader:49 - City [id: 10466 name: Конотоп regionId: 0 countryid: 0]
+07:09:05,254  INFO XMLReader:49 - City [id: 10467 name: Краснополье regionId: 0 countryid: 0]
+07:09:05,255  INFO XMLReader:49 - City [id: 10468 name: Кровелец regionId: 0 countryid: 0]
+07:09:05,255  INFO XMLReader:49 - City [id: 10469 name: Лебедин regionId: 0 countryid: 0]
+07:09:05,255  INFO XMLReader:49 - City [id: 10470 name: Липовая Долина regionId: 0 countryid: 0]
+07:09:05,256  INFO XMLReader:49 - City [id: 10471 name: Недригайлов regionId: 0 countryid: 0]
+07:09:05,256  INFO XMLReader:49 - City [id: 10472 name: Путивль regionId: 0 countryid: 0]
+07:09:05,257  INFO XMLReader:49 - City [id: 10473 name: Ромны regionId: 0 countryid: 0]
+07:09:05,257  INFO XMLReader:49 - City [id: 10474 name: Середина-Буда regionId: 0 countryid: 0]
+07:09:05,257  INFO XMLReader:49 - City [id: 10475 name: Сумы regionId: 0 countryid: 0]
+07:09:05,258  INFO XMLReader:49 - City [id: 10476 name: Тростянец regionId: 0 countryid: 0]
+07:09:05,258  INFO XMLReader:49 - City [id: 10477 name: Шостка regionId: 0 countryid: 0]
+07:09:05,258  INFO XMLReader:49 - City [id: 10478 name: Шурупинское regionId: 0 countryid: 0]
+07:09:05,258  INFO XMLReader:49 - City [id: 10479 name: Ямполь regionId: 0 countryid: 0]
+07:09:05,259  INFO XMLReader:49 - City [id: 10481 name: Бережаны regionId: 0 countryid: 0]
+07:09:05,259  INFO XMLReader:49 - City [id: 10482 name: Борщев regionId: 0 countryid: 0]
+07:09:05,259  INFO XMLReader:49 - City [id: 10483 name: Бучач regionId: 0 countryid: 0]
+07:09:05,260  INFO XMLReader:49 - City [id: 10484 name: Великие Борки regionId: 0 countryid: 0]
+07:09:05,260  INFO XMLReader:49 - City [id: 10485 name: Вишневец regionId: 0 countryid: 0]
+07:09:05,261  INFO XMLReader:49 - City [id: 10486 name: Гримайлов regionId: 0 countryid: 0]
+07:09:05,261  INFO XMLReader:49 - City [id: 10487 name: Гусятин regionId: 0 countryid: 0]
+07:09:05,261  INFO XMLReader:49 - City [id: 10488 name: Залещики regionId: 0 countryid: 0]
+07:09:05,262  INFO XMLReader:49 - City [id: 10489 name: Заложцы regionId: 0 countryid: 0]
+07:09:05,262  INFO XMLReader:49 - City [id: 10490 name: Збараж regionId: 0 countryid: 0]
+07:09:05,262  INFO XMLReader:49 - City [id: 10491 name: Зборов regionId: 0 countryid: 0]
+07:09:05,263  INFO XMLReader:49 - City [id: 10492 name: Золотники regionId: 0 countryid: 0]
+07:09:05,263  INFO XMLReader:49 - City [id: 10493 name: Золотойпоток regionId: 0 countryid: 0]
+07:09:05,263  INFO XMLReader:49 - City [id: 10494 name: Козлов regionId: 0 countryid: 0]
+07:09:05,263  INFO XMLReader:49 - City [id: 10495 name: Козова regionId: 0 countryid: 0]
+07:09:05,264  INFO XMLReader:49 - City [id: 10496 name: Кременец regionId: 0 countryid: 0]
+07:09:05,264  INFO XMLReader:49 - City [id: 10497 name: Лановцы regionId: 0 countryid: 0]
+07:09:05,264  INFO XMLReader:49 - City [id: 10498 name: Монастыриска regionId: 0 countryid: 0]
+07:09:05,265  INFO XMLReader:49 - City [id: 10499 name: Подволочиск regionId: 0 countryid: 0]
+07:09:05,265  INFO XMLReader:49 - City [id: 10500 name: Теребовля regionId: 0 countryid: 0]
+07:09:05,266  INFO XMLReader:49 - City [id: 10501 name: Тернополь regionId: 0 countryid: 0]
+07:09:05,266  INFO XMLReader:49 - City [id: 10502 name: Чортков regionId: 0 countryid: 0]
+07:09:05,266  INFO XMLReader:49 - City [id: 10503 name: Шумское regionId: 0 countryid: 0]
+07:09:05,267  INFO XMLReader:49 - City [id: 278068 name: Армянск regionId: 0 countryid: 0]
+07:09:05,267  INFO XMLReader:49 - City [id: 278069 name: Артек regionId: 0 countryid: 0]
+07:09:05,268  INFO XMLReader:49 - City [id: 278070 name: Береговое regionId: 0 countryid: 0]
+07:09:05,268  INFO XMLReader:49 - City [id: 278071 name: Ботаническое regionId: 0 countryid: 0]
+07:09:05,268  INFO XMLReader:49 - City [id: 278072 name: Кастрополь regionId: 0 countryid: 0]
+07:09:05,269  INFO XMLReader:49 - City [id: 278073 name: Кацивели regionId: 0 countryid: 0]
+07:09:05,269  INFO XMLReader:49 - City [id: 278074 name: Кореиз regionId: 0 countryid: 0]
+07:09:05,269  INFO XMLReader:49 - City [id: 278075 name: Красногвардейск regionId: 0 countryid: 0]
+07:09:05,270  INFO XMLReader:49 - City [id: 278076 name: Краснокаменка regionId: 0 countryid: 0]
+07:09:05,270  INFO XMLReader:49 - City [id: 278077 name: Курпаты regionId: 0 countryid: 0]
+07:09:05,271  INFO XMLReader:49 - City [id: 278078 name: Ливадия regionId: 0 countryid: 0]
+07:09:05,271  INFO XMLReader:49 - City [id: 278079 name: Мисхор regionId: 0 countryid: 0]
+07:09:05,271  INFO XMLReader:49 - City [id: 278080 name: Олива regionId: 0 countryid: 0]
+07:09:05,272  INFO XMLReader:49 - City [id: 278081 name: Оползневое regionId: 0 countryid: 0]
+07:09:05,272  INFO XMLReader:49 - City [id: 278082 name: Парковое regionId: 0 countryid: 0]
+07:09:05,272  INFO XMLReader:49 - City [id: 278083 name: Понизовка regionId: 0 countryid: 0]
+07:09:05,273  INFO XMLReader:49 - City [id: 278084 name: Санаторное regionId: 0 countryid: 0]
+07:09:05,273  INFO XMLReader:49 - City [id: 278085 name: Симеиз regionId: 0 countryid: 0]
+07:09:05,273  INFO XMLReader:49 - City [id: 10505 name: Балаклея regionId: 0 countryid: 0]
+07:09:05,273  INFO XMLReader:49 - City [id: 10506 name: Барвенково regionId: 0 countryid: 0]
+07:09:05,274  INFO XMLReader:49 - City [id: 10507 name: Близнюки regionId: 0 countryid: 0]
+07:09:05,274  INFO XMLReader:49 - City [id: 10508 name: Богодухов regionId: 0 countryid: 0]
+07:09:05,274  INFO XMLReader:49 - City [id: 10509 name: Борки regionId: 0 countryid: 0]
+07:09:05,275  INFO XMLReader:49 - City [id: 10510 name: Боровая regionId: 0 countryid: 0]
+07:09:05,275  INFO XMLReader:49 - City [id: 10511 name: Буды regionId: 0 countryid: 0]
+07:09:05,275  INFO XMLReader:49 - City [id: 10512 name: Валки regionId: 0 countryid: 0]
+07:09:05,276  INFO XMLReader:49 - City [id: 10513 name: Великий Бурлук regionId: 0 countryid: 0]
+07:09:05,276  INFO XMLReader:49 - City [id: 10514 name: Волчанск regionId: 0 countryid: 0]
+07:09:05,276  INFO XMLReader:49 - City [id: 10515 name: Готвальд regionId: 0 countryid: 0]
+07:09:05,277  INFO XMLReader:49 - City [id: 10516 name: Гуты regionId: 0 countryid: 0]
+07:09:05,277  INFO XMLReader:49 - City [id: 10517 name: Дергачи regionId: 0 countryid: 0]
+07:09:05,278  INFO XMLReader:49 - City [id: 10518 name: Зачепиловка regionId: 0 countryid: 0]
+07:09:05,278  INFO XMLReader:49 - City [id: 10519 name: Зидьки regionId: 0 countryid: 0]
+07:09:05,278  INFO XMLReader:49 - City [id: 10520 name: Золочев regionId: 0 countryid: 0]
+07:09:05,279  INFO XMLReader:49 - City [id: 10521 name: Изюм regionId: 0 countryid: 0]
+07:09:05,279  INFO XMLReader:49 - City [id: 10522 name: Казачья Лопань regionId: 0 countryid: 0]
+07:09:05,279  INFO XMLReader:49 - City [id: 10523 name: Кегичевка regionId: 0 countryid: 0]
+07:09:05,280  INFO XMLReader:49 - City [id: 10524 name: Красноград regionId: 0 countryid: 0]
+07:09:05,280  INFO XMLReader:49 - City [id: 10525 name: Краснокутск regionId: 0 countryid: 0]
+07:09:05,280  INFO XMLReader:49 - City [id: 10526 name: Купянск regionId: 0 countryid: 0]
+07:09:05,281  INFO XMLReader:49 - City [id: 10527 name: Лозовая regionId: 0 countryid: 0]
+07:09:05,281  INFO XMLReader:49 - City [id: 10528 name: Люботин regionId: 0 countryid: 0]
+07:09:05,282  INFO XMLReader:49 - City [id: 7719220 name: Мерефа regionId: 0 countryid: 0]
+07:09:05,282  INFO XMLReader:49 - City [id: 10529 name: Новая Водолага regionId: 0 countryid: 0]
+07:09:05,282  INFO XMLReader:49 - City [id: 10530 name: Первомайский regionId: 0 countryid: 0]
+07:09:05,283  INFO XMLReader:49 - City [id: 7719232 name: Песочин regionId: 0 countryid: 0]
+07:09:05,283  INFO XMLReader:49 - City [id: 10531 name: Сахновщина regionId: 0 countryid: 0]
+07:09:05,283  INFO XMLReader:49 - City [id: 10532 name: Харьков regionId: 0 countryid: 0]
+07:09:05,284  INFO XMLReader:49 - City [id: 10533 name: Чугуев regionId: 0 countryid: 0]
+07:09:05,284  INFO XMLReader:49 - City [id: 10534 name: Шевченково regionId: 0 countryid: 0]
+07:09:05,284  INFO XMLReader:49 - City [id: 10536 name: Аскания-Нова regionId: 0 countryid: 0]
+07:09:05,285  INFO XMLReader:49 - City [id: 10537 name: Белая Криница regionId: 0 countryid: 0]
+07:09:05,285  INFO XMLReader:49 - City [id: 10538 name: Белозерка regionId: 0 countryid: 0]
+07:09:05,285  INFO XMLReader:49 - City [id: 10539 name: Берислав regionId: 0 countryid: 0]
+07:09:05,286  INFO XMLReader:49 - City [id: 10540 name: Великая Александровка regionId: 0 countryid: 0]
+07:09:05,286  INFO XMLReader:49 - City [id: 10541 name: Великая Лепетиха regionId: 0 countryid: 0]
+07:09:05,286  INFO XMLReader:49 - City [id: 10542 name: Верхний Рогачик regionId: 0 countryid: 0]
+07:09:05,287  INFO XMLReader:49 - City [id: 10543 name: Высокополье regionId: 0 countryid: 0]
+07:09:05,297  INFO XMLReader:49 - City [id: 10544 name: Геническ regionId: 0 countryid: 0]
+07:09:05,298  INFO XMLReader:49 - City [id: 10545 name: Голая Пристань regionId: 0 countryid: 0]
+07:09:05,298  INFO XMLReader:49 - City [id: 10546 name: Горностаевка regionId: 0 countryid: 0]
+07:09:05,298  INFO XMLReader:49 - City [id: 10547 name: Днепряны regionId: 0 countryid: 0]
+07:09:05,299  INFO XMLReader:49 - City [id: 10548 name: Каланчак regionId: 0 countryid: 0]
+07:09:05,299  INFO XMLReader:49 - City [id: 10549 name: Калининское regionId: 0 countryid: 0]
+07:09:05,299  INFO XMLReader:49 - City [id: 10550 name: Каховка regionId: 0 countryid: 0]
+07:09:05,300  INFO XMLReader:49 - City [id: 10551 name: Нижние Серогозы regionId: 0 countryid: 0]
+07:09:05,300  INFO XMLReader:49 - City [id: 10552 name: Новая Каховка regionId: 0 countryid: 0]
+07:09:05,300  INFO XMLReader:49 - City [id: 10553 name: Нововоронцовка regionId: 0 countryid: 0]
+07:09:05,301  INFO XMLReader:49 - City [id: 10554 name: Новотроицкое regionId: 0 countryid: 0]
+07:09:05,301  INFO XMLReader:49 - City [id: 10555 name: Скадовск regionId: 0 countryid: 0]
+07:09:05,301  INFO XMLReader:49 - City [id: 10556 name: Херсон regionId: 0 countryid: 0]
+07:09:05,302  INFO XMLReader:49 - City [id: 10557 name: Цюрупинск regionId: 0 countryid: 0]
+07:09:05,302  INFO XMLReader:49 - City [id: 10558 name: Чаплинка regionId: 0 countryid: 0]
+07:09:05,303  INFO XMLReader:49 - City [id: 10560 name: Антонины regionId: 0 countryid: 0]
+07:09:05,303  INFO XMLReader:49 - City [id: 10561 name: Базалия regionId: 0 countryid: 0]
+07:09:05,303  INFO XMLReader:49 - City [id: 10562 name: Белогорье regionId: 0 countryid: 0]
+07:09:05,304  INFO XMLReader:49 - City [id: 10563 name: Виньковцы regionId: 0 countryid: 0]
+07:09:05,304  INFO XMLReader:49 - City [id: 10564 name: Волочиск regionId: 0 countryid: 0]
+07:09:05,313  INFO XMLReader:49 - City [id: 10565 name: Городок regionId: 0 countryid: 0]
+07:09:05,313  INFO XMLReader:49 - City [id: 10566 name: Грицев regionId: 0 countryid: 0]
+07:09:05,313  INFO XMLReader:49 - City [id: 10567 name: Деражня regionId: 0 countryid: 0]
+07:09:05,314  INFO XMLReader:49 - City [id: 10568 name: Дунаевцы regionId: 0 countryid: 0]
+07:09:05,314  INFO XMLReader:49 - City [id: 10569 name: Изяслав regionId: 0 countryid: 0]
+07:09:05,314  INFO XMLReader:49 - City [id: 10570 name: Каменец-Подольский regionId: 0 countryid: 0]
+07:09:05,315  INFO XMLReader:49 - City [id: 10571 name: Красилов regionId: 0 countryid: 0]
+07:09:05,315  INFO XMLReader:49 - City [id: 10572 name: Летичев regionId: 0 countryid: 0]
+07:09:05,316  INFO XMLReader:49 - City [id: 2191338 name: Нетешин regionId: 0 countryid: 0]
+07:09:05,316  INFO XMLReader:49 - City [id: 10573 name: Новая Ушица regionId: 0 countryid: 0]
+07:09:05,316  INFO XMLReader:49 - City [id: 10574 name: Полонное regionId: 0 countryid: 0]
+07:09:05,317  INFO XMLReader:49 - City [id: 10575 name: Славута regionId: 0 countryid: 0]
+07:09:05,317  INFO XMLReader:49 - City [id: 10576 name: Старая Синява regionId: 0 countryid: 0]
+07:09:05,317  INFO XMLReader:49 - City [id: 10577 name: Староконстантинов regionId: 0 countryid: 0]
+07:09:05,325  INFO XMLReader:49 - City [id: 10578 name: Теофиполь regionId: 0 countryid: 0]
+07:09:05,325  INFO XMLReader:49 - City [id: 10579 name: Хмельницкий regionId: 0 countryid: 0]
+07:09:05,325  INFO XMLReader:49 - City [id: 10580 name: Чемеровцы regionId: 0 countryid: 0]
+07:09:05,326  INFO XMLReader:49 - City [id: 10581 name: Шепетовка regionId: 0 countryid: 0]
+07:09:05,326  INFO XMLReader:49 - City [id: 10582 name: Ярмолинцы regionId: 0 countryid: 0]
+07:09:05,326  INFO XMLReader:49 - City [id: 10584 name: Ватутино regionId: 0 countryid: 0]
+07:09:05,327  INFO XMLReader:49 - City [id: 10585 name: Городище regionId: 0 countryid: 0]
+07:09:05,327  INFO XMLReader:49 - City [id: 10586 name: Драбов regionId: 0 countryid: 0]
+07:09:05,327  INFO XMLReader:49 - City [id: 10587 name: Ерки regionId: 0 countryid: 0]
+07:09:05,328  INFO XMLReader:49 - City [id: 10588 name: Жашков regionId: 0 countryid: 0]
+07:09:05,328  INFO XMLReader:49 - City [id: 10589 name: Зараевск regionId: 0 countryid: 0]
+07:09:05,328  INFO XMLReader:49 - City [id: 10590 name: Звенигородка regionId: 0 countryid: 0]
+07:09:05,329  INFO XMLReader:49 - City [id: 10591 name: Золотоноша regionId: 0 countryid: 0]
+07:09:05,329  INFO XMLReader:49 - City [id: 10592 name: Ирдынь regionId: 0 countryid: 0]
+07:09:05,329  INFO XMLReader:49 - City [id: 10593 name: Каменка regionId: 0 countryid: 0]
+07:09:05,330  INFO XMLReader:49 - City [id: 10594 name: Катеринополь regionId: 0 countryid: 0]
+07:09:05,330  INFO XMLReader:49 - City [id: 10595 name: Корсунь-Шевченковский regionId: 0 countryid: 0]
+07:09:05,330  INFO XMLReader:49 - City [id: 10596 name: Лысянка regionId: 0 countryid: 0]
+07:09:05,331  INFO XMLReader:49 - City [id: 10597 name: Маньковка regionId: 0 countryid: 0]
+07:09:05,331  INFO XMLReader:49 - City [id: 10598 name: Монастырище regionId: 0 countryid: 0]
+07:09:05,331  INFO XMLReader:49 - City [id: 10599 name: Смела regionId: 0 countryid: 0]
+07:09:05,332  INFO XMLReader:49 - City [id: 10600 name: Тальное regionId: 0 countryid: 0]
+07:09:05,332  INFO XMLReader:49 - City [id: 10601 name: Умань regionId: 0 countryid: 0]
+07:09:05,332  INFO XMLReader:49 - City [id: 10602 name: Христиновка regionId: 0 countryid: 0]
+07:09:05,333  INFO XMLReader:49 - City [id: 10603 name: Черкассы regionId: 0 countryid: 0]
+07:09:05,333  INFO XMLReader:49 - City [id: 10604 name: Чернобай regionId: 0 countryid: 0]
+07:09:05,333  INFO XMLReader:49 - City [id: 10605 name: Чигирин regionId: 0 countryid: 0]
+07:09:05,334  INFO XMLReader:49 - City [id: 10606 name: Шпола regionId: 0 countryid: 0]
+07:09:05,334  INFO XMLReader:49 - City [id: 10608 name: Батурин regionId: 0 countryid: 0]
+07:09:05,334  INFO XMLReader:49 - City [id: 10609 name: Бахмач regionId: 0 countryid: 0]
+07:09:05,335  INFO XMLReader:49 - City [id: 10610 name: Березна regionId: 0 countryid: 0]
+07:09:05,335  INFO XMLReader:49 - City [id: 10611 name: Бобровица regionId: 0 countryid: 0]
+07:09:05,335  INFO XMLReader:49 - City [id: 10612 name: Борзна regionId: 0 countryid: 0]
+07:09:05,336  INFO XMLReader:49 - City [id: 10613 name: Варва regionId: 0 countryid: 0]
+07:09:05,336  INFO XMLReader:49 - City [id: 10614 name: Вертиевка regionId: 0 countryid: 0]
+07:09:05,348  INFO XMLReader:49 - City [id: 10615 name: Городня regionId: 0 countryid: 0]
+07:09:05,348  INFO XMLReader:49 - City [id: 10616 name: Замглай regionId: 0 countryid: 0]
+07:09:05,349  INFO XMLReader:49 - City [id: 10617 name: Ичня regionId: 0 countryid: 0]
+07:09:05,349  INFO XMLReader:49 - City [id: 10618 name: Козелец regionId: 0 countryid: 0]
+07:09:05,349  INFO XMLReader:49 - City [id: 10619 name: Короп regionId: 0 countryid: 0]
+07:09:05,350  INFO XMLReader:49 - City [id: 10620 name: Корюковка regionId: 0 countryid: 0]
+07:09:05,350  INFO XMLReader:49 - City [id: 10621 name: Куликовка regionId: 0 countryid: 0]
+07:09:05,350  INFO XMLReader:49 - City [id: 10622 name: Мена regionId: 0 countryid: 0]
+07:09:05,351  INFO XMLReader:49 - City [id: 10623 name: Нежин regionId: 0 countryid: 0]
+07:09:05,351  INFO XMLReader:49 - City [id: 10624 name: Новгород Северский regionId: 0 countryid: 0]
+07:09:05,351  INFO XMLReader:49 - City [id: 10625 name: Носовка regionId: 0 countryid: 0]
+07:09:05,352  INFO XMLReader:49 - City [id: 10626 name: Прилуки regionId: 0 countryid: 0]
+07:09:05,352  INFO XMLReader:49 - City [id: 10627 name: Репки regionId: 0 countryid: 0]
+07:09:05,353  INFO XMLReader:49 - City [id: 10628 name: Семеновка regionId: 0 countryid: 0]
+07:09:05,353  INFO XMLReader:49 - City [id: 10629 name: Сосница regionId: 0 countryid: 0]
+07:09:05,353  INFO XMLReader:49 - City [id: 10630 name: Талалаевка regionId: 0 countryid: 0]
+07:09:05,354  INFO XMLReader:49 - City [id: 10631 name: Чернигов regionId: 0 countryid: 0]
+07:09:05,354  INFO XMLReader:49 - City [id: 10632 name: Щорс regionId: 0 countryid: 0]
+07:09:05,354  INFO XMLReader:49 - City [id: 10634 name: Берегомет regionId: 0 countryid: 0]
+07:09:05,355  INFO XMLReader:49 - City [id: 10635 name: Вашковцы regionId: 0 countryid: 0]
+07:09:05,355  INFO XMLReader:49 - City [id: 10636 name: Вижница regionId: 0 countryid: 0]
+07:09:05,355  INFO XMLReader:49 - City [id: 10637 name: Герца regionId: 0 countryid: 0]
+07:09:05,356  INFO XMLReader:49 - City [id: 10638 name: Глыбокая regionId: 0 countryid: 0]
+07:09:05,356  INFO XMLReader:49 - City [id: 10639 name: Заставна regionId: 0 countryid: 0]
+07:09:05,357  INFO XMLReader:49 - City [id: 10640 name: Кельменцы regionId: 0 countryid: 0]
+07:09:05,357  INFO XMLReader:49 - City [id: 10641 name: Кицмань regionId: 0 countryid: 0]
+07:09:05,357  INFO XMLReader:49 - City [id: 10642 name: Новоселица regionId: 0 countryid: 0]
+07:09:05,358  INFO XMLReader:49 - City [id: 10643 name: Путила regionId: 0 countryid: 0]
+07:09:05,365  INFO XMLReader:49 - City [id: 10644 name: Сокиряны regionId: 0 countryid: 0]
+07:09:05,365  INFO XMLReader:49 - City [id: 10645 name: Сторожинец regionId: 0 countryid: 0]
+07:09:05,366  INFO XMLReader:49 - City [id: 10646 name: Хотин regionId: 0 countryid: 0]
+07:09:05,366  INFO XMLReader:49 - City [id: 10647 name: Черновцы regionId: 0 countryid: 0]
+07:09:05,366  INFO XMLReader:49 - City [id: 10650 name: Лаппеенранта regionId: 0 countryid: 0]
+07:09:05,367  INFO XMLReader:49 - City [id: 2713541 name: Kouvola regionId: 0 countryid: 0]
+07:09:05,367  INFO XMLReader:49 - City [id: 10652 name: Лахти regionId: 0 countryid: 0]
+07:09:05,367  INFO XMLReader:49 - City [id: 10654 name: Вааса regionId: 0 countryid: 0]
+07:09:05,368  INFO XMLReader:49 - City [id: 5640417 name: Joensuu regionId: 0 countryid: 0]
+07:09:05,377  INFO XMLReader:49 - City [id: 10656 name: Оулу regionId: 0 countryid: 0]
+07:09:05,377  INFO XMLReader:49 - City [id: 10658 name: Куопио regionId: 0 countryid: 0]
+07:09:05,378  INFO XMLReader:49 - City [id: 10660 name: Пори regionId: 0 countryid: 0]
+07:09:05,379  INFO XMLReader:49 - City [id: 10662 name: Турку regionId: 0 countryid: 0]
+07:09:05,379  INFO XMLReader:49 - City [id: 10664 name: Ийваскила regionId: 0 countryid: 0]
+07:09:05,379  INFO XMLReader:49 - City [id: 10666 name: Хельсинки regionId: 0 countryid: 0]
+07:09:05,380  INFO XMLReader:49 - City [id: 10667 name: Эспоо regionId: 0 countryid: 0]
+07:09:05,380  INFO XMLReader:49 - City [id: 278115 name: Васа regionId: 0 countryid: 0]
+07:09:05,380  INFO XMLReader:49 - City [id: 278144 name: Ивало regionId: 0 countryid: 0]
+07:09:05,381  INFO XMLReader:49 - City [id: 278145 name: Иломантси regionId: 0 countryid: 0]
+07:09:05,381  INFO XMLReader:49 - City [id: 4049790 name: Иматра regionId: 0 countryid: 0]
+07:09:05,381  INFO XMLReader:49 - City [id: 278164 name: Котка regionId: 0 countryid: 0]
+07:09:05,382  INFO XMLReader:49 - City [id: 278184 name: Миккели regionId: 0 countryid: 0]
+07:09:05,382  INFO XMLReader:49 - City [id: 278187 name: Муонио regionId: 0 countryid: 0]
+07:09:05,383  INFO XMLReader:49 - City [id: 278199 name: Пелло regionId: 0 countryid: 0]
+07:09:05,383  INFO XMLReader:49 - City [id: 278217 name: Рованиеми regionId: 0 countryid: 0]
+07:09:05,383  INFO XMLReader:49 - City [id: 278234 name: Суомисалми regionId: 0 countryid: 0]
+07:09:05,384  INFO XMLReader:49 - City [id: 278236 name: Тампере regionId: 0 countryid: 0]
+07:09:05,384  INFO XMLReader:49 - City [id: 10670 name: Сен-Брие regionId: 0 countryid: 0]
+07:09:05,389  INFO XMLReader:49 - City [id: 10672 name: Montluзon regionId: 0 countryid: 0]
+07:09:05,389  INFO XMLReader:49 - City [id: 10674 name: Гап regionId: 0 countryid: 0]
+07:09:05,389  INFO XMLReader:49 - City [id: 10676 name: Антибе regionId: 0 countryid: 0]
+07:09:05,390  INFO XMLReader:49 - City [id: 10677 name: Канны regionId: 0 countryid: 0]
+07:09:05,390  INFO XMLReader:49 - City [id: 10678 name: Ницца regionId: 0 countryid: 0]
+07:09:05,391  INFO XMLReader:49 - City [id: 10680 name: Шарлевиль regionId: 0 countryid: 0]
+07:09:05,391  INFO XMLReader:49 - City [id: 10682 name: Бельфор regionId: 0 countryid: 0]
+07:09:05,391  INFO XMLReader:49 - City [id: 10684 name: А-ен-Провенс regionId: 0 countryid: 0]
+07:09:05,392  INFO XMLReader:49 - City [id: 10685 name: Марсель regionId: 0 countryid: 0]
+07:09:05,392  INFO XMLReader:49 - City [id: 10687 name: Аргентоль regionId: 0 countryid: 0]
+07:09:05,393  INFO XMLReader:49 - City [id: 10689 name: Виллежюи regionId: 0 countryid: 0]
+07:09:05,393  INFO XMLReader:49 - City [id: 10690 name: Винсенне regionId: 0 countryid: 0]
+07:09:05,393  INFO XMLReader:49 - City [id: 10691 name: Витри regionId: 0 countryid: 0]
+07:09:05,394  INFO XMLReader:49 - City [id: 10692 name: Иври regionId: 0 countryid: 0]
+07:09:05,394  INFO XMLReader:49 - City [id: 10693 name: Кретейл regionId: 0 countryid: 0]
+07:09:05,395  INFO XMLReader:49 - City [id: 10694 name: Маисон-Альфорт regionId: 0 countryid: 0]
+07:09:05,395  INFO XMLReader:49 - City [id: 10695 name: Сен-Мар-дес-Фоссе regionId: 0 countryid: 0]
+07:09:05,396  INFO XMLReader:49 - City [id: 10696 name: Фонтеней-су-Буа regionId: 0 countryid: 0]
+07:09:05,396  INFO XMLReader:49 - City [id: 10697 name: Чойси-ле-Руа regionId: 0 countryid: 0]
+07:09:05,396  INFO XMLReader:49 - City [id: 10698 name: Шампини-сюр-Мар regionId: 0 countryid: 0]
+07:09:05,409  INFO XMLReader:49 - City [id: 10700 name: Ла-Сен-сюр-Мер regionId: 0 countryid: 0]
+07:09:05,409  INFO XMLReader:49 - City [id: 10701 name: Тулон regionId: 0 countryid: 0]
+07:09:05,409  INFO XMLReader:49 - City [id: 10703 name: Эпиналь regionId: 0 countryid: 0]
+07:09:05,410  INFO XMLReader:49 - City [id: 10705 name: Авиньон regionId: 0 countryid: 0]
+07:09:05,410  INFO XMLReader:49 - City [id: 10707 name: Пуатье regionId: 0 countryid: 0]
+07:09:05,410  INFO XMLReader:49 - City [id: 10709 name: Лимож regionId: 0 countryid: 0]
+07:09:05,411  INFO XMLReader:49 - City [id: 10711 name: Ним regionId: 0 countryid: 0]
+07:09:05,411  INFO XMLReader:49 - City [id: 10713 name: Тулуза regionId: 0 countryid: 0]
+07:09:05,411  INFO XMLReader:49 - City [id: 10715 name: Ньор regionId: 0 countryid: 0]
+07:09:05,412  INFO XMLReader:49 - City [id: 10717 name: Валенс regionId: 0 countryid: 0]
+07:09:05,412  INFO XMLReader:49 - City [id: 10718 name: Монтелимар regionId: 0 countryid: 0]
+07:09:05,412  INFO XMLReader:49 - City [id: 10720 name: Безансон regionId: 0 countryid: 0]
+07:09:05,413  INFO XMLReader:49 - City [id: 10722 name: Бордо regionId: 0 countryid: 0]
+07:09:05,413  INFO XMLReader:49 - City [id: 10724 name: Версаль regionId: 0 countryid: 0]
+07:09:05,413  INFO XMLReader:49 - City [id: 10726 name: Ренн regionId: 0 countryid: 0]
+07:09:05,414  INFO XMLReader:49 - City [id: 10727 name: Сант-Мало regionId: 0 countryid: 0]
+07:09:05,414  INFO XMLReader:49 - City [id: 10729 name: Бриве-ла-Жилларде regionId: 0 countryid: 0]
+07:09:05,414  INFO XMLReader:49 - City [id: 10731 name: Бастия regionId: 0 countryid: 0]
+07:09:05,415  INFO XMLReader:49 - City [id: 10733 name: Аяччо regionId: 0 countryid: 0]
+07:09:05,415  INFO XMLReader:49 - City [id: 10735 name: Дижон regionId: 0 countryid: 0]
+07:09:05,415  INFO XMLReader:49 - City [id: 10737 name: Мон-де-Марсан regionId: 0 countryid: 0]
+07:09:05,416  INFO XMLReader:49 - City [id: 10739 name: Ажен regionId: 0 countryid: 0]
+07:09:05,416  INFO XMLReader:49 - City [id: 10741 name: Манд regionId: 0 countryid: 0]
+07:09:05,416  INFO XMLReader:49 - City [id: 10743 name: Блоис regionId: 0 countryid: 0]
+07:09:05,417  INFO XMLReader:49 - City [id: 10745 name: Руанн regionId: 0 countryid: 0]
+07:09:05,417  INFO XMLReader:49 - City [id: 10746 name: Сен-Этьен regionId: 0 countryid: 0]
+07:09:05,418  INFO XMLReader:49 - City [id: 10748 name: Нант regionId: 0 countryid: 0]
+07:09:05,418  INFO XMLReader:49 - City [id: 10749 name: Сен-Назар regionId: 0 countryid: 0]
+07:09:05,425  INFO XMLReader:49 - City [id: 10751 name: Ле-Пюи regionId: 0 countryid: 0]
+07:09:05,425  INFO XMLReader:49 - City [id: 10753 name: Орлеан regionId: 0 countryid: 0]
+07:09:05,425  INFO XMLReader:49 - City [id: 10763 name: Нанси regionId: 0 countryid: 0]
+07:09:05,426  INFO XMLReader:49 - City [id: 10755 name: Лаваль regionId: 0 countryid: 0]
+07:09:05,426  INFO XMLReader:49 - City [id: 10757 name: Реймс regionId: 0 countryid: 0]
+07:09:05,427  INFO XMLReader:49 - City [id: 10758 name: Шалон-сюр-Мар regionId: 0 countryid: 0]
+07:09:05,427  INFO XMLReader:49 - City [id: 10760 name: Анже regionId: 0 countryid: 0]
+07:09:05,427  INFO XMLReader:49 - City [id: 10761 name: Чолет regionId: 0 countryid: 0]
+07:09:05,428  INFO XMLReader:49 - City [id: 10765 name: Мец regionId: 0 countryid: 0]
+07:09:05,428  INFO XMLReader:49 - City [id: 10767 name: Лорьент regionId: 0 countryid: 0]
+07:09:05,428  INFO XMLReader:49 - City [id: 10769 name: Валенсинье regionId: 0 countryid: 0]
+07:09:05,429  INFO XMLReader:49 - City [id: 10770 name: Дуа regionId: 0 countryid: 0]
+07:09:05,437  INFO XMLReader:49 - City [id: 10771 name: Лилль regionId: 0 countryid: 0]
+07:09:05,437  INFO XMLReader:49 - City [id: 10772 name: Рубо regionId: 0 countryid: 0]
+07:09:05,438  INFO XMLReader:49 - City [id: 10773 name: Туркуа regionId: 0 countryid: 0]
+07:09:05,438  INFO XMLReader:49 - City [id: 10775 name: Невер regionId: 0 countryid: 0]
+07:09:05,438  INFO XMLReader:49 - City [id: 10777 name: Антони regionId: 0 countryid: 0]
+07:09:05,439  INFO XMLReader:49 - City [id: 10778 name: Асньер regionId: 0 countryid: 0]
+07:09:05,439  INFO XMLReader:49 - City [id: 10779 name: Булонь-Билланкур regionId: 0 countryid: 0]
+07:09:05,440  INFO XMLReader:49 - City [id: 10780 name: Женневилльер regionId: 0 countryid: 0]
+07:09:05,440  INFO XMLReader:49 - City [id: 10781 name: Исси-ле-Мулино regionId: 0 countryid: 0]
+07:09:05,441  INFO XMLReader:49 - City [id: 10782 name: Кламарт regionId: 0 countryid: 0]
+07:09:05,441  INFO XMLReader:49 - City [id: 10783 name: Кличи regionId: 0 countryid: 0]
+07:09:05,441  INFO XMLReader:49 - City [id: 10784 name: Коломбес regionId: 0 countryid: 0]
+07:09:05,442  INFO XMLReader:49 - City [id: 10785 name: Курбеву regionId: 0 countryid: 0]
+07:09:05,442  INFO XMLReader:49 - City [id: 10786 name: Левальлуи-Перре regionId: 0 countryid: 0]
+07:09:05,442  INFO XMLReader:49 - City [id: 10787 name: Монпелье regionId: 0 countryid: 0]
+07:09:05,443  INFO XMLReader:49 - City [id: 10788 name: Монтруж regionId: 0 countryid: 0]
+07:09:05,443  INFO XMLReader:49 - City [id: 10789 name: Нантерре regionId: 0 countryid: 0]
+07:09:05,444  INFO XMLReader:49 - City [id: 10790 name: Нюилли-сюр-Сен regionId: 0 countryid: 0]
+07:09:05,444  INFO XMLReader:49 - City [id: 10791 name: Руэль-Мальмасон regionId: 0 countryid: 0]
+07:09:05,444  INFO XMLReader:49 - City [id: 10792 name: Сет regionId: 0 countryid: 0]
+07:09:05,445  INFO XMLReader:49 - City [id: 10793 name: Суреснес regionId: 0 countryid: 0]
+07:09:05,445  INFO XMLReader:49 - City [id: 10795 name: Труа regionId: 0 countryid: 0]
+07:09:05,446  INFO XMLReader:49 - City [id: 10797 name: Каркассон regionId: 0 countryid: 0]
+07:09:05,446  INFO XMLReader:49 - City [id: 10799 name: Алансон regionId: 0 countryid: 0]
+07:09:05,446  INFO XMLReader:49 - City [id: 10801 name: Аррас regionId: 0 countryid: 0]
+07:09:05,446  INFO XMLReader:49 - City [id: 10802 name: Бруа-эн-Арто regionId: 0 countryid: 0]
+07:09:05,447  INFO XMLReader:49 - City [id: 10803 name: Ленс regionId: 0 countryid: 0]
+07:09:05,447  INFO XMLReader:49 - City [id: 10805 name: Париж regionId: 0 countryid: 0]
+07:09:05,448  INFO XMLReader:49 - City [id: 10807 name: Байонна regionId: 0 countryid: 0]
+07:09:05,448  INFO XMLReader:49 - City [id: 10808 name: По regionId: 0 countryid: 0]
+07:09:05,448  INFO XMLReader:49 - City [id: 10810 name: Тарб regionId: 0 countryid: 0]
+07:09:05,460  INFO XMLReader:49 - City [id: 10812 name: Перпиньян regionId: 0 countryid: 0]
+07:09:05,460  INFO XMLReader:49 - City [id: 10814 name: Колмар regionId: 0 countryid: 0]
+07:09:05,461  INFO XMLReader:49 - City [id: 10815 name: Мулхаузен regionId: 0 countryid: 0]
+07:09:05,461  INFO XMLReader:49 - City [id: 10816 name: Мулхаус regionId: 0 countryid: 0]
+07:09:05,462  INFO XMLReader:49 - City [id: 10818 name: Страсбург regionId: 0 countryid: 0]
+07:09:05,462  INFO XMLReader:49 - City [id: 10820 name: Вениссо regionId: 0 countryid: 0]
+07:09:05,463  INFO XMLReader:49 - City [id: 10821 name: Виллеурбанн regionId: 0 countryid: 0]
+07:09:05,463  INFO XMLReader:49 - City [id: 10822 name: Лион regionId: 0 countryid: 0]
+07:09:05,463  INFO XMLReader:49 - City [id: 10824 name: Шамбери regionId: 0 countryid: 0]
+07:09:05,464  INFO XMLReader:49 - City [id: 10826 name: Аннеси regionId: 0 countryid: 0]
+07:09:05,464  INFO XMLReader:49 - City [id: 10828 name: Ле-Ман regionId: 0 countryid: 0]
+07:09:05,466  INFO XMLReader:49 - City [id: 10830 name: Бобини regionId: 0 countryid: 0]
+07:09:05,467  INFO XMLReader:49 - City [id: 10831 name: Бонди regionId: 0 countryid: 0]
+07:09:05,467  INFO XMLReader:49 - City [id: 10832 name: Дранси regionId: 0 countryid: 0]
+07:09:05,467  INFO XMLReader:49 - City [id: 10833 name: Ла-Курнье regionId: 0 countryid: 0]
+07:09:05,468  INFO XMLReader:49 - City [id: 10834 name: Ле-Бланк-Меснил regionId: 0 countryid: 0]
+07:09:05,468  INFO XMLReader:49 - City [id: 10835 name: Монтреуил regionId: 0 countryid: 0]
+07:09:05,468  INFO XMLReader:49 - City [id: 10836 name: Обервилье regionId: 0 countryid: 0]
+07:09:05,469  INFO XMLReader:49 - City [id: 10837 name: Ольни-су-Буа regionId: 0 countryid: 0]
+07:09:05,469  INFO XMLReader:49 - City [id: 10838 name: Пантин regionId: 0 countryid: 0]
+07:09:05,479  INFO XMLReader:49 - City [id: 10839 name: Сен-Дени regionId: 0 countryid: 0]
+07:09:05,482  INFO XMLReader:49 - City [id: 10840 name: Эпини-сюр-Сен regionId: 0 countryid: 0]
+07:09:05,482  INFO XMLReader:49 - City [id: 10842 name: Гавр regionId: 0 countryid: 0]
+07:09:05,482  INFO XMLReader:49 - City [id: 10843 name: Руан regionId: 0 countryid: 0]
+07:09:05,483  INFO XMLReader:49 - City [id: 10845 name: Амьен regionId: 0 countryid: 0]
+07:09:05,483  INFO XMLReader:49 - City [id: 10847 name: Макон regionId: 0 countryid: 0]
+07:09:05,483  INFO XMLReader:49 - City [id: 10848 name: Шалон-сур-Сон regionId: 0 countryid: 0]
+07:09:05,484  INFO XMLReader:49 - City [id: 10850 name: Альби regionId: 0 countryid: 0]
+07:09:05,485  INFO XMLReader:49 - City [id: 10852 name: Бювэ regionId: 0 countryid: 0]
+07:09:05,485  INFO XMLReader:49 - City [id: 10854 name: Брест regionId: 0 countryid: 0]
+07:09:05,489  INFO XMLReader:49 - City [id: 10855 name: Кемпер regionId: 0 countryid: 0]
+07:09:05,489  INFO XMLReader:49 - City [id: 278136 name: Дюнкерк regionId: 0 countryid: 0]
+07:09:05,489  INFO XMLReader:49 - City [id: 278183 name: Мерибель regionId: 0 countryid: 0]
+07:09:05,490  INFO XMLReader:49 - City [id: 278270 name: Шамони regionId: 0 countryid: 0]
+07:09:05,493  INFO XMLReader:49 - City [id: 10857 name: Ангулем regionId: 0 countryid: 0]
+07:09:05,494  INFO XMLReader:49 - City [id: 10859 name: Ла-Рошель regionId: 0 countryid: 0]
+07:09:05,496  INFO XMLReader:49 - City [id: 10861 name: Бурже regionId: 0 countryid: 0]
+07:09:05,496  INFO XMLReader:49 - City [id: 10863 name: Сен-Квентин regionId: 0 countryid: 0]
+07:09:05,499  INFO XMLReader:49 - City [id: 10865 name: Шатору regionId: 0 countryid: 0]
+07:09:05,499  INFO XMLReader:49 - City [id: 10867 name: Тур regionId: 0 countryid: 0]
+07:09:05,500  INFO XMLReader:49 - City [id: 10869 name: Гренобль regionId: 0 countryid: 0]
+07:09:05,501  INFO XMLReader:49 - City [id: 10871 name: Безье regionId: 0 countryid: 0]
+07:09:05,501  INFO XMLReader:49 - City [id: 10873 name: Эвре regionId: 0 countryid: 0]
+07:09:05,501  INFO XMLReader:49 - City [id: 278127 name: Госпич regionId: 0 countryid: 0]
+07:09:05,509  INFO XMLReader:49 - City [id: 278135 name: Дубровник regionId: 0 countryid: 0]
+07:09:05,509  INFO XMLReader:49 - City [id: 278138 name: Загреб regionId: 0 countryid: 0]
+07:09:05,509  INFO XMLReader:49 - City [id: 278215 name: Риека regionId: 0 countryid: 0]
+07:09:05,510  INFO XMLReader:49 - City [id: 278230 name: Славонский Брод regionId: 0 countryid: 0]
+07:09:05,510  INFO XMLReader:49 - City [id: 278233 name: Сплит regionId: 0 countryid: 0]
+07:09:05,514  INFO XMLReader:49 - City [id: 278266 name: Хвар regionId: 0 countryid: 0]
+07:09:05,515  INFO XMLReader:49 - City [id: 278271 name: Шибеник regionId: 0 countryid: 0]
+07:09:05,515  INFO XMLReader:49 - City [id: 10876 name: Чешке-Будейовице regionId: 0 countryid: 0]
+07:09:05,516  INFO XMLReader:49 - City [id: 10878 name: Брно regionId: 0 countryid: 0]
+07:09:05,516  INFO XMLReader:49 - City [id: 10880 name: Карловы Вары regionId: 0 countryid: 0]
+07:09:05,516  INFO XMLReader:49 - City [id: 10882 name: Храдец-Кралове regionId: 0 countryid: 0]
+07:09:05,518  INFO XMLReader:49 - City [id: 10884 name: Либерец regionId: 0 countryid: 0]
+07:09:05,518  INFO XMLReader:49 - City [id: 10885 name: Яблонец-над-Нисой regionId: 0 countryid: 0]
+07:09:05,519  INFO XMLReader:49 - City [id: 10887 name: Карвина regionId: 0 countryid: 0]
+07:09:05,519  INFO XMLReader:49 - City [id: 10888 name: Опава regionId: 0 countryid: 0]
+07:09:05,520  INFO XMLReader:49 - City [id: 10889 name: Острава regionId: 0 countryid: 0]
+07:09:05,520  INFO XMLReader:49 - City [id: 10890 name: Фрыдек-Мистек regionId: 0 countryid: 0]
+07:09:05,523  INFO XMLReader:49 - City [id: 10891 name: Хавиров regionId: 0 countryid: 0]
+07:09:05,524  INFO XMLReader:49 - City [id: 10893 name: Оломоук regionId: 0 countryid: 0]
+07:09:05,525  INFO XMLReader:49 - City [id: 10894 name: Преров regionId: 0 countryid: 0]
+07:09:05,526  INFO XMLReader:49 - City [id: 10895 name: Простеёв regionId: 0 countryid: 0]
+07:09:05,527  INFO XMLReader:49 - City [id: 10897 name: Кладно regionId: 0 countryid: 0]
+07:09:05,528  INFO XMLReader:49 - City [id: 10899 name: Дечин regionId: 0 countryid: 0]
+07:09:05,528  INFO XMLReader:49 - City [id: 10900 name: Мост regionId: 0 countryid: 0]
+07:09:05,528  INFO XMLReader:49 - City [id: 10901 name: Теплик regionId: 0 countryid: 0]
+07:09:05,529  INFO XMLReader:49 - City [id: 10902 name: Усти-над-Лабем regionId: 0 countryid: 0]
+07:09:05,532  INFO XMLReader:49 - City [id: 10903 name: Чомутов regionId: 0 countryid: 0]
+07:09:05,533  INFO XMLReader:49 - City [id: 278151 name: Карлови-Вари regionId: 0 countryid: 0]
+07:09:05,533  INFO XMLReader:49 - City [id: 278198 name: Пардубице regionId: 0 countryid: 0]
+07:09:05,534  INFO XMLReader:49 - City [id: 278206 name: Пльзень regionId: 0 countryid: 0]
+07:09:05,535  INFO XMLReader:49 - City [id: 278209 name: Прага regionId: 0 countryid: 0]
+07:09:05,536  INFO XMLReader:49 - City [id: 2412951 name: Сантьяго regionId: 0 countryid: 0]
+07:09:05,536  INFO XMLReader:49 - City [id: 10906 name: Аарау regionId: 0 countryid: 0]
+07:09:05,536  INFO XMLReader:49 - City [id: 10907 name: Баден regionId: 0 countryid: 0]
+07:09:05,537  INFO XMLReader:49 - City [id: 10909 name: Базель regionId: 0 countryid: 0]
+07:09:05,537  INFO XMLReader:49 - City [id: 10911 name: Берн regionId: 0 countryid: 0]
+07:09:05,537  INFO XMLReader:49 - City [id: 10912 name: Кониц regionId: 0 countryid: 0]
+07:09:05,538  INFO XMLReader:49 - City [id: 10913 name: Тун regionId: 0 countryid: 0]
+07:09:05,538  INFO XMLReader:49 - City [id: 10915 name: Лозанна regionId: 0 countryid: 0]
+07:09:05,538  INFO XMLReader:49 - City [id: 10917 name: Женева regionId: 0 countryid: 0]
+07:09:05,538  INFO XMLReader:49 - City [id: 10919 name: Солотурн regionId: 0 countryid: 0]
+07:09:05,539  INFO XMLReader:49 - City [id: 10921 name: Люцерн regionId: 0 countryid: 0]
+07:09:05,539  INFO XMLReader:49 - City [id: 10923 name: Ла-Шо-Де-Фонд regionId: 0 countryid: 0]
+07:09:05,539  INFO XMLReader:49 - City [id: 10924 name: Ньюшатель regionId: 0 countryid: 0]
+07:09:05,545  INFO XMLReader:49 - City [id: 10926 name: Лугано regionId: 0 countryid: 0]
+07:09:05,545  INFO XMLReader:49 - City [id: 10928 name: Фрейбург regionId: 0 countryid: 0]
+07:09:05,546  INFO XMLReader:49 - City [id: 10929 name: Фрибург regionId: 0 countryid: 0]
+07:09:05,546  INFO XMLReader:49 - City [id: 10931 name: Винтертур regionId: 0 countryid: 0]
+07:09:05,546  INFO XMLReader:49 - City [id: 10932 name: Цюрих regionId: 0 countryid: 0]
+07:09:05,547  INFO XMLReader:49 - City [id: 278112 name: Вайсенбург regionId: 0 countryid: 0]
+07:09:05,550  INFO XMLReader:49 - City [id: 278176 name: Локарно regionId: 0 countryid: 0]
+07:09:05,550  INFO XMLReader:49 - City [id: 7720744 name: Санкт-Галлен regionId: 0 countryid: 0]
+07:09:05,551  INFO XMLReader:49 - City [id: 10935 name: Лунд regionId: 0 countryid: 0]
+07:09:05,554  INFO XMLReader:49 - City [id: 10936 name: Мальмё regionId: 0 countryid: 0]
+07:09:05,554  INFO XMLReader:49 - City [id: 10937 name: Хельсингборг regionId: 0 countryid: 0]
+07:09:05,554  INFO XMLReader:49 - City [id: 10939 name: Борас regionId: 0 countryid: 0]
+07:09:05,555  INFO XMLReader:49 - City [id: 10940 name: Гетеборг regionId: 0 countryid: 0]
+07:09:05,555  INFO XMLReader:49 - City [id: 10941 name: Троллхаттан regionId: 0 countryid: 0]
+07:09:05,556  INFO XMLReader:49 - City [id: 10943 name: Карлстад regionId: 0 countryid: 0]
+07:09:05,556  INFO XMLReader:49 - City [id: 10945 name: Уми regionId: 0 countryid: 0]
+07:09:05,558  INFO XMLReader:49 - City [id: 10947 name: Сундсваль regionId: 0 countryid: 0]
+07:09:05,558  INFO XMLReader:49 - City [id: 10949 name: Вастерас regionId: 0 countryid: 0]
+07:09:05,558  INFO XMLReader:49 - City [id: 10951 name: Гавл regionId: 0 countryid: 0]
+07:09:05,559  INFO XMLReader:49 - City [id: 10953 name: Эстерсунд regionId: 0 countryid: 0]
+07:09:05,559  INFO XMLReader:49 - City [id: 10955 name: Йонкопинг regionId: 0 countryid: 0]
+07:09:05,559  INFO XMLReader:49 - City [id: 10499434 name: Кируна regionId: 0 countryid: 0]
+07:09:05,560  INFO XMLReader:49 - City [id: 4778019 name: Хапаранда regionId: 0 countryid: 0]
+07:09:05,560  INFO XMLReader:49 - City [id: 10505313 name: Еребру regionId: 0 countryid: 0]
+07:09:05,566  INFO XMLReader:49 - City [id: 10957 name: Эскилстуна regionId: 0 countryid: 0]
+07:09:05,566  INFO XMLReader:49 - City [id: 10959 name: Содерталье regionId: 0 countryid: 0]
+07:09:05,566  INFO XMLReader:49 - City [id: 10960 name: Сольна regionId: 0 countryid: 0]
+07:09:05,566  INFO XMLReader:49 - City [id: 10961 name: Стокгольм regionId: 0 countryid: 0]
+07:09:05,567  INFO XMLReader:49 - City [id: 10963 name: Уппсала regionId: 0 countryid: 0]
+07:09:05,567  INFO XMLReader:49 - City [id: 10965 name: Хельмстад regionId: 0 countryid: 0]
+07:09:05,567  INFO XMLReader:49 - City [id: 278108 name: Бурлэнге regionId: 0 countryid: 0]
+07:09:05,568  INFO XMLReader:49 - City [id: 278177 name: Лулеа regionId: 0 countryid: 0]
+07:09:05,568  INFO XMLReader:49 - City [id: 278180 name: Малунг regionId: 0 countryid: 0]
+07:09:05,568  INFO XMLReader:49 - City [id: 278223 name: Свег regionId: 0 countryid: 0]
+07:09:05,570  INFO XMLReader:49 - City [id: 278252 name: Упсала regionId: 0 countryid: 0]
+07:09:05,571  INFO XMLReader:49 - City [id: 10967 name: Линкопинг regionId: 0 countryid: 0]
+07:09:05,571  INFO XMLReader:49 - City [id: 7719915 name: Кито regionId: 0 countryid: 0]
+07:09:05,571  INFO XMLReader:49 - City [id: 10970 name: Абья-Палуоя regionId: 0 countryid: 0]
+07:09:05,572  INFO XMLReader:49 - City [id: 5700918 name: Азери regionId: 0 countryid: 0]
+07:09:05,572  INFO XMLReader:49 - City [id: 10971 name: Антсла regionId: 0 countryid: 0]
+07:09:05,572  INFO XMLReader:49 - City [id: 10972 name: Валга regionId: 0 countryid: 0]
+07:09:05,573  INFO XMLReader:49 - City [id: 10973 name: Васкнарва regionId: 0 countryid: 0]
+07:09:05,573  INFO XMLReader:49 - City [id: 10974 name: Вильянди regionId: 0 countryid: 0]
+07:09:05,584  INFO XMLReader:49 - City [id: 10975 name: Выру regionId: 0 countryid: 0]
+07:09:05,585  INFO XMLReader:49 - City [id: 10976 name: Йыгева regionId: 0 countryid: 0]
+07:09:05,585  INFO XMLReader:49 - City [id: 10977 name: Калласте regionId: 0 countryid: 0]
+07:09:05,585  INFO XMLReader:49 - City [id: 10978 name: Кейла regionId: 0 countryid: 0]
+07:09:05,586  INFO XMLReader:49 - City [id: 10979 name: Кехра regionId: 0 countryid: 0]
+07:09:05,586  INFO XMLReader:49 - City [id: 10980 name: Кивиыли regionId: 0 countryid: 0]
+07:09:05,586  INFO XMLReader:49 - City [id: 10981 name: Килинги regionId: 0 countryid: 0]
+07:09:05,587  INFO XMLReader:49 - City [id: 10982 name: Килинги-Нымме regionId: 0 countryid: 0]
+07:09:05,587  INFO XMLReader:49 - City [id: 10983 name: Кингисепп regionId: 0 countryid: 0]
+07:09:05,587  INFO XMLReader:49 - City [id: 10984 name: Кохтла-Ярве regionId: 0 countryid: 0]
+07:09:05,588  INFO XMLReader:49 - City [id: 1920542 name: Куресааре regionId: 0 countryid: 0]
+07:09:05,588  INFO XMLReader:49 - City [id: 10985 name: Кярдла regionId: 0 countryid: 0]
+07:09:05,589  INFO XMLReader:49 - City [id: 10986 name: Муствээ regionId: 0 countryid: 0]
+07:09:05,604  INFO XMLReader:49 - City [id: 10987 name: Мыйзакюла regionId: 0 countryid: 0]
+07:09:05,604  INFO XMLReader:49 - City [id: 10988 name: Нарва regionId: 0 countryid: 0]
+07:09:05,605  INFO XMLReader:49 - City [id: 10989 name: Пайде regionId: 0 countryid: 0]
+07:09:05,605  INFO XMLReader:49 - City [id: 4696311 name: Палдиски regionId: 0 countryid: 0]
+07:09:05,605  INFO XMLReader:49 - City [id: 4697440 name: Палдиски regionId: 0 countryid: 0]
+07:09:05,606  INFO XMLReader:49 - City [id: 10990 name: Пылтсамаа regionId: 0 countryid: 0]
+07:09:05,606  INFO XMLReader:49 - City [id: 10991 name: Пярну regionId: 0 countryid: 0]
+07:09:05,606  INFO XMLReader:49 - City [id: 10992 name: Раквере regionId: 0 countryid: 0]
+07:09:05,607  INFO XMLReader:49 - City [id: 10993 name: Рапла regionId: 0 countryid: 0]
+07:09:05,607  INFO XMLReader:49 - City [id: 10994 name: Силламяэ regionId: 0 countryid: 0]
+07:09:05,607  INFO XMLReader:49 - City [id: 10995 name: Сууре-Яани regionId: 0 countryid: 0]
+07:09:05,607  INFO XMLReader:49 - City [id: 278087 name: Таллинн regionId: 0 countryid: 0]
+07:09:05,608  INFO XMLReader:49 - City [id: 10997 name: Тапа regionId: 0 countryid: 0]
+07:09:05,608  INFO XMLReader:49 - City [id: 10998 name: Тарту regionId: 0 countryid: 0]
+07:09:05,608  INFO XMLReader:49 - City [id: 10999 name: Тырва regionId: 0 countryid: 0]
+07:09:05,609  INFO XMLReader:49 - City [id: 11000 name: Хаапсалу regionId: 0 countryid: 0]
+07:09:05,609  INFO XMLReader:49 - City [id: 11001 name: Эльва regionId: 0 countryid: 0]
+07:09:05,609  INFO XMLReader:49 - City [id: 3661609 name: Йоханесбург regionId: 0 countryid: 0]
+07:09:05,609  INFO XMLReader:49 - City [id: 11004 name: Зренянин regionId: 0 countryid: 0]
+07:09:05,610  INFO XMLReader:49 - City [id: 11005 name: Нови-Сад regionId: 0 countryid: 0]
+07:09:05,610  INFO XMLReader:49 - City [id: 11006 name: Панцево regionId: 0 countryid: 0]
+07:09:05,610  INFO XMLReader:49 - City [id: 11007 name: Суботица regionId: 0 countryid: 0]
+07:09:05,611  INFO XMLReader:49 - City [id: 11009 name: Приштина regionId: 0 countryid: 0]
+07:09:05,611  INFO XMLReader:49 - City [id: 11011 name: Белград regionId: 0 countryid: 0]
+07:09:05,611  INFO XMLReader:49 - City [id: 11012 name: Крагуевач regionId: 0 countryid: 0]
+07:09:05,611  INFO XMLReader:49 - City [id: 11013 name: Нис regionId: 0 countryid: 0]
+07:09:05,612  INFO XMLReader:49 - City [id: 278089 name: Ада regionId: 0 countryid: 0]
+07:09:05,612  INFO XMLReader:49 - City [id: 278117 name: Вране regionId: 0 countryid: 0]
+07:09:05,612  INFO XMLReader:49 - City [id: 278119 name: Вршац regionId: 0 countryid: 0]
+07:09:05,629  INFO XMLReader:49 - City [id: 278131 name: Димитровград regionId: 0 countryid: 0]
+07:09:05,629  INFO XMLReader:49 - City [id: 278155 name: Кикинда regionId: 0 countryid: 0]
+07:09:05,630  INFO XMLReader:49 - City [id: 278158 name: Колашин regionId: 0 countryid: 0]
+07:09:05,630  INFO XMLReader:49 - City [id: 278169 name: Крушевац regionId: 0 countryid: 0]
+07:09:05,630  INFO XMLReader:49 - City [id: 278194 name: Ниш regionId: 0 countryid: 0]
+07:09:05,630  INFO XMLReader:49 - City [id: 278202 name: Печ regionId: 0 countryid: 0]
+07:09:05,631  INFO XMLReader:49 - City [id: 278204 name: Плевля regionId: 0 countryid: 0]
+07:09:05,631  INFO XMLReader:49 - City [id: 278210 name: Призрен regionId: 0 countryid: 0]
+07:09:05,631  INFO XMLReader:49 - City [id: 278231 name: Сомбор regionId: 0 countryid: 0]
+07:09:05,632  INFO XMLReader:49 - City [id: 278235 name: Сьеница regionId: 0 countryid: 0]
+07:09:05,632  INFO XMLReader:49 - City [id: 278240 name: Тиват regionId: 0 countryid: 0]
+07:09:05,632  INFO XMLReader:49 - City [id: 278250 name: Улцинь regionId: 0 countryid: 0]
+07:09:05,633  INFO XMLReader:49 - City [id: 11016 name: Чею regionId: 0 countryid: 0]
+07:09:05,633  INFO XMLReader:49 - City [id: 11018 name: Кунсан regionId: 0 countryid: 0]
+07:09:05,633  INFO XMLReader:49 - City [id: 11019 name: Намвон regionId: 0 countryid: 0]
+07:09:05,633  INFO XMLReader:49 - City [id: 11021 name: Йосу regionId: 0 countryid: 0]
+07:09:05,634  INFO XMLReader:49 - City [id: 11022 name: Мокп`о regionId: 0 countryid: 0]
+07:09:05,634  INFO XMLReader:49 - City [id: 11023 name: Чечон regionId: 0 countryid: 0]
+07:09:05,634  INFO XMLReader:49 - City [id: 11025 name: Чонгжу regionId: 0 countryid: 0]
+07:09:05,634  INFO XMLReader:49 - City [id: 11026 name: Чунгжу regionId: 0 countryid: 0]
+07:09:05,635  INFO XMLReader:49 - City [id: 11028 name: Ч`онан regionId: 0 countryid: 0]
+07:09:05,635  INFO XMLReader:49 - City [id: 11030 name: Инчхон regionId: 0 countryid: 0]
+07:09:05,646  INFO XMLReader:49 - City [id: 11032 name: Вонжу regionId: 0 countryid: 0]
+07:09:05,647  INFO XMLReader:49 - City [id: 11033 name: Кангнунг regionId: 0 countryid: 0]
+07:09:05,647  INFO XMLReader:49 - City [id: 11034 name: Чунчон regionId: 0 countryid: 0]
+07:09:05,647  INFO XMLReader:49 - City [id: 11036 name: Кванчжу regionId: 0 countryid: 0]
+07:09:05,648  INFO XMLReader:49 - City [id: 11038 name: Йонгжу regionId: 0 countryid: 0]
+07:09:05,648  INFO XMLReader:49 - City [id: 11039 name: Сувон regionId: 0 countryid: 0]
+07:09:05,648  INFO XMLReader:49 - City [id: 11041 name: Андонг regionId: 0 countryid: 0]
+07:09:05,649  INFO XMLReader:49 - City [id: 11042 name: Кионгджу regionId: 0 countryid: 0]
+07:09:05,649  INFO XMLReader:49 - City [id: 11043 name: П`оханг regionId: 0 countryid: 0]
+07:09:05,649  INFO XMLReader:49 - City [id: 11044 name: Сангю regionId: 0 countryid: 0]
+07:09:05,650  INFO XMLReader:49 - City [id: 11046 name: Масан regionId: 0 countryid: 0]
+07:09:05,650  INFO XMLReader:49 - City [id: 11047 name: Мирианг regionId: 0 countryid: 0]
+07:09:05,650  INFO XMLReader:49 - City [id: 11048 name: Чинхэ regionId: 0 countryid: 0]
+07:09:05,651  INFO XMLReader:49 - City [id: 11049 name: Чиню regionId: 0 countryid: 0]
+07:09:05,651  INFO XMLReader:49 - City [id: 11051 name: Пусан regionId: 0 countryid: 0]
+07:09:05,651  INFO XMLReader:49 - City [id: 11053 name: Сеул regionId: 0 countryid: 0]
+07:09:05,652  INFO XMLReader:49 - City [id: 11055 name: Тэгу regionId: 0 countryid: 0]
+07:09:05,652  INFO XMLReader:49 - City [id: 11057 name: Тэджон regionId: 0 countryid: 0]
+07:09:05,665  INFO XMLReader:49 - City [id: 11059 name: Ульсан regionId: 0 countryid: 0]
+07:09:05,665  INFO XMLReader:49 - City [id: 15789520 name: Кингстон regionId: 0 countryid: 0]
+07:09:05,665  INFO XMLReader:49 - City [id: 11062 name: Ичиномия regionId: 0 countryid: 0]
+07:09:05,666  INFO XMLReader:49 - City [id: 11063 name: Касугаи regionId: 0 countryid: 0]
+07:09:05,671  INFO XMLReader:49 - City [id: 11064 name: Нагоиа regionId: 0 countryid: 0]
+07:09:05,671  INFO XMLReader:49 - City [id: 11065 name: Оказаки regionId: 0 countryid: 0]
+07:09:05,671  INFO XMLReader:49 - City [id: 11066 name: Тойота regionId: 0 countryid: 0]
+07:09:05,672  INFO XMLReader:49 - City [id: 11067 name: Тойохаши regionId: 0 countryid: 0]
+07:09:05,672  INFO XMLReader:49 - City [id: 11069 name: Акита regionId: 0 countryid: 0]
+07:09:05,673  INFO XMLReader:49 - City [id: 11070 name: Иокот regionId: 0 countryid: 0]
+07:09:05,673  INFO XMLReader:49 - City [id: 11071 name: Ноширо regionId: 0 countryid: 0]
+07:09:05,673  INFO XMLReader:49 - City [id: 11072 name: Ога regionId: 0 countryid: 0]
+07:09:05,674  INFO XMLReader:49 - City [id: 11073 name: Одат regionId: 0 countryid: 0]
+07:09:05,674  INFO XMLReader:49 - City [id: 11075 name: Аомори regionId: 0 countryid: 0]
+07:09:05,674  INFO XMLReader:49 - City [id: 11076 name: Гошогавара regionId: 0 countryid: 0]
+07:09:05,677  INFO XMLReader:49 - City [id: 11077 name: Тауада regionId: 0 countryid: 0]
+07:09:05,677  INFO XMLReader:49 - City [id: 11078 name: Хачинохе regionId: 0 countryid: 0]
+07:09:05,678  INFO XMLReader:49 - City [id: 11079 name: Хиросаки regionId: 0 countryid: 0]
+07:09:05,678  INFO XMLReader:49 - City [id: 11081 name: Вакэйама regionId: 0 countryid: 0]
+07:09:05,678  INFO XMLReader:49 - City [id: 11082 name: Шингу regionId: 0 countryid: 0]
+07:09:05,679  INFO XMLReader:49 - City [id: 11084 name: Гифу regionId: 0 countryid: 0]
+07:09:05,679  INFO XMLReader:49 - City [id: 11085 name: Огаки regionId: 0 countryid: 0]
+07:09:05,679  INFO XMLReader:49 - City [id: 11086 name: Тайими regionId: 0 countryid: 0]
+07:09:05,680  INFO XMLReader:49 - City [id: 11087 name: Такэйама regionId: 0 countryid: 0]
+07:09:05,680  INFO XMLReader:49 - City [id: 11089 name: Кириу regionId: 0 countryid: 0]
+07:09:05,680  INFO XMLReader:49 - City [id: 11090 name: Мебаши regionId: 0 countryid: 0]
+07:09:05,681  INFO XMLReader:49 - City [id: 11091 name: Нумата regionId: 0 countryid: 0]
+07:09:05,681  INFO XMLReader:49 - City [id: 11092 name: Ота regionId: 0 countryid: 0]
+07:09:05,682  INFO XMLReader:49 - City [id: 11093 name: Такасаки regionId: 0 countryid: 0]
+07:09:05,682  INFO XMLReader:49 - City [id: 11095 name: Ибараки regionId: 0 countryid: 0]
+07:09:05,689  INFO XMLReader:49 - City [id: 11096 name: Ина regionId: 0 countryid: 0]
+07:09:05,689  INFO XMLReader:49 - City [id: 11097 name: Катсута regionId: 0 countryid: 0]
+07:09:05,690  INFO XMLReader:49 - City [id: 11098 name: Китаибараки regionId: 0 countryid: 0]
+07:09:05,690  INFO XMLReader:49 - City [id: 11099 name: Мито regionId: 0 countryid: 0]
+07:09:05,690  INFO XMLReader:49 - City [id: 11100 name: Омииа regionId: 0 countryid: 0]
+07:09:05,690  INFO XMLReader:49 - City [id: 11101 name: Хитачи regionId: 0 countryid: 0]
+07:09:05,697  INFO XMLReader:49 - City [id: 7719603 name: Цущиура regionId: 0 countryid: 0]
+07:09:05,698  INFO XMLReader:49 - City [id: 11103 name: Ичиносеки regionId: 0 countryid: 0]
+07:09:05,698  INFO XMLReader:49 - City [id: 11104 name: Мизусава regionId: 0 countryid: 0]
+07:09:05,698  INFO XMLReader:49 - City [id: 11105 name: Мииако regionId: 0 countryid: 0]
+07:09:05,699  INFO XMLReader:49 - City [id: 11106 name: Мориока regionId: 0 countryid: 0]
+07:09:05,699  INFO XMLReader:49 - City [id: 11107 name: Ханамаки regionId: 0 countryid: 0]
+07:09:05,700  INFO XMLReader:49 - City [id: 11109 name: Кага regionId: 0 countryid: 0]
+07:09:05,700  INFO XMLReader:49 - City [id: 11110 name: Каназава regionId: 0 countryid: 0]
+07:09:05,701  INFO XMLReader:49 - City [id: 11111 name: Коматсу regionId: 0 countryid: 0]
+07:09:05,701  INFO XMLReader:49 - City [id: 11112 name: Нанао regionId: 0 countryid: 0]
+07:09:05,701  INFO XMLReader:49 - City [id: 11114 name: Сакаиде regionId: 0 countryid: 0]
+07:09:05,702  INFO XMLReader:49 - City [id: 11115 name: Такаматсу regionId: 0 countryid: 0]
+07:09:05,702  INFO XMLReader:49 - City [id: 11117 name: Изуми regionId: 0 countryid: 0]
+07:09:05,702  INFO XMLReader:49 - City [id: 11118 name: Кагошима regionId: 0 countryid: 0]
+07:09:05,703  INFO XMLReader:49 - City [id: 11119 name: Каноя regionId: 0 countryid: 0]
+07:09:05,703  INFO XMLReader:49 - City [id: 11120 name: Наз regionId: 0 countryid: 0]
+07:09:05,703  INFO XMLReader:49 - City [id: 11122 name: Айкава regionId: 0 countryid: 0]
+07:09:05,704  INFO XMLReader:49 - City [id: 11123 name: Ацуги regionId: 0 countryid: 0]
+07:09:05,717  INFO XMLReader:49 - City [id: 11124 name: Зуши regionId: 0 countryid: 0]
+07:09:05,718  INFO XMLReader:49 - City [id: 11125 name: Йокогама regionId: 0 countryid: 0]
+07:09:05,718  INFO XMLReader:49 - City [id: 11126 name: Йокосука regionId: 0 countryid: 0]
+07:09:05,719  INFO XMLReader:49 - City [id: 11127 name: Камакура regionId: 0 countryid: 0]
+07:09:05,719  INFO XMLReader:49 - City [id: 11128 name: Одавара regionId: 0 countryid: 0]
+07:09:05,719  INFO XMLReader:49 - City [id: 11129 name: Сагамихара regionId: 0 countryid: 0]
+07:09:05,719  INFO XMLReader:49 - City [id: 11130 name: Фуйисава regionId: 0 countryid: 0]
+07:09:05,720  INFO XMLReader:49 - City [id: 11131 name: Хиратсука regionId: 0 countryid: 0]
+07:09:05,720  INFO XMLReader:49 - City [id: 11132 name: Чигасаки regionId: 0 countryid: 0]
+07:09:05,720  INFO XMLReader:49 - City [id: 11134 name: Камеока regionId: 0 countryid: 0]
+07:09:05,721  INFO XMLReader:49 - City [id: 11135 name: Киото regionId: 0 countryid: 0]
+07:09:05,721  INFO XMLReader:49 - City [id: 11136 name: Маизуру regionId: 0 countryid: 0]
+07:09:05,722  INFO XMLReader:49 - City [id: 11137 name: Уйи regionId: 0 countryid: 0]
+07:09:05,722  INFO XMLReader:49 - City [id: 11138 name: Фукучииама regionId: 0 countryid: 0]
+07:09:05,722  INFO XMLReader:49 - City [id: 11140 name: Кочи regionId: 0 countryid: 0]
+07:09:05,723  INFO XMLReader:49 - City [id: 11141 name: Нанкоку regionId: 0 countryid: 0]
+07:09:05,723  INFO XMLReader:49 - City [id: 11143 name: Кумамото regionId: 0 countryid: 0]
+07:09:05,733  INFO XMLReader:49 - City [id: 11144 name: Минамата regionId: 0 countryid: 0]
+07:09:05,733  INFO XMLReader:49 - City [id: 11145 name: Хитоиоши regionId: 0 countryid: 0]
+07:09:05,734  INFO XMLReader:49 - City [id: 11147 name: Исе regionId: 0 countryid: 0]
+07:09:05,734  INFO XMLReader:49 - City [id: 11148 name: Матсусака regionId: 0 countryid: 0]
+07:09:05,734  INFO XMLReader:49 - City [id: 11149 name: Сузука regionId: 0 countryid: 0]
+07:09:05,735  INFO XMLReader:49 - City [id: 11150 name: Тсу regionId: 0 countryid: 0]
+07:09:05,735  INFO XMLReader:49 - City [id: 11152 name: Ишиномаки regionId: 0 countryid: 0]
+07:09:05,735  INFO XMLReader:49 - City [id: 11153 name: Кесеннума regionId: 0 countryid: 0]
+07:09:05,736  INFO XMLReader:49 - City [id: 11154 name: Фурукава regionId: 0 countryid: 0]
+07:09:05,736  INFO XMLReader:49 - City [id: 11156 name: Кобэйаши regionId: 0 countryid: 0]
+07:09:05,743  INFO XMLReader:49 - City [id: 11157 name: Мииазаки regionId: 0 countryid: 0]
+07:09:05,744  INFO XMLReader:49 - City [id: 11158 name: Мииаконойо regionId: 0 countryid: 0]
+07:09:05,744  INFO XMLReader:49 - City [id: 11159 name: Нобеока regionId: 0 countryid: 0]
+07:09:05,744  INFO XMLReader:49 - City [id: 11160 name: Саито regionId: 0 countryid: 0]
+07:09:05,745  INFO XMLReader:49 - City [id: 11161 name: Хиуга regionId: 0 countryid: 0]
+07:09:05,745  INFO XMLReader:49 - City [id: 11163 name: Матсумото regionId: 0 countryid: 0]
+07:09:05,745  INFO XMLReader:49 - City [id: 11164 name: Нагано regionId: 0 countryid: 0]
+07:09:05,746  INFO XMLReader:49 - City [id: 11165 name: Саку regionId: 0 countryid: 0]
+07:09:05,746  INFO XMLReader:49 - City [id: 11166 name: Сува regionId: 0 countryid: 0]
+07:09:05,746  INFO XMLReader:49 - City [id: 11167 name: Уеда regionId: 0 countryid: 0]
+07:09:05,747  INFO XMLReader:49 - City [id: 11169 name: Исахая regionId: 0 countryid: 0]
+07:09:05,747  INFO XMLReader:49 - City [id: 11170 name: Нагасаки regionId: 0 countryid: 0]
+07:09:05,747  INFO XMLReader:49 - City [id: 11171 name: Сасэбо regionId: 0 countryid: 0]
+07:09:05,748  INFO XMLReader:49 - City [id: 11172 name: Шимабара regionId: 0 countryid: 0]
+07:09:05,748  INFO XMLReader:49 - City [id: 11174 name: Кашихара regionId: 0 countryid: 0]
+07:09:05,759  INFO XMLReader:49 - City [id: 11175 name: Нара regionId: 0 countryid: 0]
+07:09:05,759  INFO XMLReader:49 - City [id: 11176 name: Сакураи regionId: 0 countryid: 0]
+07:09:05,760  INFO XMLReader:49 - City [id: 11177 name: Тенри regionId: 0 countryid: 0]
+07:09:05,760  INFO XMLReader:49 - City [id: 11179 name: Кашивазаки regionId: 0 countryid: 0]
+07:09:05,760  INFO XMLReader:49 - City [id: 11180 name: Нагаока regionId: 0 countryid: 0]
+07:09:05,766  INFO XMLReader:49 - City [id: 10505044 name: Ниигата regionId: 0 countryid: 0]
+07:09:05,766  INFO XMLReader:49 - City [id: 11181 name: Оджия regionId: 0 countryid: 0]
+07:09:05,766  INFO XMLReader:49 - City [id: 11182 name: Санйо regionId: 0 countryid: 0]
+07:09:05,767  INFO XMLReader:49 - City [id: 11183 name: Цубаме regionId: 0 countryid: 0]
+07:09:05,767  INFO XMLReader:49 - City [id: 11184 name: Шибата regionId: 0 countryid: 0]
+07:09:05,767  INFO XMLReader:49 - City [id: 11186 name: Курашики regionId: 0 countryid: 0]
+07:09:05,768  INFO XMLReader:49 - City [id: 11187 name: Окэйама regionId: 0 countryid: 0]
+07:09:05,768  INFO XMLReader:49 - City [id: 11188 name: Цуяма regionId: 0 countryid: 0]
+07:09:05,768  INFO XMLReader:49 - City [id: 11190 name: Ишигаки regionId: 0 countryid: 0]
+07:09:05,773  INFO XMLReader:49 - City [id: 11191 name: Наха regionId: 0 countryid: 0]
+07:09:05,773  INFO XMLReader:49 - City [id: 11193 name: Даито regionId: 0 countryid: 0]
+07:09:05,774  INFO XMLReader:49 - City [id: 11194 name: Кайзука regionId: 0 countryid: 0]
+07:09:05,774  INFO XMLReader:49 - City [id: 11195 name: Кишивада regionId: 0 countryid: 0]
+07:09:05,774  INFO XMLReader:49 - City [id: 11196 name: Матсубара regionId: 0 countryid: 0]
+07:09:05,783  INFO XMLReader:49 - City [id: 11197 name: Моригучи regionId: 0 countryid: 0]
+07:09:05,784  INFO XMLReader:49 - City [id: 11198 name: Ниагава regionId: 0 countryid: 0]
+07:09:05,784  INFO XMLReader:49 - City [id: 11199 name: Осака regionId: 0 countryid: 0]
+07:09:05,785  INFO XMLReader:49 - City [id: 11200 name: Суита regionId: 0 countryid: 0]
+07:09:05,785  INFO XMLReader:49 - City [id: 11201 name: Такаиши regionId: 0 countryid: 0]
+07:09:05,785  INFO XMLReader:49 - City [id: 11202 name: Такатсуки regionId: 0 countryid: 0]
+07:09:05,786  INFO XMLReader:49 - City [id: 11203 name: Тоионака regionId: 0 countryid: 0]
+07:09:05,786  INFO XMLReader:49 - City [id: 11204 name: Тондабаяши regionId: 0 countryid: 0]
+07:09:05,786  INFO XMLReader:49 - City [id: 11205 name: Хабикино regionId: 0 countryid: 0]
+07:09:05,787  INFO XMLReader:49 - City [id: 11206 name: Хигашиосака regionId: 0 countryid: 0]
+07:09:05,787  INFO XMLReader:49 - City [id: 11207 name: Хираката regionId: 0 countryid: 0]
+07:09:05,787  INFO XMLReader:49 - City [id: 11208 name: Яо regionId: 0 countryid: 0]
+07:09:05,788  INFO XMLReader:49 - City [id: 11210 name: Имари regionId: 0 countryid: 0]
+07:09:05,788  INFO XMLReader:49 - City [id: 11211 name: Каратсу regionId: 0 countryid: 0]
+07:09:05,788  INFO XMLReader:49 - City [id: 11212 name: Сага regionId: 0 countryid: 0]
+07:09:05,789  INFO XMLReader:49 - City [id: 11213 name: Тосу regionId: 0 countryid: 0]
+07:09:05,796  INFO XMLReader:49 - City [id: 11214 name: Ямато regionId: 0 countryid: 0]
+07:09:05,798  INFO XMLReader:49 - City [id: 11216 name: Вараби regionId: 0 countryid: 0]
+07:09:05,798  INFO XMLReader:49 - City [id: 11217 name: Иватсуки regionId: 0 countryid: 0]
+07:09:05,799  INFO XMLReader:49 - City [id: 11218 name: Йоно regionId: 0 countryid: 0]
+07:09:05,799  INFO XMLReader:49 - City [id: 11219 name: Кавагоэ regionId: 0 countryid: 0]
+07:09:05,804  INFO XMLReader:49 - City [id: 11220 name: Кавагучи regionId: 0 countryid: 0]
+07:09:05,805  INFO XMLReader:49 - City [id: 11221 name: Касукаб regionId: 0 countryid: 0]
+07:09:05,805  INFO XMLReader:49 - City [id: 11222 name: Кошигэйа regionId: 0 countryid: 0]
+07:09:05,806  INFO XMLReader:49 - City [id: 11223 name: Кумагэйа regionId: 0 countryid: 0]
+07:09:05,806  INFO XMLReader:49 - City [id: 11224 name: Сока regionId: 0 countryid: 0]
+07:09:05,807  INFO XMLReader:49 - City [id: 11225 name: Ханно regionId: 0 countryid: 0]
+07:09:05,807  INFO XMLReader:49 - City [id: 11226 name: Чичибу regionId: 0 countryid: 0]
+07:09:05,813  INFO XMLReader:49 - City [id: 11228 name: Отсу regionId: 0 countryid: 0]
+07:09:05,815  INFO XMLReader:49 - City [id: 11229 name: Хикон regionId: 0 countryid: 0]
+07:09:05,816  INFO XMLReader:49 - City [id: 11231 name: Атами regionId: 0 countryid: 0]
+07:09:05,816  INFO XMLReader:49 - City [id: 11232 name: Фуджи regionId: 0 countryid: 0]
+07:09:05,817  INFO XMLReader:49 - City [id: 11234 name: Иаизу regionId: 0 countryid: 0]
+07:09:05,817  INFO XMLReader:49 - City [id: 11235 name: Ивата regionId: 0 countryid: 0]
+07:09:05,817  INFO XMLReader:49 - City [id: 11236 name: Изумо regionId: 0 countryid: 0]
+07:09:05,824  INFO XMLReader:49 - City [id: 11237 name: Ито regionId: 0 countryid: 0]
+07:09:05,824  INFO XMLReader:49 - City [id: 11238 name: Масуда regionId: 0 countryid: 0]
+07:09:05,828  INFO XMLReader:49 - City [id: 11239 name: Матсуэ regionId: 0 countryid: 0]
+07:09:05,829  INFO XMLReader:49 - City [id: 11240 name: Мишима regionId: 0 countryid: 0]
+07:09:05,829  INFO XMLReader:49 - City [id: 11241 name: Нумазу regionId: 0 countryid: 0]
+07:09:05,830  INFO XMLReader:49 - City [id: 11242 name: Ода regionId: 0 countryid: 0]
+07:09:05,830  INFO XMLReader:49 - City [id: 11243 name: Ояма regionId: 0 countryid: 0]
+07:09:05,830  INFO XMLReader:49 - City [id: 11244 name: Хамада regionId: 0 countryid: 0]
+07:09:05,831  INFO XMLReader:49 - City [id: 11245 name: Хамаматсу regionId: 0 countryid: 0]
+07:09:05,831  INFO XMLReader:49 - City [id: 11246 name: Шизуока regionId: 0 countryid: 0]
+07:09:05,832  INFO XMLReader:49 - City [id: 11247 name: Шимизу regionId: 0 countryid: 0]
+07:09:05,832  INFO XMLReader:49 - City [id: 11249 name: Ичикава regionId: 0 countryid: 0]
+07:09:05,832  INFO XMLReader:49 - City [id: 11250 name: Кашива regionId: 0 countryid: 0]
+07:09:05,833  INFO XMLReader:49 - City [id: 11251 name: Кисаразу regionId: 0 countryid: 0]
+07:09:05,834  INFO XMLReader:49 - City [id: 11252 name: Матсудо regionId: 0 countryid: 0]
+07:09:05,834  INFO XMLReader:49 - City [id: 11253 name: Мобара regionId: 0 countryid: 0]
+07:09:05,835  INFO XMLReader:49 - City [id: 11254 name: Нарашино regionId: 0 countryid: 0]
+07:09:05,835  INFO XMLReader:49 - City [id: 11255 name: Нода regionId: 0 countryid: 0]
+07:09:05,836  INFO XMLReader:49 - City [id: 11256 name: Савара regionId: 0 countryid: 0]
+07:09:05,837  INFO XMLReader:49 - City [id: 11257 name: Татиама regionId: 0 countryid: 0]
+07:09:05,837  INFO XMLReader:49 - City [id: 11258 name: Фунабаши regionId: 0 countryid: 0]
+07:09:05,838  INFO XMLReader:49 - City [id: 11259 name: Хоши regionId: 0 countryid: 0]
+07:09:05,838  INFO XMLReader:49 - City [id: 11260 name: Чиба regionId: 0 countryid: 0]
+07:09:05,839  INFO XMLReader:49 - City [id: 11262 name: Кодаира regionId: 0 countryid: 0]
+07:09:05,839  INFO XMLReader:49 - City [id: 11263 name: Мачида regionId: 0 countryid: 0]
+07:09:05,840  INFO XMLReader:49 - City [id: 11264 name: Митака regionId: 0 countryid: 0]
+07:09:05,840  INFO XMLReader:49 - City [id: 11265 name: Мусашино regionId: 0 countryid: 0]
+07:09:05,841  INFO XMLReader:49 - City [id: 11266 name: Тачикава regionId: 0 countryid: 0]
+07:09:05,842  INFO XMLReader:49 - City [id: 11267 name: Токио regionId: 0 countryid: 0]
+07:09:05,842  INFO XMLReader:49 - City [id: 11268 name: Хачиойи regionId: 0 countryid: 0]
+07:09:05,843  INFO XMLReader:49 - City [id: 11269 name: Хофу regionId: 0 countryid: 0]
+07:09:05,844  INFO XMLReader:49 - City [id: 11271 name: Анан regionId: 0 countryid: 0]
+07:09:05,845  INFO XMLReader:49 - City [id: 11272 name: Токушима regionId: 0 countryid: 0]
+07:09:05,846  INFO XMLReader:49 - City [id: 11274 name: Ашикага regionId: 0 countryid: 0]
+07:09:05,846  INFO XMLReader:49 - City [id: 11275 name: Кавачи regionId: 0 countryid: 0]
+07:09:05,847  INFO XMLReader:49 - City [id: 11276 name: Канума regionId: 0 countryid: 0]
+07:09:05,847  INFO XMLReader:49 - City [id: 11277 name: Отавара regionId: 0 countryid: 0]
+07:09:05,848  INFO XMLReader:49 - City [id: 11278 name: Утсуномииа regionId: 0 countryid: 0]
+07:09:05,849  INFO XMLReader:49 - City [id: 11280 name: Йонаго regionId: 0 countryid: 0]
+07:09:05,850  INFO XMLReader:49 - City [id: 11281 name: Курэйоши regionId: 0 countryid: 0]
+07:09:05,850  INFO XMLReader:49 - City [id: 11282 name: Тоттори regionId: 0 countryid: 0]
+07:09:05,851  INFO XMLReader:49 - City [id: 11284 name: Камишии regionId: 0 countryid: 0]
+07:09:05,851  INFO XMLReader:49 - City [id: 11285 name: Такаока regionId: 0 countryid: 0]
+07:09:05,852  INFO XMLReader:49 - City [id: 11286 name: Тояма regionId: 0 countryid: 0]
+07:09:05,853  INFO XMLReader:49 - City [id: 11287 name: Уозу regionId: 0 countryid: 0]
+07:09:05,853  INFO XMLReader:49 - City [id: 11288 name: Хими regionId: 0 countryid: 0]
+07:09:05,854  INFO XMLReader:49 - City [id: 11290 name: Оно regionId: 0 countryid: 0]
+07:09:05,854  INFO XMLReader:49 - City [id: 11291 name: Сабе regionId: 0 countryid: 0]
+07:09:05,855  INFO XMLReader:49 - City [id: 11292 name: Такефу regionId: 0 countryid: 0]
+07:09:05,855  INFO XMLReader:49 - City [id: 11293 name: Тсуруга regionId: 0 countryid: 0]
+07:09:05,857  INFO XMLReader:49 - City [id: 11294 name: Фукуи regionId: 0 countryid: 0]
+07:09:05,857  INFO XMLReader:49 - City [id: 11296 name: Амаги regionId: 0 countryid: 0]
+07:09:05,858  INFO XMLReader:49 - City [id: 11297 name: Иукухаши regionId: 0 countryid: 0]
+07:09:05,858  INFO XMLReader:49 - City [id: 11298 name: Кавасаки regionId: 0 countryid: 0]
+07:09:05,858  INFO XMLReader:49 - City [id: 11299 name: Китакиушу regionId: 0 countryid: 0]
+07:09:05,865  INFO XMLReader:49 - City [id: 11300 name: Курум regionId: 0 countryid: 0]
+07:09:05,866  INFO XMLReader:49 - City [id: 11301 name: Ногата regionId: 0 countryid: 0]
+07:09:05,866  INFO XMLReader:49 - City [id: 11302 name: Омута regionId: 0 countryid: 0]
+07:09:05,866  INFO XMLReader:49 - City [id: 11303 name: Фукуока regionId: 0 countryid: 0]
+07:09:05,867  INFO XMLReader:49 - City [id: 11305 name: Иваки regionId: 0 countryid: 0]
+07:09:05,867  INFO XMLReader:49 - City [id: 11306 name: Корииама regionId: 0 countryid: 0]
+07:09:05,867  INFO XMLReader:49 - City [id: 11308 name: Кур regionId: 0 countryid: 0]
+07:09:05,868  INFO XMLReader:49 - City [id: 11309 name: Ономичи regionId: 0 countryid: 0]
+07:09:05,868  INFO XMLReader:49 - City [id: 11310 name: Фукуиама regionId: 0 countryid: 0]
+07:09:05,868  INFO XMLReader:49 - City [id: 11311 name: Хирошима regionId: 0 countryid: 0]
+07:09:05,870  INFO XMLReader:49 - City [id: 11313 name: Абашири regionId: 0 countryid: 0]
+07:09:05,872  INFO XMLReader:49 - City [id: 11314 name: Асахигава regionId: 0 countryid: 0]
+07:09:05,872  INFO XMLReader:49 - City [id: 11315 name: Ашибецу regionId: 0 countryid: 0]
+07:09:05,872  INFO XMLReader:49 - City [id: 11316 name: Бибаи regionId: 0 countryid: 0]
+07:09:05,873  INFO XMLReader:49 - City [id: 11317 name: Вакканаи regionId: 0 countryid: 0]
+07:09:05,873  INFO XMLReader:49 - City [id: 11318 name: Китами regionId: 0 countryid: 0]
+07:09:05,873  INFO XMLReader:49 - City [id: 11319 name: Куширо regionId: 0 countryid: 0]
+07:09:05,874  INFO XMLReader:49 - City [id: 11320 name: Момбетсу regionId: 0 countryid: 0]
+07:09:05,874  INFO XMLReader:49 - City [id: 11321 name: Муроран regionId: 0 countryid: 0]
+07:09:05,874  INFO XMLReader:49 - City [id: 11322 name: Немуро regionId: 0 countryid: 0]
+07:09:05,878  INFO XMLReader:49 - City [id: 11323 name: Обихиро regionId: 0 countryid: 0]
+07:09:05,878  INFO XMLReader:49 - City [id: 11324 name: Отару regionId: 0 countryid: 0]
+07:09:05,880  INFO XMLReader:49 - City [id: 11325 name: Румои regionId: 0 countryid: 0]
+07:09:05,881  INFO XMLReader:49 - City [id: 11326 name: Саппоро regionId: 0 countryid: 0]
+07:09:05,881  INFO XMLReader:49 - City [id: 11327 name: Томакомаи regionId: 0 countryid: 0]
+07:09:05,882  INFO XMLReader:49 - City [id: 11328 name: Эбетсу regionId: 0 countryid: 0]
+07:09:05,882  INFO XMLReader:49 - City [id: 11329 name: Юбари regionId: 0 countryid: 0]
+07:09:05,883  INFO XMLReader:49 - City [id: 11331 name: Акаши regionId: 0 countryid: 0]
+07:09:05,890  INFO XMLReader:49 - City [id: 11332 name: Амагасаки regionId: 0 countryid: 0]
+07:09:05,891  INFO XMLReader:49 - City [id: 11333 name: Ашия regionId: 0 countryid: 0]
+07:09:05,891  INFO XMLReader:49 - City [id: 11334 name: Итами regionId: 0 countryid: 0]
+07:09:05,891  INFO XMLReader:49 - City [id: 11335 name: Каваниши regionId: 0 countryid: 0]
+07:09:05,892  INFO XMLReader:49 - City [id: 11336 name: Какогава regionId: 0 countryid: 0]
+07:09:05,892  INFO XMLReader:49 - City [id: 11337 name: Нишиномия regionId: 0 countryid: 0]
+07:09:05,893  INFO XMLReader:49 - City [id: 11338 name: Тоёока regionId: 0 countryid: 0]
+07:09:05,893  INFO XMLReader:49 - City [id: 11339 name: Химейи regionId: 0 countryid: 0]
+07:09:05,893  INFO XMLReader:49 - City [id: 11341 name: Иаватахама regionId: 0 countryid: 0]
+07:09:05,894  INFO XMLReader:49 - City [id: 11342 name: Имабари regionId: 0 countryid: 0]
+07:09:05,894  INFO XMLReader:49 - City [id: 11343 name: Матсуиама regionId: 0 countryid: 0]
+07:09:05,894  INFO XMLReader:49 - City [id: 11344 name: Озу regionId: 0 countryid: 0]
+07:09:05,897  INFO XMLReader:49 - City [id: 11345 name: Увайима regionId: 0 countryid: 0]
+07:09:05,898  INFO XMLReader:49 - City [id: 11347 name: Иамагата regionId: 0 countryid: 0]
+07:09:05,898  INFO XMLReader:49 - City [id: 11348 name: Ионезава regionId: 0 countryid: 0]
+07:09:05,899  INFO XMLReader:49 - City [id: 11349 name: Саката regionId: 0 countryid: 0]
+07:09:05,899  INFO XMLReader:49 - City [id: 11350 name: Тендо regionId: 0 countryid: 0]
+07:09:05,899  INFO XMLReader:49 - City [id: 11351 name: Тсуруока regionId: 0 countryid: 0]
+07:09:05,899  INFO XMLReader:49 - City [id: 11352 name: Тсучиура regionId: 0 countryid: 0]
+07:09:05,900  INFO XMLReader:49 - City [id: 11353 name: Шинйо regionId: 0 countryid: 0]
+07:09:05,904  INFO XMLReader:49 - City [id: 11355 name: Ивакуни regionId: 0 countryid: 0]
+07:09:05,905  INFO XMLReader:49 - City [id: 11356 name: Онода regionId: 0 countryid: 0]
+07:09:05,905  INFO XMLReader:49 - City [id: 11357 name: Токуиама regionId: 0 countryid: 0]
+07:09:05,906  INFO XMLReader:49 - City [id: 11358 name: Убе regionId: 0 countryid: 0]
+07:09:05,910  INFO XMLReader:49 - City [id: 11359 name: Хаги regionId: 0 countryid: 0]
+07:09:05,910  INFO XMLReader:49 - City [id: 11360 name: Хофу regionId: 0 countryid: 0]
+07:09:05,911  INFO XMLReader:49 - City [id: 11361 name: Шимоносеки regionId: 0 countryid: 0]
+07:09:05,912  INFO XMLReader:49 - City [id: 11362 name: Ямагучи regionId: 0 countryid: 0]
+07:09:05,913  INFO XMLReader:49 - City [id: 11364 name: Кофу regionId: 0 countryid: 0]
+07:09:05,914  INFO XMLReader:49 - City [id: 11365 name: СПб regionId: 0 countryid: 0]

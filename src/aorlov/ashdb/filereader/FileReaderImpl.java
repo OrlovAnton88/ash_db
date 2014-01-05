@@ -157,6 +157,7 @@ public class FileReaderImpl implements FileReader {
                 parseCommentToGetDate(comment);
 
                 cellToString = cellToString.trim();
+                return null;
 
             } catch (Exception ex) {
                 //do nothing
@@ -168,12 +169,12 @@ public class FileReaderImpl implements FileReader {
     public Date parseCommentToGetDate(Comment comment){
         String str = comment.getString().toString();
 
-
-        int year = Integer.valueOf(cellToString.substring(0, 3));
-        int month = Integer.valueOf(cellToString.substring(4, 5));
-        int day = Integer.valueOf(cellToString.substring(6, 7));
-        Calendar calendar = new GregorianCalendar(year, month, day);
-        return calendar.getTime();
+//
+//        int year = Integer.valueOf(cellToString.substring(0, 3));
+//        int month = Integer.valueOf(cellToString.substring(4, 5));
+//        int day = Integer.valueOf(cellToString.substring(6, 7));
+//        Calendar calendar = new GregorianCalendar(year, month, day);
+//        return calendar.getTime();
 
 
              return new Date();
