@@ -2,10 +2,12 @@ package aorlov.ashdb.filereader;
 
 import aorlov.ashdb.core.Club;
 import aorlov.ashdb.core.Dancer;
+import aorlov.ashdb.core.Event;
 import aorlov.ashdb.util.FileName;
 import aorlov.ashdb.util.SheetName;
 import org.apache.log4j.Logger;
 import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.Comment;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 
@@ -19,8 +21,7 @@ public class FileReaderImpl implements FileReader {
 
     @Override
     public Collection<Dancer> getDancers() throws Exception {
-        return null;
-        //todo:
+        return getDancers(-1);
     }
 
     @Override
@@ -41,7 +42,7 @@ public class FileReaderImpl implements FileReader {
         LOGGER.debug(fieldColumnMap.toString());
 
         while (rowIterator.hasNext()) {
-            if(counter>maxNumber){
+            if (counter > maxNumber) {
                 break;
             }
             Row row = rowIterator.next();
@@ -91,4 +92,108 @@ public class FileReaderImpl implements FileReader {
 
         return clubs;
     }
+
+
+    public Collection<Event> getEvents() throws Exception {
+        Collection<Event> events = new ArrayList<>();
+
+        XSSFSheet sheet = FileReaderHelper.getSheet(FileName.ASH_XLSX, SheetName.RATING);
+        Map<String, Integer> rowMap = EventHelper.determineRows(sheet);
+        int indexOfNamesRow = rowMap.get(EventHelper.EVENT_NAME_ROW);
+        int indexOfDateRow = rowMap.get(EventHelper.EVENT_DATE);
+        int cellNum = rowMap.get(EventHelper.EVENT_NAME_START_CELL);
+
+        Row namesNow = sheet.getRow(indexOfNamesRow);
+        Row datesRow = sheet.getRow(indexOfDateRow);
+
+        Iterator<Cell> dateCellIterator = datesRow.iterator();
+        Iterator<Cell> nameCellIterator = namesNow.iterator();
+
+        skipCells(dateCellIterator, cellNum);
+        skipCells(nameCellIterator, cellNum);
+
+        while (nameCellIterator.hasNext() && dateCellIterator.hasNext()) {
+            Event event = new Event(cellNum);
+            Cell nameCell = nameCellIterator.next();
+            Cell dateCell = dateCellIterator.next();
+            if (!parseNameCell(event, nameCell)) {
+                continue;
+            }
+            if (!parseDateCell(event, dateCell)) {
+                continue;
+            }
+
+            events.add(event);
+            LOGGER.debug(event.toString());
+            cellNum++;
+        }
+
+        return null;
+    }
+
+    private boolean parseDateCell(Event eventIn, Cell dateCell) {
+        if (Cell.CELL_TYPE_STRING == dateCell.getCellType()) {
+            LOGGER.error("NOT DATE");
+            return false;
+
+        } else if (Cell.CELL_TYPE_NUMERIC == dateCell.getCellType()) {
+//            LOGGER.debug("DateCell type is Numeric");
+//            Date cellValue = dateCell.getDateCellValue();
+//            LOGGER.debug("Cell value [" + cellValue + ']');
+            eventIn.setEventDate(getDate(dateCell));
+            return true;
+        }
+        return false;
+    }
+
+    private Date getDate(Cell dateCell) {
+        String cellToString = dateCell.toString();
+        if (cellToString.indexOf('-') > 0) {
+            return dateCell.getDateCellValue();
+        } else {
+            try {
+                Date dateToReturn = new Date();
+                Comment comment = dateCell.getCellComment();
+                parseCommentToGetDate(comment);
+
+                cellToString = cellToString.trim();
+
+            } catch (Exception ex) {
+                //do nothing
+                return null;
+            }
+        }
+    }
+
+    public Date parseCommentToGetDate(Comment comment){
+        String str = comment.getString().toString();
+
+
+        int year = Integer.valueOf(cellToString.substring(0, 3));
+        int month = Integer.valueOf(cellToString.substring(4, 5));
+        int day = Integer.valueOf(cellToString.substring(6, 7));
+        Calendar calendar = new GregorianCalendar(year, month, day);
+        return calendar.getTime();
+
+
+             return new Date();
+    }
+
+    private boolean parseNameCell(Event eventIn, Cell nameCell) {
+        if (Cell.CELL_TYPE_STRING == nameCell.getCellType()) {
+            String eventName = FileReaderHelper.removeLineBreak(nameCell.getStringCellValue());
+            if (eventName != null && eventName.length() > 0) {
+                eventIn.setFullName(eventName);
+                return true;
+            }
+        }
+        return false;
+    }
+
+    private void skipCells(Iterator iterator, int numOfCellsToSkip) {
+        for (int counter = 0; counter < numOfCellsToSkip; counter++) {
+            iterator.next();
+        }
+    }
 }
+

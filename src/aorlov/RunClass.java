@@ -39,10 +39,12 @@ public class RunClass {
 //
 //            }
 //            flOld.getDancers(100);
-           List<Dancer> list = (List) fl.getDancers(100);
-           for(Dancer dancer : list){
-               logger.info(dancer.toString());
-            }
+//           List<Dancer> list = (List) fl.getDancers(100);
+//           for(Dancer dancer : list){
+//               logger.info(dancer.toString());
+//            }
+
+            fl.getEvents ();
         } catch(Exception ex){
             logger.info("fuck up", ex);
         }

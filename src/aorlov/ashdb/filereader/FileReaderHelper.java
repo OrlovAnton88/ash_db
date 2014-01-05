@@ -117,10 +117,10 @@ public class FileReaderHelper {
 
     }
 
-    public static String detectLineBreak(String valueIn){
+    public static String removeLineBreak(String valueIn){
         String toReturn = valueIn;
         if(valueIn.contains("\n")){
-            toReturn = valueIn.replace("\n", "");
+            toReturn = valueIn.replace("\n", " ");
         }
         return toReturn;
     }
@@ -169,7 +169,7 @@ public class FileReaderHelper {
         String value;
         int cellType = cellIn.getCellType();
         if (cellType == Cell.CELL_TYPE_STRING) {
-            value = FileReaderHelper.detectLineBreak(cellIn.getStringCellValue().toLowerCase());
+            value = FileReaderHelper.removeLineBreak(cellIn.getStringCellValue().toLowerCase());
 
         } else {
             value = cellIn.toString().trim().toLowerCase();

@@ -1,426 +1,286 @@
-00:10:24,614 ERROR FileReaderImpl:124 - File G:\my\ash_db\res\dansers.xlsxnot found
-00:10:24,619  INFO RunClass:39 - fuck up
-java.lang.Exception: File G:\my\ash_db\res\dansers.xlsxnot found
-	at aorlov.ashdb.filereader.FileReaderImplOld.getInputStream(FileReaderImpl.java:125)
-	at aorlov.ashdb.filereader.FileReaderImplOld.getSheet(FileReaderImpl.java:26)
-	at aorlov.ashdb.filereader.FileReaderImplOld.testRead(FileReaderImpl.java:70)
-	at aorlov.RunClass.main(RunClass.java:34)
+22:56:18,986  INFO EventHelper:26 - Открытый Кубок  г.Новосибирска
+22:56:18,986  INFO EventHelper:26 - Открытый Кубок г.Минск
+22:56:18,986  INFO EventHelper:26 - Кубок морской  славы  г.СПб
+22:56:18,987  INFO EventHelper:26 - Осенний кубок  Ренессанса  г.Барнаул
+22:56:18,987  INFO EventHelper:26 - Надежды  России г.Москва
+22:56:18,987  INFO EventHelper:26 - Чемпионат Сибири  г.Красноярск
+22:56:18,987  INFO EventHelper:26 - Кубок Буревестника  2013
+22:56:18,988  INFO EventHelper:26 - Чемпионат  юга России  г.Ростов-на-Дону
+22:56:18,988  INFO EventHelper:26 - Dance weekend  г.СПб
+22:56:18,988  INFO EventHelper:26 - Открытый кубок  для E+D  г.Красноярск
+22:56:18,988  INFO EventHelper:26 - Шаг Вперед-2  г.Красноярск
+22:56:18,989  INFO EventHelper:26 - Открытие  Сезона  г.Москва
+22:56:18,989  INFO EventHelper:26 - Летний Кубок  г.Новосибирск
+22:56:18,989  INFO EventHelper:26 - Летний кубок  г.Минск
+22:56:18,990  INFO EventHelper:26 - Кубок Лета  г.СПб
+22:56:18,991  INFO EventHelper:26 - На пути  к звездам  г.Красноярск
+22:56:18,991  INFO EventHelper:26 - Командное  первенство  г.Москва
+22:56:18,991  INFO EventHelper:26 - Новая волна  2103  г.Новосибирск
+22:56:18,991  INFO EventHelper:26 - Чемпионат  Москвы 2013
+22:56:18,991  INFO EventHelper:26 - Кубок Ренессанса  2013  г.Барнаул
+22:56:18,992  INFO EventHelper:26 - Турнир для  E+D класса.  г.Красноярск
+22:56:18,992  INFO EventHelper:26 - For Friends  Only 2013  г.СПб
+22:56:18,992  INFO EventHelper:26 - Dance Voyage г.Моска
+22:56:18,992  INFO EventHelper:26 - Танцевальный  Район  г.Москва
+22:56:18,993  INFO EventHelper:26 - Открытый Кубок  Альтернатива  г.Кемерово
+22:56:18,993  INFO EventHelper:26 - Nord Cup  г.Санкт-Петербург
+22:56:18,993  INFO EventHelper:26 - Открытый Кубок  Движения  г.Красноярск
+22:56:18,993  INFO EventHelper:26 - Кубок АСХ  2013 г.Москва
+22:56:18,993  INFO EventHelper:26 - Чемпионат  Урала  г.Екатеринбург
+22:56:18,994  INFO EventHelper:26 - Февральский  марафон  г.Новосибирск
+22:56:18,994  INFO EventHelper:26 - Зимний Кубок  2013  г.Минск
+22:56:18,994  INFO EventHelper:26 - Шаг вперед  г.Красноярск
+22:56:18,994  INFO EventHelper:26 - Кубок Чемпионов  г.Москва
+22:56:18,994  INFO EventHelper:26 - Зимний Кубок  Сибири 2013  г. Красноярск
+22:56:18,995  INFO EventHelper:26 - Звезды Сибири  г.Новосибирск
+22:56:18,995  INFO EventHelper:26 - Космос 2012  г.СПб
+22:56:18,995  INFO EventHelper:26 - AbsolutCup г.Моска
+22:56:18,995  INFO EventHelper:26 - Держи Ритм г.Москва
+22:56:18,995  INFO EventHelper:26 - Кубок Морской  Славы г.СПб
+22:56:18,996  INFO EventHelper:26 - IV КУБОК МИНСКА  2012
+22:56:18,996  INFO EventHelper:26 - Classic Cup г.Москва
+22:56:18,996  INFO EventHelper:26 - Чемпионат Сибири г.Красноярск
+22:56:18,996  INFO EventHelper:26 - Чемпионат  России  2012  г.Москва
+22:56:18,996  INFO EventHelper:26 - Надежды  России г.Москва
+22:56:18,997  INFO EventHelper:26 - Открытый  турнир ED  г.Красноярск
+22:56:18,997  INFO EventHelper:26 - Star Cup г.Москва
+22:56:18,997  INFO EventHelper:26 - Осенний Кубок  Ренессанса  г.Барнаул
+22:56:18,997  INFO EventHelper:26 - Чемпионат  Юга России  г.Ростов-на-Дону
+22:56:18,997  INFO EventHelper:26 - DanceWeekend  г.СПб
+22:56:18,998  INFO EventHelper:26 - Осенний  кубок 2012 г.Москва
+22:56:18,998  INFO EventHelper:26 - Grand Prix г.Москва
+22:56:18,998  INFO EventHelper:26 - HUSTLE  DanсeFest  г.СПб
+22:56:18,998  INFO EventHelper:26 - Открытие  сезона г.Москва
+22:56:18,998  INFO EventHelper:26 - Летний Кубок г.Новосибирск
+22:56:18,999  INFO EventHelper:26 - Premier Cup г.Москва
+22:56:18,999  INFO EventHelper:26 - Жара г.Омск
+22:56:18,999  INFO EventHelper:26 - EnergyCup
+22:56:18,999  INFO EventHelper:26 - Летний кубок  Академии  Танца г.Саратов
+22:56:18,999  INFO EventHelper:26 - Red Cup
+22:56:19,000  INFO EventHelper:26 - Кубок  Лета 2012 г.СПб
+22:56:19,000  INFO EventHelper:26 - Летний  Кубок  г.Минск
+22:56:19,000  INFO EventHelper:26 - На пути к  звездам  Красноярск
+22:56:19,000  INFO EventHelper:26 - Командное  первенство  2012
+22:56:19,001  INFO EventHelper:26 - Чемпионат Москвы 2012
+22:56:19,001  INFO EventHelper:26 - Новая волна 2012 г.Новосибирск
+22:56:19,001  INFO EventHelper:26 - Кубок  Ренессанса  г.Барнаул
+22:56:19,001  INFO EventHelper:26 - Открытый  турнир г.Красноярск
+22:56:19,001  INFO EventHelper:26 - Весенний Кубок
+22:56:19,002  INFO EventHelper:26 - Кубок Северной Столицы
+22:56:19,002  INFO EventHelper:26 - Танцевальный район
+22:56:19,002  INFO EventHelper:26 - Кубок Мечты
+22:56:19,003  INFO EventHelper:26 - Держи Ритм
+22:56:19,003  INFO EventHelper:26 - Кубок АСХ  2012
+22:56:19,003  INFO EventHelper:26 - Кубок  КХК "Движение"  Красноярск
+22:56:19,003  INFO EventHelper:26 - Кубок  Северо- Запада
+22:56:19,004  INFO EventHelper:26 - Белый Кубок
+22:56:19,004  INFO EventHelper:26 - Февральский  Марафон  г.Новосибирск
+22:56:19,004  INFO EventHelper:26 - Зимний Кубок Vestadance
+22:56:19,005  INFO EventHelper:26 - Открытый  кубок ЕД  (Красноярск)
+22:56:19,005  INFO EventHelper:26 - Кубок  Чемпионов
+22:56:19,005  INFO EventHelper:26 - Step by Step Красноярск
+22:56:19,005  INFO EventHelper:26 - Позитивный Кубок (СПб)
+22:56:19,006  INFO EventHelper:26 - Кубок Дракона
+22:56:19,006  INFO EventHelper:26 - Открытие Года 2012
+22:56:19,006  INFO EventHelper:26 - Чемпионат России 2011
+22:56:19,007  INFO EventHelper:26 - Открытый  кубок  Новосибирска
+22:56:19,007  INFO EventHelper:26 - Космос 2011
+22:56:19,007  INFO EventHelper:26 - Буревестник 2011
+22:56:19,007  INFO EventHelper:26 - :Держи Ритм
+22:56:19,008  INFO EventHelper:26 - Чемпионат Сибири Красноярск
+22:56:19,008  INFO EventHelper:26 - Кубок Морской Славы
+22:56:19,008  INFO EventHelper:26 - Осенний  Кубок  Ренессанса
+22:56:19,009  INFO EventHelper:26 - Открытый  турнир  Красноярск
+22:56:19,009  INFO EventHelper:26 - Танц.  Weekend
+22:56:19,009  INFO EventHelper:26 - Надежды России
+22:56:19,009  INFO EventHelper:26 - Пламя осени
+22:56:19,010  INFO EventHelper:26 - Золото осени 2011
+22:56:19,010  INFO EventHelper:26 - Чемпионат  Поволжья Саратов
+22:56:19,010  INFO EventHelper:26 - Динамиада
+22:56:19,010  INFO EventHelper:26 - Открытие  Сезона
+22:56:19,011  INFO EventHelper:26 - Держи Ритм
+22:56:19,011  INFO EventHelper:26 - Динамиада
+22:56:19,011  INFO EventHelper:26 - Летний Кубок  Новосибирска
+22:56:19,012  INFO EventHelper:26 - Летний Кубок Vestadance
+22:56:19,012  INFO EventHelper:26 - Новый формат
+22:56:19,012  INFO EventHelper:26 - Чемпионат Юга России
+22:56:19,012  INFO EventHelper:26 - Летний кубок (г.Саратов)
+22:56:19,013  INFO EventHelper:26 - Кубок Лета  2011 (г.СПб)
+22:56:19,013  INFO EventHelper:26 - Динамиада
+22:56:19,013  INFO EventHelper:26 - Держи Ритм 16
+22:56:19,013  INFO EventHelper:26 - Кубок  В.Новгорода 2011
+22:56:19,014  INFO EventHelper:26 - Командное  первенство  2011
+22:56:19,014  INFO EventHelper:26 - На пути  к звёздам
+22:56:19,014  INFO EventHelper:26 - Весенний Кубок VestaDance
+22:56:19,015  INFO EventHelper:26 - Чемпионат Москвы 2011
+22:56:19,015  INFO EventHelper:26 - Кубок  Ренессанса 2011
+22:56:19,015  INFO EventHelper:26 - Открытый турнир  E+D класс
+22:56:19,015  INFO EventHelper:26 - Держи  Ритм 15
+22:56:19,016  INFO EventHelper:26 - Кубок  Северной Столицы
+22:56:19,016  INFO EventHelper:26 - Динамиада
+22:56:19,016  INFO EventHelper:26 - Кубок АСХ
+22:56:19,016  INFO EventHelper:26 - Новая волна
+22:56:19,017  INFO EventHelper:26 - Кубок  Движения г.Красноярск
+22:56:19,017  INFO EventHelper:26 - Весенний Кубок Сокольников
+22:56:19,017  INFO EventHelper:26 - Зимний Кубок  СПб
+22:56:19,017  INFO EventHelper:26 - Зимний кубок  Vestadance
+22:56:19,018  INFO EventHelper:26 - Держи Ритм 14
+22:56:19,018  INFO EventHelper:26 - Открытый турнир г.Красноярск
+22:56:19,018  INFO EventHelper:26 - Кубок  Чемпионов 2
+22:56:19,018  INFO EventHelper:26 - Дебют-2011
+22:56:19,019  INFO EventHelper:26 - Зимний Кубок  Академии Танца
+22:56:19,019  INFO EventHelper:26 - Кубок Лета,  4 тур (СПб)
+22:56:19,019  INFO EventHelper:26 - Откр.Кубок Новосибирска
+22:56:19,020  INFO EventHelper:26 - Кубок Особняка
+22:56:19,020  INFO EventHelper:26 - Чемпионат России + Будущ.чемпионы
+22:56:19,020  INFO EventHelper:26 - Кубок Лета 2010
+22:56:19,020  INFO EventHelper:26 - EuroDance - 3
+22:56:19,021  INFO EventHelper:26 - Кубок Сибири
+22:56:19,021  INFO EventHelper:26 - Осенний Кубок
+22:56:19,021  INFO EventHelper:26 - Надежды России
+22:56:19,021  INFO EventHelper:26 - Кубок ОДС
+22:56:19,021  INFO EventHelper:26 - Держи Ритм 13
+22:56:19,022  INFO EventHelper:26 - Золото Осени (СПб)
+22:56:19,022  INFO EventHelper:26 - Кубок Лета  2010 (2й тур)
+22:56:19,022  INFO EventHelper:26 - Открытие  сезона
+22:56:19,023  INFO EventHelper:26 - Летний кубок
+22:56:19,023  INFO EventHelper:26 - Держи Ритм 12
+22:56:19,023  INFO EventHelper:26 - Командное Первенство
+22:56:19,023  INFO EventHelper:26 - Чемпионат  Москвы
+22:56:19,024  INFO EventHelper:26 - На пути к  Звездам
+22:56:19,024  INFO EventHelper:26 - Куб.Великого Новгорода
+22:56:19,024  INFO EventHelper:26 - Держи Ритм 11
+22:56:19,024  INFO EventHelper:26 - Куб.Ренессанса
+22:56:19,025  INFO EventHelper:26 - Кубок Салюта
+22:56:19,025  INFO EventHelper:26 - Кубок Сев.Стол.
+22:56:19,025  INFO EventHelper:26 - Кубок Поволжья
+22:56:19,025  INFO EventHelper:26 - Звезды Хастл
+22:56:19,026  INFO EventHelper:26 - Простые движ. (СПб)
+22:56:19,026  INFO EventHelper:26 - Весенний Кубок
+22:56:19,026  INFO EventHelper:26 - Кубок Движения  Красноярск
+22:56:19,026  INFO EventHelper:26 - Кубок АСХ
+22:56:19,026  INFO EventHelper:26 - Держи Ритм
+22:56:19,027  INFO EventHelper:26 - Кубок Св.Вал.
+22:56:19,027  INFO EventHelper:26 - Кубок  Чемпионов
+22:56:19,027  INFO EventHelper:26 - Зимн.Кубок СПБ
+22:56:19,027  INFO EventHelper:26 - Дебют
+22:56:19,028  INFO EventHelper:26 - Кубок в Новосиб.
+22:56:19,028  INFO EventHelper:26 - Зимний кубок
+22:56:19,028  INFO EventHelper:26 - Чемпионат России  2009 г.Москва
+22:56:19,028  INFO EventHelper:26 - EuroDance 2
+22:56:19,029  INFO EventHelper:26 - Чемпионат Сибири
+22:56:19,029  INFO EventHelper:26 - Держи Ритм 9
+22:56:19,029  INFO EventHelper:26 - Кубок Октября
+22:56:19,029  INFO EventHelper:26 - Осенний  Кубок
+22:56:19,030  INFO EventHelper:26 - Чемпионат  РЦ Самолета
+22:56:19,030  INFO EventHelper:26 - Открытие  Сезона
+22:56:19,030  INFO EventHelper:26 - Держи ритм
+22:56:19,030  INFO EventHelper:26 - Летний кубок
+22:56:19,031  INFO EventHelper:26 - Держи ритм
+22:56:19,031  INFO EventHelper:26 - Чемпионат  Москвы 2009
+22:56:19,031  INFO EventHelper:26 - EuroDance
+22:56:19,031  INFO EventHelper:26 - Держи ритм
+22:56:19,032  INFO EventHelper:26 - Полет 2009
+22:56:19,032  INFO EventHelper:26 - Весенний  кубок 2009
+22:56:19,032  INFO EventHelper:26 - 2-й Cибирский  межрегион. конкурс
+22:56:19,032  INFO EventHelper:26 - Звезды  Хастла  2009
+22:56:19,033  INFO EventHelper:26 - Кубок АСХ 2009
+22:56:19,033  INFO EventHelper:26 - Держи ритм
+22:56:19,033  INFO EventHelper:26 - Дебют 2009
+22:56:19,033  INFO EventHelper:26 - Зимний Кубок
+22:56:19,034  INFO EventHelper:26 - Открытый  межрегион. Кубок Сибири
+22:56:19,034  INFO EventHelper:26 - Чемпионат  РЦ Самолет
+22:56:19,034  INFO EventHelper:26 - Чемпионат России 2008
+22:56:19,034  INFO EventHelper:26 - Осенний  кубок  Vestadance
+22:56:19,035  INFO EventHelper:26 - Держи ритм
+22:56:19,035  INFO EventHelper:26 - Чемпионат  Москвы 2008
+22:56:19,035  INFO EventHelper:26 - Летний  кубок Весты
+22:56:19,035  INFO EventHelper:26 - Летнее  первенство  2008
+22:56:19,036  INFO EventHelper:26 - Держи ритм
+22:56:19,036  INFO EventHelper:26 - Кубок Спартака  2008
+22:56:19,036  INFO EventHelper:26 - Кубок Столицы
+22:56:19,036  INFO EventHelper:26 - Майский Бал  N Club’а 2008  
+22:56:19,037  INFO EventHelper:26 - Полёт-2
+22:56:19,037  INFO EventHelper:26 - Весенний Кубок Vestadance
+22:56:19,037  INFO EventHelper:26 - Звезды Хастла 2008
+22:56:19,037  INFO EventHelper:26 - Держи Ритм 2
+22:56:19,038  INFO EventHelper:26 - Чемпионат  АСХ
+22:56:19,038  INFO EventHelper:26 - Дебют 3
+22:56:19,038  INFO EventHelper:26 - 1й рейтинговый турнир ХЦ
+22:56:19,038  INFO EventHelper:26 - Чемпионат РЦ Самолет
+22:56:19,039  INFO EventHelper:26 - Чемпионат Москвы 2007
+22:56:19,039  INFO EventHelper:26 - Осенний Бал N'Club
+22:56:19,039  INFO EventHelper:26 - Осенний Кубок Vestadance
+22:56:19,039  INFO EventHelper:26 - Гран При России
+22:56:19,039  INFO EventHelper:26 - Держи Ритм
+22:56:19,040  INFO EventHelper:26 - Майский Бал N'Club
+22:56:19,040  INFO EventHelper:26 - Звезды  Хастла
+22:56:19,040  INFO EventHelper:26 - Зимний Бал N'Club
+22:56:19,041  INFO EventHelper:26 - Кубок  VestaDance  "Дебют-2"
+00:34:51,476  INFO RunClass:49 - fuck up
+java.lang.IllegalStateException: Cannot get a text value from a numeric cell
+	at org.apache.poi.xssf.usermodel.XSSFCell.typeMismatch(XSSFCell.java:845)
+	at org.apache.poi.xssf.usermodel.XSSFCell.getRichStringCellValue(XSSFCell.java:294)
+	at org.apache.poi.xssf.usermodel.XSSFCell.getStringCellValue(XSSFCell.java:246)
+	at aorlov.ashdb.filereader.FileReaderImpl.getEvents(FileReaderImpl.java:138)
+	at aorlov.RunClass.main(RunClass.java:47)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:601)
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:120)
-00:25:30,481  INFO RunClass:36 - Personal Code [1]Name [Константин]Last name [Мордасов]Family name [null]Gender [M]Current Class [B]club [самост.]Reg.Date [Mon Jan 01 00:00:00 MSK 2001]
-00:25:30,513  INFO RunClass:36 - Personal Code [4]Name [Михаил]Last name [Жиров]Family name [null]Gender [M]Current Class [B]club [В-12]Reg.Date [Mon Jan 01 00:00:00 MSK 2001]
-00:25:30,513  INFO RunClass:36 - Personal Code [16]Name [Кирилл]Last name [Басургин]Family name [null]Gender [M]Current Class [B]club [N-Club]Reg.Date [Mon Jan 01 00:00:00 MSK 2001]
-00:25:30,514  INFO RunClass:36 - Personal Code [28]Name [Леонид]Last name [Пантелеев]Family name [Игоревич]Gender [M]Current Class [A]club [Остров,Vesta]Reg.Date [Mon Jan 01 00:00:00 MSK 2001]
-00:25:30,514  INFO RunClass:36 - Personal Code [41]Name [Артём]Last name [Вишенин]Family name [Александрович]Gender [M]Current Class [A]club [Reverie Dance]Reg.Date [Mon Jan 01 00:00:00 MSK 2001]
-00:25:30,514  INFO RunClass:36 - Personal Code [51]Name [Евгений]Last name [Васильев]Family name [null]Gender [M]Current Class [C]club [Экспромт]Reg.Date [Mon Jan 01 00:00:00 MSK 2001]
-00:25:30,514  INFO RunClass:36 - Personal Code [55]Name [Максим]Last name [Пантелеев]Family name [null]Gender [M]Current Class [C]club [самост.]Reg.Date [Mon Jan 01 00:00:00 MSK 2001]
-00:25:30,515  INFO RunClass:36 - Personal Code [71]Name [Евгений]Last name [Галактионов]Family name [null]Gender [M]Current Class [C]club [N-Club]Reg.Date [Mon Jan 01 00:00:00 MSK 2001]
-00:25:30,515  INFO RunClass:36 - Personal Code [75]Name [Пётр]Last name [Базанов]Family name [null]Gender [M]Current Class [C]club [Центральный]Reg.Date [Mon Jan 01 00:00:00 MSK 2001]
-00:25:30,515  INFO RunClass:36 - Personal Code [76]Name [Евгений]Last name [Данилов]Family name [Андреевич]Gender [M]Current Class [A]club [Nova Dance Studio]Reg.Date [Mon Jan 01 00:00:00 MSK 2001]
-00:25:30,515  INFO RunClass:36 - Personal Code [78]Name [Андрей]Last name [Коньков]Family name [Николаевич]Gender [M]Current Class [A]club [Движение]Reg.Date [Mon Jan 01 00:00:00 MSK 2001]
-00:25:30,515  INFO RunClass:36 - Personal Code [81]Name [Алексей]Last name [Чернов]Family name [null]Gender [M]Current Class [C]club [ДАРР (г.Иваново)]Reg.Date [Mon Jan 01 00:00:00 MSK 2001]
-00:59:27,464  INFO RunClass:32 - ID [0]name [Caminito]country [null]city [СПб]Web-site [null]
-00:59:27,537  INFO RunClass:32 - ID [0]name [Tanto]country [null]city [null]Web-site [null]
-00:59:27,538  INFO RunClass:32 - ID [0]name [YouDance]country [null]city [null]Web-site [null]
-00:59:27,538  INFO RunClass:32 - ID [0]name [DanceStyle]country [null]city [null]Web-site [null]
-00:59:27,538  INFO RunClass:32 - ID [0]name [Open Dance Studio]country [null]city [null]Web-site [null]
-00:59:27,538  INFO RunClass:32 - ID [0]name [RedHop]country [null]city [null]Web-site [null]
-00:59:27,538  INFO RunClass:32 - ID [0]name [AltroOne]country [null]city [null]Web-site [null]
-00:59:27,539  INFO RunClass:32 - ID [0]name [СХК]country [null]city [null]Web-site [null]
-00:59:27,539  INFO RunClass:32 - ID [0]name [DANCE PASSION]country [null]city [Новосибирск]Web-site [null]
-00:59:27,539  INFO RunClass:32 - ID [0]name [Профи-Данс]country [null]city [null]Web-site [null]
-00:59:27,539  INFO RunClass:32 - ID [0]name [КуБа]country [null]city [СПб]Web-site [null]
-00:59:27,539  INFO RunClass:32 - ID [0]name [Бродвей]country [null]city [Красноярск]Web-site [null]
-00:59:27,541  INFO RunClass:32 - ID [0]name [Танцующий город]country [null]city [Ростов-на-Дону]Web-site [null]
-00:59:27,541  INFO RunClass:32 - ID [0]name [Ритм]country [null]city [null]Web-site [null]
-00:59:27,541  INFO RunClass:32 - ID [0]name [Академия Танца]country [null]city [Саратов]Web-site [null]
-00:59:27,541  INFO RunClass:32 - ID [0]name [Фиеста]country [null]city [Томск]Web-site [null]
-00:59:27,541  INFO RunClass:32 - ID [0]name [Мегаполис]country [null]city [null]Web-site [null]
-00:59:27,542  INFO RunClass:32 - ID [0]name [Baila&Dance]country [null]city [Красноярск]Web-site [null]
-00:59:27,542  INFO RunClass:32 - ID [0]name [LaVida]country [null]city [Железногорск]Web-site [null]
-00:59:27,542  INFO RunClass:32 - ID [0]name [U'Piter]country [null]city [СПб]Web-site [null]
-00:59:27,542  INFO RunClass:32 - ID [0]name [ТВИКS]country [null]city [null]Web-site [null]
-00:59:27,542  INFO RunClass:32 - ID [0]name [Let's DANCE]country [null]city [Саратов]Web-site [null]
-00:59:27,543  INFO RunClass:32 - ID [0]name [самост.]country [null]city [null]Web-site [null]
-00:59:27,543  INFO RunClass:32 - ID [0]name [Dance Drive]country [null]city [СПб]Web-site [null]
-00:59:27,543  INFO RunClass:32 - ID [0]name [Street Emotion]country [null]city [Ростов-на-Дону]Web-site [null]
-00:59:27,543  INFO RunClass:32 - ID [0]name [Диамант]country [null]city [Тверь]Web-site [null]
-00:59:27,544  INFO RunClass:32 - ID [0]name [Just Dance Club]country [null]city [СПб]Web-site [null]
-00:59:27,544  INFO RunClass:32 - ID [0]name [Самарский хастл-клуб]country [null]city [null]Web-site [null]
-00:59:27,544  INFO RunClass:32 - ID [0]name [Juicy Carrots]country [null]city [Тверь]Web-site [null]
-00:59:27,544  INFO RunClass:32 - ID [0]name [Хастл-Эксклюзив]country [null]city [Новокузнецк]Web-site [null]
-00:59:27,545  INFO RunClass:32 - ID [0]name [HUSTLE-CLUB SARATOV]country [null]city [Саратов]Web-site [null]
-00:59:27,545  INFO RunClass:32 - ID [0]name [Априори]country [null]city [Владивосток]Web-site [null]
-00:59:27,545  INFO RunClass:32 - ID [0]name [Движение]country [null]city [null]Web-site [null]
-00:59:27,545  INFO RunClass:32 - ID [0]name [Энкор]country [null]city [Выборг]Web-site [null]
-00:59:27,546  INFO RunClass:32 - ID [0]name [Орион]country [null]city [null]Web-site [null]
-00:59:27,546  INFO RunClass:32 - ID [0]name [Bailaremos]country [null]city [Павлодар]Web-site [null]
-00:59:27,546  INFO RunClass:32 - ID [0]name [DanceFirst]country [null]city [null]Web-site [null]
-00:59:27,546  INFO RunClass:32 - ID [0]name [Nova Dance Studio]country [null]city [null]Web-site [null]
-00:59:27,546  INFO RunClass:32 - ID [0]name [Движение]country [null]city [Кемерово]Web-site [null]
-00:59:27,547  INFO RunClass:32 - ID [0]name [Дизайн]country [null]city [null]Web-site [null]
-00:59:27,547  INFO RunClass:32 - ID [0]name [Дизайн]country [null]city [Курск]Web-site [null]
-00:59:27,547  INFO RunClass:32 - ID [0]name [Jumping Cats]country [null]city [Екатеринбург]Web-site [null]
-00:59:27,547  INFO RunClass:32 - ID [0]name [Sergio dance]country [null]city [null]Web-site [null]
-00:59:27,547  INFO RunClass:32 - ID [0]name [Sole Dance]country [null]city [Омск]Web-site [null]
-00:59:27,548  INFO RunClass:32 - ID [0]name [Лето]country [null]city [СПб]Web-site [null]
-00:59:27,548  INFO RunClass:32 - ID [0]name [самост.]country [null]city [Хабаровск]Web-site [null]
-00:59:27,549  INFO RunClass:32 - ID [0]name [Визави]country [null]city [null]Web-site [null]
-00:59:27,549  INFO RunClass:32 - ID [0]name [Strikly]country [null]city [СПб]Web-site [null]
-00:59:27,549  INFO RunClass:32 - ID [0]name [самост.]country [null]city [СПб]Web-site [null]
-00:59:27,549  INFO RunClass:32 - ID [0]name [Индиго]country [null]city [null]Web-site [null]
-00:59:27,550  INFO RunClass:32 - ID [0]name [Nice Dance]country [null]city [null]Web-site [null]
-00:59:27,550  INFO RunClass:32 - ID [0]name [Жерминаль]country [null]city [Клин]Web-site [null]
-00:59:27,550  INFO RunClass:32 - ID [0]name [Альтернатива]country [null]city [null]Web-site [null]
-00:59:27,550  INFO RunClass:32 - ID [0]name [Sierra Maestra]country [null]city [СПб]Web-site [null]
-00:59:27,550  INFO RunClass:32 - ID [0]name [Данцарто]country [null]city [null]Web-site [null]
-00:59:27,550  INFO RunClass:32 - ID [0]name [N-Club]country [null]city [null]Web-site [null]
-00:59:27,550  INFO RunClass:32 - ID [0]name [Инима]country [null]city [Новокузнецк]Web-site [null]
-00:59:27,550  INFO RunClass:32 - ID [0]name [Априори]country [null]city [null]Web-site [null]
-00:59:27,551  INFO RunClass:32 - ID [0]name [Profi-Dance]country [null]city [null]Web-site [null]
-00:59:27,551  INFO RunClass:32 - ID [0]name [Движение]country [null]city [Новосибирск]Web-site [null]
-00:59:27,551  INFO RunClass:32 - ID [0]name [Алекс Хастл-Клуб]country [null]city [null]Web-site [null]
-00:59:27,551  INFO RunClass:32 - ID [0]name [Альтернатива]country [null]city [Саратов]Web-site [null]
-00:59:27,551  INFO RunClass:32 - ID [0]name [Вираж]country [null]city [Новосибирск]Web-site [null]
-00:59:27,551  INFO RunClass:32 - ID [0]name [Casablanca]country [null]city [Ростов-на-Дону]Web-site [null]
-00:59:27,551  INFO RunClass:32 - ID [0]name [MixStep]country [null]city [СПб]Web-site [null]
-00:59:27,552  INFO RunClass:32 - ID [0]name [студия Александра Красильникова]country [null]city [null]Web-site [null]
-00:59:27,552  INFO RunClass:32 - ID [0]name [Ренессанс]country [null]city [Барнаул]Web-site [null]
-00:59:27,552  INFO RunClass:32 - ID [0]name [Magma]country [null]city [null]Web-site [null]
-00:59:27,552  INFO RunClass:32 - ID [0]name [2H-club]country [null]city [null]Web-site [null]
-00:59:27,552  INFO RunClass:32 - ID [0]name [Созвездие]country [null]city [СПб]Web-site [null]
-00:59:27,552  INFO RunClass:32 - ID [0]name [Smile]country [null]city [null]Web-site [null]
-00:59:27,552  INFO RunClass:32 - ID [0]name [Остров]country [null]city [null]Web-site [null]
-00:59:27,552  INFO RunClass:32 - ID [0]name [Движение]country [null]city [Железногорск]Web-site [null]
-00:59:27,553  INFO RunClass:32 - ID [0]name [Текила данс]country [null]city [СПб]Web-site [null]
-00:59:27,553  INFO RunClass:32 - ID [0]name [Мегаполис]country [null]city [СПб]Web-site [null]
-00:59:27,553  INFO RunClass:32 - ID [0]name [Латинский квартал]country [null]city [СПб]Web-site [null]
-00:59:27,553  INFO RunClass:32 - ID [0]name [Триумф]country [null]city [СПб]Web-site [null]
-00:59:27,553  INFO RunClass:32 - ID [0]name [самост.]country [null]city [Владивосток]Web-site [null]
-00:59:27,553  INFO RunClass:32 - ID [0]name [Jam]country [null]city [Санкт-Петербург]Web-site [null]
-00:59:27,554  INFO RunClass:32 - ID [0]name [Таурас-Фитнес]country [null]city [СПб]Web-site [null]
-00:59:27,554  INFO RunClass:32 - ID [0]name [самост.]country [null]city [Фрязино]Web-site [null]
-00:59:27,554  INFO RunClass:32 - ID [0]name [Танденс]country [null]city [СПб]Web-site [null]
-00:59:27,554  INFO RunClass:32 - ID [0]name [Динамика]country [null]city [null]Web-site [null]
-00:59:27,554  INFO RunClass:32 - ID [0]name [Victory Smile Dance]country [null]city [СПб]Web-site [null]
-00:59:27,554  INFO RunClass:32 - ID [0]name [NON-STOP]country [null]city [СПб]Web-site [null]
-00:59:27,555  INFO RunClass:32 - ID [0]name [Хастл-сити]country [null]city [Новокузнецк]Web-site [null]
-00:59:27,555  INFO RunClass:32 - ID [0]name [Латинский квартал]country [null]city [Новороссийск]Web-site [null]
-00:59:27,555  INFO RunClass:32 - ID [0]name [DEF]country [null]city [Барнаул]Web-site [null]
-00:59:27,555  INFO RunClass:32 - ID [0]name [Движение]country [null]city [СПб]Web-site [null]
-00:59:27,555  INFO RunClass:32 - ID [0]name [Арриба]country [null]city [Саратов]Web-site [null]
-00:59:27,555  INFO RunClass:32 - ID [0]name [Элит]country [null]city [СПб]Web-site [null]
-00:59:27,555  INFO RunClass:32 - ID [0]name [Dance College Club]country [null]city [null]Web-site [null]
-00:59:27,556  INFO RunClass:32 - ID [0]name [S-клуб]country [null]city [null]Web-site [null]
-00:59:27,556  INFO RunClass:32 - ID [0]name [ШкоLa Magnit]country [null]city [СПб]Web-site [null]
-00:59:27,556  INFO RunClass:32 - ID [0]name [ХК]country [null]city [В.Новгород]Web-site [null]
-00:59:27,556  INFO RunClass:32 - ID [0]name [Эксельсиор]country [null]city [null]Web-site [null]
-00:59:27,556  INFO RunClass:32 - ID [0]name [ДАРР]country [null]city [Иваново]Web-site [null]
-00:59:27,556  INFO RunClass:32 - ID [0]name [Искра]country [null]city [СПб]Web-site [null]
-00:59:27,556  INFO RunClass:32 - ID [0]name [Центральный]country [null]city [null]Web-site [null]
-00:59:27,557  INFO RunClass:32 - ID [0]name [Хастл-Центр]country [null]city [null]Web-site [null]
-00:59:27,557  INFO RunClass:32 - ID [0]name [ТК "Хастл"]country [null]city [Минск]Web-site [null]
-00:59:27,557  INFO RunClass:32 - ID [0]name [Джайв-Стрит]country [null]city [СПб]Web-site [null]
-00:59:27,557  INFO RunClass:32 - ID [0]name [MMDance]country [null]city [СПб]Web-site [null]
-00:59:27,557  INFO RunClass:32 - ID [0]name [В-12]country [null]city [null]Web-site [null]
-00:59:27,557  INFO RunClass:32 - ID [0]name [Седьмое Небо]country [null]city [Железногорск]Web-site [null]
-00:59:27,557  INFO RunClass:32 - ID [0]name [Универ]country [null]city [В.Новгород]Web-site [null]
-00:59:27,558  INFO RunClass:32 - ID [0]name [БиС]country [null]city [null]Web-site [null]
-00:59:27,558  INFO RunClass:32 - ID [0]name [ДНК]country [null]city [СПб]Web-site [null]
-00:59:27,558  INFO RunClass:32 - ID [0]name [Лариса]country [null]city [Барнаул]Web-site [null]
-00:59:27,559  INFO RunClass:32 - ID [0]name [F Club]country [null]city [null]Web-site [null]
-00:59:27,559  INFO RunClass:32 - ID [0]name [самост.]country [null]city [В.Новгород]Web-site [null]
-00:59:27,559  INFO RunClass:32 - ID [0]name [Импровизация]country [null]city [СПб]Web-site [null]
-00:59:27,559  INFO RunClass:32 - ID [0]name [ШТАБ]country [null]city [Минск]Web-site [null]
-00:59:27,559  INFO RunClass:32 - ID [0]name [Пульс]country [null]city [null]Web-site [null]
-00:59:27,560  INFO RunClass:32 - ID [0]name [Студия Виктории Деминой]country [null]city [null]Web-site [null]
-00:59:27,560  INFO RunClass:32 - ID [0]name [LaDanza]country [null]city [null]Web-site [null]
-00:59:27,560  INFO RunClass:32 - ID [0]name [Стиль]country [null]city [null]Web-site [null]
-00:59:27,560  INFO RunClass:32 - ID [0]name [Find Me-Style]country [null]city [СПб]Web-site [null]
-00:59:27,560  INFO RunClass:32 - ID [0]name [Альтернатива]country [null]city [Барнаул]Web-site [null]
-00:59:27,560  INFO RunClass:32 - ID [0]name [Германия]country [null]city [null]Web-site [null]
-00:59:27,561  INFO RunClass:32 - ID [0]name [Ivara]country [null]city [null]Web-site [null]
-00:59:27,561  INFO RunClass:32 - ID [0]name [Импульс]country [null]city [Томск]Web-site [null]
-00:59:27,561  INFO RunClass:32 - ID [0]name [самостоятельно]country [null]city [Павлодар]Web-site [null]
-00:59:27,561  INFO RunClass:32 - ID [0]name [Богема]country [null]city [null]Web-site [null]
-00:59:27,561  INFO RunClass:32 - ID [0]name [Marusya]country [null]city [Ставрополь]Web-site [null]
-00:59:27,562  INFO RunClass:32 - ID [0]name [Hostel Hustle]country [null]city [null]Web-site [null]
-00:59:27,562  INFO RunClass:32 - ID [0]name [Walzer]country [null]city [null]Web-site [null]
-00:59:27,562  INFO RunClass:32 - ID [0]name [Vesta]country [null]city [null]Web-site [null]
-00:59:27,562  INFO RunClass:32 - ID [0]name [Тандем]country [null]city [Таганрог]Web-site [null]
-00:59:27,562  INFO RunClass:32 - ID [0]name [самост.]country [null]city [Омск]Web-site [null]
-00:59:27,563  INFO RunClass:32 - ID [0]name [Master Class]country [null]city [Барнаул]Web-site [null]
-00:59:27,563  INFO RunClass:32 - ID [0]name [МЖ]country [null]city [Дубна]Web-site [null]
-00:59:27,563  INFO RunClass:32 - ID [0]name [Фиеста]country [null]city [Красноярск]Web-site [null]
-00:59:27,564  INFO RunClass:32 - ID [0]name [Джемм]country [null]city [Омск]Web-site [null]
-00:59:27,564  INFO RunClass:32 - ID [0]name [Виктория]country [null]city [null]Web-site [null]
-00:59:27,564  INFO RunClass:32 - ID [0]name [Альтернатива]country [null]city [Кемерово]Web-site [null]
-00:59:27,564  INFO RunClass:32 - ID [0]name [Движение]country [null]city [Красноярск]Web-site [null]
-00:59:27,565  INFO RunClass:32 - ID [0]name [Dance Point]country [null]city [СПб]Web-site [null]
-00:59:27,565  INFO RunClass:32 - ID [0]name [Emotion]country [null]city [Абакан]Web-site [null]
-00:59:27,565  INFO RunClass:32 - ID [0]name [Reverie Dance]country [null]city [null]Web-site [null]
-00:59:27,565  INFO RunClass:32 - ID [0]name [Движение]country [null]city [Омск]Web-site [null]
-00:59:27,565  INFO RunClass:32 - ID [0]name [самост.]country [null]city [Минск]Web-site [null]
-00:59:27,566  INFO RunClass:32 - ID [0]name [AT-Dance]country [null]city [null]Web-site [null]
-00:59:27,566  INFO RunClass:32 - ID [0]name [ШТ В.Батия]country [null]city [СПб]Web-site [null]
-00:59:27,566  INFO RunClass:32 - ID [0]name [Экспромт]country [null]city [null]Web-site [null]
-00:59:27,566  INFO RunClass:32 - ID [0]name [Хастл-клуб]country [null]city [Курск]Web-site [null]
-00:59:27,567  INFO RunClass:32 - ID [0]name [Dance Cafe]country [null]city [Минск]Web-site [null]
-00:59:27,567  INFO RunClass:32 - ID [0]name [самост.]country [null]city [Барнаул]Web-site [null]
-00:59:27,567  INFO RunClass:32 - ID [0]name [Каприз]country [null]city [Энгельс]Web-site [null]
-00:59:27,567  INFO RunClass:32 - ID [0]name [Sole Dance]country [null]city [Омск]Web-site [null]
-00:59:27,567  INFO RunClass:32 - ID [0]name [Движение]country [null]city [Новокузнецк]Web-site [null]
-00:59:27,568  INFO RunClass:32 - ID [0]name [Красный уголок]country [null]city [null]Web-site [null]
-00:59:27,568  INFO RunClass:32 - ID [0]name [Спартак]country [null]city [null]Web-site [null]
-00:59:27,568  INFO RunClass:32 - ID [0]name [Студия С.Спиридонова]country [null]city [null]Web-site [null]
-00:59:27,568  INFO RunClass:32 - ID [0]name [Чердак]country [null]city [Красноярск]Web-site [null]
-00:59:27,568  INFO RunClass:32 - ID [0]name [Хастл]country [null]city [Выборг]Web-site [null]
-00:59:27,568  INFO RunClass:32 - ID [0]name [Танцевальная мастерская ID]country [null]city [Иваново]Web-site [null]
-01:16:12,612  INFO RunClass:44 - fuck up
-java.lang.IllegalArgumentException: Sheet index (-1) is out of range (0..2)
-	at org.apache.poi.xssf.usermodel.XSSFWorkbook.validateSheetIndex(XSSFWorkbook.java:1043)
-	at org.apache.poi.xssf.usermodel.XSSFWorkbook.getSheetAt(XSSFWorkbook.java:834)
-	at aorlov.ashdb.filereader.FileReaderHelper.getSheet(FileReaderHelper.java:184)
-	at aorlov.ashdb.filereader.FileReaderImpl.getClubs(FileReaderImpl.java:38)
-	at aorlov.RunClass.main(RunClass.java:30)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:601)
-	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:120)
-01:17:01,073  INFO RunClass:44 - fuck up
-java.lang.IllegalArgumentException: Sheet index (-1) is out of range (0..2)
-	at org.apache.poi.xssf.usermodel.XSSFWorkbook.validateSheetIndex(XSSFWorkbook.java:1043)
-	at org.apache.poi.xssf.usermodel.XSSFWorkbook.getSheetAt(XSSFWorkbook.java:834)
-	at aorlov.ashdb.filereader.FileReaderHelper.getSheet(FileReaderHelper.java:184)
-	at aorlov.ashdb.filereader.FileReaderImpl.getClubs(FileReaderImpl.java:38)
-	at aorlov.RunClass.main(RunClass.java:30)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:601)
-	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:120)
-01:17:24,367  INFO RunClass:44 - fuck up
-java.lang.IllegalArgumentException: Sheet index (-1) is out of range (0..2)
-	at org.apache.poi.xssf.usermodel.XSSFWorkbook.validateSheetIndex(XSSFWorkbook.java:1043)
-	at org.apache.poi.xssf.usermodel.XSSFWorkbook.getSheetAt(XSSFWorkbook.java:834)
-	at aorlov.ashdb.filereader.FileReaderHelper.getSheet(FileReaderHelper.java:184)
-	at aorlov.ashdb.filereader.FileReaderImpl.getClubs(FileReaderImpl.java:38)
-	at aorlov.RunClass.main(RunClass.java:30)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:601)
-	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:120)
-01:17:41,598  INFO RunClass:44 - fuck up
-java.lang.IllegalArgumentException: Sheet index (-1) is out of range (0..2)
-	at org.apache.poi.xssf.usermodel.XSSFWorkbook.validateSheetIndex(XSSFWorkbook.java:1043)
-	at org.apache.poi.xssf.usermodel.XSSFWorkbook.getSheetAt(XSSFWorkbook.java:834)
-	at aorlov.ashdb.filereader.FileReaderHelper.getSheet(FileReaderHelper.java:184)
-	at aorlov.ashdb.filereader.FileReaderImpl.getClubs(FileReaderImpl.java:38)
-	at aorlov.RunClass.main(RunClass.java:30)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:601)
-	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:120)
-01:30:19,461  INFO RunClass:32 - ID [0]name [Движение]country [null]city [Омск]Web-site [null]
-01:30:19,462  INFO RunClass:32 - ID [0]name [F Club]country [null]city [null]Web-site [null]
-01:30:19,462  INFO RunClass:32 - ID [0]name [самост.]country [null]city [Омск]Web-site [null]
-01:30:19,462  INFO RunClass:32 - ID [0]name [Дизайн]country [null]city [Курск]Web-site [null]
-01:30:19,462  INFO RunClass:32 - ID [0]name [Nova Dance Studio]country [null]city [null]Web-site [null]
-01:30:19,462  INFO RunClass:32 - ID [0]name [Пульс]country [null]city [null]Web-site [null]
-01:30:19,462  INFO RunClass:32 - ID [0]name [Ритм]country [null]city [null]Web-site [null]
-01:30:19,463  INFO RunClass:32 - ID [0]name [2H-club]country [null]city [null]Web-site [null]
-01:30:19,463  INFO RunClass:32 - ID [0]name [AltroOne]country [null]city [null]Web-site [null]
-01:30:19,463  INFO RunClass:32 - ID [0]name [Джайв-Стрит]country [null]city [СПб]Web-site [null]
-01:30:19,463  INFO RunClass:32 - ID [0]name [Hostel Hustle]country [null]city [null]Web-site [null]
-01:30:19,464  INFO RunClass:32 - ID [0]name [Каприз]country [null]city [Энгельс]Web-site [null]
-01:30:19,464  INFO RunClass:32 - ID [0]name [СХК]country [null]city [null]Web-site [null]
-01:30:19,464  INFO RunClass:32 - ID [0]name [Find Me-Style]country [null]city [СПб]Web-site [null]
-01:30:19,464  INFO RunClass:32 - ID [0]name [КуБа]country [null]city [СПб]Web-site [null]
-01:30:19,465  INFO RunClass:32 - ID [0]name [Лариса]country [null]city [Барнаул]Web-site [null]
-01:30:19,465  INFO RunClass:32 - ID [0]name [DANCE PASSION]country [null]city [Новосибирск]Web-site [null]
-01:30:19,465  INFO RunClass:32 - ID [0]name [Движение]country [null]city [Новокузнецк]Web-site [null]
-01:30:19,465  INFO RunClass:32 - ID [0]name [ТК "Хастл"]country [null]city [Минск]Web-site [null]
-01:30:19,465  INFO RunClass:32 - ID [0]name [Германия]country [null]city [null]Web-site [null]
-01:30:19,465  INFO RunClass:32 - ID [0]name [YouDance]country [null]city [null]Web-site [null]
-01:30:19,465  INFO RunClass:32 - ID [0]name [Искра]country [null]city [СПб]Web-site [null]
-01:30:19,466  INFO RunClass:32 - ID [0]name [Magma]country [null]city [null]Web-site [null]
-01:30:19,466  INFO RunClass:32 - ID [0]name [Априори]country [null]city [Владивосток]Web-site [null]
-01:30:19,466  INFO RunClass:32 - ID [0]name [Лето]country [null]city [СПб]Web-site [null]
-01:30:19,466  INFO RunClass:32 - ID [0]name [В-12]country [null]city [null]Web-site [null]
-01:30:19,466  INFO RunClass:32 - ID [0]name [LaVida]country [null]city [Железногорск]Web-site [null]
-01:30:19,466  INFO RunClass:32 - ID [0]name [HUSTLE-CLUB SARATOV]country [null]city [Саратов]Web-site [null]
-01:30:19,466  INFO RunClass:32 - ID [0]name [DanceFirst]country [null]city [null]Web-site [null]
-01:30:19,467  INFO RunClass:32 - ID [0]name [Marusya]country [null]city [Ставрополь]Web-site [null]
-01:30:19,467  INFO RunClass:32 - ID [0]name [Sergio dance]country [null]city [null]Web-site [null]
-01:30:19,467  INFO RunClass:32 - ID [0]name [Триумф]country [null]city [СПб]Web-site [null]
-01:30:19,467  INFO RunClass:32 - ID [0]name [самост.]country [null]city [Хабаровск]Web-site [null]
-01:30:19,469  INFO RunClass:32 - ID [0]name [Master Class]country [null]city [Барнаул]Web-site [null]
-01:30:19,469  INFO RunClass:32 - ID [0]name [Strikly]country [null]city [СПб]Web-site [null]
-01:30:19,469  INFO RunClass:32 - ID [0]name [Фиеста]country [null]city [Томск]Web-site [null]
-01:30:19,469  INFO RunClass:32 - ID [0]name [Центральный]country [null]city [null]Web-site [null]
-01:30:19,469  INFO RunClass:32 - ID [0]name [ШкоLa Magnit]country [null]city [СПб]Web-site [null]
-01:30:19,470  INFO RunClass:32 - ID [0]name [Nice Dance]country [null]city [null]Web-site [null]
-01:30:19,470  INFO RunClass:32 - ID [0]name [Reverie Dance]country [null]city [null]Web-site [null]
-01:30:19,470  INFO RunClass:32 - ID [0]name [Танденс]country [null]city [СПб]Web-site [null]
-01:30:19,470  INFO RunClass:32 - ID [0]name [самост.]country [null]city [Фрязино]Web-site [null]
-01:30:19,470  INFO RunClass:32 - ID [0]name [MixStep]country [null]city [СПб]Web-site [null]
-01:30:19,470  INFO RunClass:32 - ID [0]name [Profi-Dance]country [null]city [null]Web-site [null]
-01:30:19,470  INFO RunClass:32 - ID [0]name [Индиго]country [null]city [null]Web-site [null]
-01:30:19,470  INFO RunClass:32 - ID [0]name [Street Emotion]country [null]city [Ростов-на-Дону]Web-site [null]
-01:30:19,471  INFO RunClass:32 - ID [0]name [Tanto]country [null]city [null]Web-site [null]
-01:30:19,471  INFO RunClass:32 - ID [0]name [самост.]country [null]city [null]Web-site [null]
-01:30:19,471  INFO RunClass:32 - ID [0]name [ТВИКS]country [null]city [null]Web-site [null]
-01:30:19,471  INFO RunClass:32 - ID [0]name [ДНК]country [null]city [СПб]Web-site [null]
-01:30:19,471  INFO RunClass:32 - ID [0]name [Универ]country [null]city [В.Новгород]Web-site [null]
-01:30:19,472  INFO RunClass:32 - ID [0]name [Baila&Dance]country [null]city [Красноярск]Web-site [null]
-01:30:19,472  INFO RunClass:32 - ID [0]name [Созвездие]country [null]city [СПб]Web-site [null]
-01:30:19,472  INFO RunClass:32 - ID [0]name [Инима]country [null]city [Новокузнецк]Web-site [null]
-01:30:19,472  INFO RunClass:32 - ID [0]name [Casablanca]country [null]city [Ростов-на-Дону]Web-site [null]
-01:30:19,473  INFO RunClass:32 - ID [0]name [Дизайн]country [null]city [null]Web-site [null]
-01:30:19,473  INFO RunClass:32 - ID [0]name [Движение]country [null]city [Кемерово]Web-site [null]
-01:30:19,473  INFO RunClass:32 - ID [0]name [Визави]country [null]city [null]Web-site [null]
-01:30:19,473  INFO RunClass:32 - ID [0]name [Экспромт]country [null]city [null]Web-site [null]
-01:30:19,473  INFO RunClass:32 - ID [0]name [Импульс]country [null]city [Томск]Web-site [null]
-01:30:19,474  INFO RunClass:32 - ID [0]name [Dance Cafe]country [null]city [Минск]Web-site [null]
-01:30:19,474  INFO RunClass:32 - ID [0]name [Остров]country [null]city [null]Web-site [null]
-01:30:19,474  INFO RunClass:32 - ID [0]name [Орион]country [null]city [null]Web-site [null]
-01:30:19,474  INFO RunClass:32 - ID [0]name [Виктория]country [null]city [null]Web-site [null]
-01:30:19,474  INFO RunClass:32 - ID [0]name [БиС]country [null]city [null]Web-site [null]
-01:30:19,474  INFO RunClass:32 - ID [0]name [Стиль]country [null]city [null]Web-site [null]
-01:30:19,474  INFO RunClass:32 - ID [0]name [Ренессанс]country [null]city [Барнаул]Web-site [null]
-01:30:19,474  INFO RunClass:32 - ID [0]name [Sole Dance]country [null]city [Омск]Web-site [null]
-01:30:19,475  INFO RunClass:32 - ID [0]name [Априори]country [null]city [null]Web-site [null]
-01:30:19,475  INFO RunClass:32 - ID [0]name [Спартак]country [null]city [null]Web-site [null]
-01:30:19,475  INFO RunClass:32 - ID [0]name [самостоятельно]country [null]city [Павлодар]Web-site [null]
-01:30:19,475  INFO RunClass:32 - ID [0]name [Smile]country [null]city [null]Web-site [null]
-01:30:19,475  INFO RunClass:32 - ID [0]name [Ivara]country [null]city [null]Web-site [null]
-01:30:19,475  INFO RunClass:32 - ID [0]name [Вираж]country [null]city [Новосибирск]Web-site [null]
-01:30:19,475  INFO RunClass:32 - ID [0]name [U'Piter]country [null]city [СПб]Web-site [null]
-01:30:19,475  INFO RunClass:32 - ID [0]name [ШТ В.Батия]country [null]city [СПб]Web-site [null]
-01:30:19,476  INFO RunClass:32 - ID [0]name [Бродвей]country [null]city [Красноярск]Web-site [null]
-01:30:19,476  INFO RunClass:32 - ID [0]name [Хастл]country [null]city [Выборг]Web-site [null]
-01:30:19,476  INFO RunClass:32 - ID [0]name [Мегаполис]country [null]city [null]Web-site [null]
-01:30:19,476  INFO RunClass:32 - ID [0]name [ДАРР]country [null]city [Иваново]Web-site [null]
-01:30:19,476  INFO RunClass:32 - ID [0]name [Арриба]country [null]city [Саратов]Web-site [null]
-01:30:19,476  INFO RunClass:32 - ID [0]name [Джемм]country [null]city [Омск]Web-site [null]
-01:30:19,476  INFO RunClass:32 - ID [0]name [Альтернатива]country [null]city [null]Web-site [null]
-01:30:19,477  INFO RunClass:32 - ID [0]name [Фиеста]country [null]city [Красноярск]Web-site [null]
-01:30:19,477  INFO RunClass:32 - ID [0]name [Хастл-Эксклюзив]country [null]city [Новокузнецк]Web-site [null]
-01:30:19,477  INFO RunClass:32 - ID [0]name [Jam]country [null]city [Санкт-Петербург]Web-site [null]
-01:30:19,477  INFO RunClass:32 - ID [0]name [Данцарто]country [null]city [null]Web-site [null]
-01:30:19,477  INFO RunClass:32 - ID [0]name [Dance College Club]country [null]city [null]Web-site [null]
-01:30:19,477  INFO RunClass:32 - ID [0]name [MMDance]country [null]city [СПб]Web-site [null]
-01:30:19,477  INFO RunClass:32 - ID [0]name [LaDanza]country [null]city [null]Web-site [null]
-01:30:19,477  INFO RunClass:32 - ID [0]name [Студия С.Спиридонова]country [null]city [null]Web-site [null]
-01:30:19,478  INFO RunClass:32 - ID [0]name [МЖ]country [null]city [Дубна]Web-site [null]
-01:30:19,478  INFO RunClass:32 - ID [0]name [Jumping Cats]country [null]city [Екатеринбург]Web-site [null]
-01:30:19,478  INFO RunClass:32 - ID [0]name [самост.]country [null]city [Минск]Web-site [null]
-01:30:19,478  INFO RunClass:32 - ID [0]name [Sole Dance]country [null]city [Омск]Web-site [null]
-01:30:19,479  INFO RunClass:32 - ID [0]name [Движение]country [null]city [Новосибирск]Web-site [null]
-01:30:19,479  INFO RunClass:32 - ID [0]name [Мегаполис]country [null]city [СПб]Web-site [null]
-01:30:19,479  INFO RunClass:32 - ID [0]name [Латинский квартал]country [null]city [Новороссийск]Web-site [null]
-01:30:19,479  INFO RunClass:32 - ID [0]name [Движение]country [null]city [СПб]Web-site [null]
-01:30:19,479  INFO RunClass:32 - ID [0]name [самост.]country [null]city [В.Новгород]Web-site [null]
-01:30:19,479  INFO RunClass:32 - ID [0]name [DEF]country [null]city [Барнаул]Web-site [null]
-01:30:19,480  INFO RunClass:32 - ID [0]name [Caminito]country [null]city [СПб]Web-site [null]
-01:30:19,480  INFO RunClass:32 - ID [0]name [Динамика]country [null]city [null]Web-site [null]
-01:30:19,480  INFO RunClass:32 - ID [0]name [AT-Dance]country [null]city [null]Web-site [null]
-01:30:19,480  INFO RunClass:32 - ID [0]name [NON-STOP]country [null]city [СПб]Web-site [null]
-01:30:19,480  INFO RunClass:32 - ID [0]name [Тандем]country [null]city [Таганрог]Web-site [null]
-01:30:19,480  INFO RunClass:32 - ID [0]name [Альтернатива]country [null]city [Саратов]Web-site [null]
-01:30:19,481  INFO RunClass:32 - ID [0]name [Энкор]country [null]city [Выборг]Web-site [null]
-01:30:19,481  INFO RunClass:32 - ID [0]name [ХК]country [null]city [В.Новгород]Web-site [null]
-01:30:19,481  INFO RunClass:32 - ID [0]name [Движение]country [null]city [null]Web-site [null]
-01:30:19,481  INFO RunClass:32 - ID [0]name [Богема]country [null]city [null]Web-site [null]
-01:30:19,481  INFO RunClass:32 - ID [0]name [Танцевальная мастерская ID]country [null]city [Иваново]Web-site [null]
-01:30:19,481  INFO RunClass:32 - ID [0]name [Dance Drive]country [null]city [СПб]Web-site [null]
-01:30:19,482  INFO RunClass:32 - ID [0]name [студия Александра Красильникова]country [null]city [null]Web-site [null]
-01:30:19,482  INFO RunClass:32 - ID [0]name [Диамант]country [null]city [Тверь]Web-site [null]
-01:30:19,482  INFO RunClass:32 - ID [0]name [Профи-Данс]country [null]city [null]Web-site [null]
-01:30:19,482  INFO RunClass:32 - ID [0]name [Альтернатива]country [null]city [Барнаул]Web-site [null]
-01:30:19,482  INFO RunClass:32 - ID [0]name [Жерминаль]country [null]city [Клин]Web-site [null]
-01:30:19,483  INFO RunClass:32 - ID [0]name [Алекс Хастл-Клуб]country [null]city [null]Web-site [null]
-01:30:19,483  INFO RunClass:32 - ID [0]name [Sierra Maestra]country [null]city [СПб]Web-site [null]
-01:30:19,483  INFO RunClass:32 - ID [0]name [Таурас-Фитнес]country [null]city [СПб]Web-site [null]
-01:30:19,483  INFO RunClass:32 - ID [0]name [Walzer]country [null]city [null]Web-site [null]
-01:30:19,483  INFO RunClass:32 - ID [0]name [Juicy Carrots]country [null]city [Тверь]Web-site [null]
-01:30:19,484  INFO RunClass:32 - ID [0]name [Vesta]country [null]city [null]Web-site [null]
-01:30:19,484  INFO RunClass:32 - ID [0]name [Импровизация]country [null]city [СПб]Web-site [null]
-01:30:19,484  INFO RunClass:32 - ID [0]name [самост.]country [null]city [Владивосток]Web-site [null]
-01:30:19,484  INFO RunClass:32 - ID [0]name [Элит]country [null]city [СПб]Web-site [null]
-01:30:19,484  INFO RunClass:32 - ID [0]name [Латинский квартал]country [null]city [СПб]Web-site [null]
-01:30:19,485  INFO RunClass:32 - ID [0]name [Студия Виктории Деминой]country [null]city [null]Web-site [null]
-01:30:19,485  INFO RunClass:32 - ID [0]name [Красный уголок]country [null]city [null]Web-site [null]
-01:30:19,485  INFO RunClass:32 - ID [0]name [самост.]country [null]city [СПб]Web-site [null]
-01:30:19,485  INFO RunClass:32 - ID [0]name [S-клуб]country [null]city [null]Web-site [null]
-01:30:19,485  INFO RunClass:32 - ID [0]name [Let's DANCE]country [null]city [Саратов]Web-site [null]
-01:30:19,486  INFO RunClass:32 - ID [0]name [самост.]country [null]city [Барнаул]Web-site [null]
-01:30:19,486  INFO RunClass:32 - ID [0]name [N-Club]country [null]city [null]Web-site [null]
-01:30:19,486  INFO RunClass:32 - ID [0]name [Текила данс]country [null]city [СПб]Web-site [null]
-01:30:19,486  INFO RunClass:32 - ID [0]name [Академия Танца]country [null]city [Саратов]Web-site [null]
-01:30:19,486  INFO RunClass:32 - ID [0]name [Хастл-клуб]country [null]city [Курск]Web-site [null]
-01:30:19,487  INFO RunClass:32 - ID [0]name [Самарский хастл-клуб]country [null]city [null]Web-site [null]
-01:30:19,487  INFO RunClass:32 - ID [0]name [Хастл-Центр]country [null]city [null]Web-site [null]
-01:30:19,487  INFO RunClass:32 - ID [0]name [Движение]country [null]city [Красноярск]Web-site [null]
-01:30:19,487  INFO RunClass:32 - ID [0]name [Движение]country [null]city [Железногорск]Web-site [null]
-01:30:19,487  INFO RunClass:32 - ID [0]name [Танцующий город]country [null]city [Ростов-на-Дону]Web-site [null]
-01:30:19,488  INFO RunClass:32 - ID [0]name [DanceStyle]country [null]city [null]Web-site [null]
-01:30:19,488  INFO RunClass:32 - ID [0]name [Just Dance Club]country [null]city [СПб]Web-site [null]
-01:30:19,488  INFO RunClass:32 - ID [0]name [Open Dance Studio]country [null]city [null]Web-site [null]
-01:30:19,488  INFO RunClass:32 - ID [0]name [Emotion]country [null]city [Абакан]Web-site [null]
-01:30:19,488  INFO RunClass:32 - ID [0]name [Dance Point]country [null]city [СПб]Web-site [null]
-01:30:19,489  INFO RunClass:32 - ID [0]name [Седьмое Небо]country [null]city [Железногорск]Web-site [null]
-01:30:19,489  INFO RunClass:32 - ID [0]name [Эксельсиор]country [null]city [null]Web-site [null]
-01:30:19,489  INFO RunClass:32 - ID [0]name [Хастл-сити]country [null]city [Новокузнецк]Web-site [null]
-01:30:19,489  INFO RunClass:32 - ID [0]name [Чердак]country [null]city [Красноярск]Web-site [null]
-01:30:19,489  INFO RunClass:32 - ID [0]name [Victory Smile Dance]country [null]city [СПб]Web-site [null]
-01:30:19,490  INFO RunClass:32 - ID [0]name [Альтернатива]country [null]city [Кемерово]Web-site [null]
-01:30:19,490  INFO RunClass:32 - ID [0]name [RedHop]country [null]city [null]Web-site [null]
-01:30:19,490  INFO RunClass:32 - ID [0]name [ШТАБ]country [null]city [Минск]Web-site [null]
-01:30:19,490  INFO RunClass:32 - ID [0]name [Bailaremos]country [null]city [Павлодар]Web-site [null]
-01:50:51,744  INFO RunClass:45 - fuck up
-java.lang.IllegalArgumentException: Sheet index (-1) is out of range (0..2)
-	at org.apache.poi.xssf.usermodel.XSSFWorkbook.validateSheetIndex(XSSFWorkbook.java:1043)
-	at org.apache.poi.xssf.usermodel.XSSFWorkbook.getSheetAt(XSSFWorkbook.java:834)
-	at aorlov.ashdb.filereader.FileReaderHelper.getSheet(FileReaderHelper.java:184)
-	at aorlov.ashdb.filereader.FileReaderImpl.getDancers(FileReaderImpl.java:29)
-	at aorlov.RunClass.main(RunClass.java:39)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:601)
-	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:120)
-02:24:03,597  INFO RunClass:48 - fuck up
+00:35:49,364  INFO RunClass:49 - fuck up
 java.lang.NullPointerException
-	at aorlov.RunClass.main(RunClass.java:44)
+	at aorlov.ashdb.filereader.FileReaderImpl.getEvents(FileReaderImpl.java:133)
+	at aorlov.RunClass.main(RunClass.java:47)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:601)
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:120)
-02:25:08,626  INFO RunClass:48 - fuck up
+00:57:01,347  INFO RunClass:49 - fuck up
 java.lang.NullPointerException
-	at aorlov.RunClass.main(RunClass.java:44)
+	at aorlov.ashdb.filereader.FileReaderImpl.getEvents(FileReaderImpl.java:135)
+	at aorlov.RunClass.main(RunClass.java:47)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:601)
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:120)
-02:26:44,222  INFO RunClass:44 - Personal Code [1]Name [Константин]Last name [Мордасов]Family name [null]Gender [M]Current Class [B]club [самост.]Reg.Date [Mon Jan 01 00:00:00 MSK 2001]
-02:26:44,222  INFO RunClass:44 - Personal Code [4]Name [Михаил]Last name [Жиров]Family name [null]Gender [M]Current Class [B]club [В-12]Reg.Date [Mon Jan 01 00:00:00 MSK 2001]
-02:26:44,223  INFO RunClass:44 - Personal Code [16]Name [Кирилл]Last name [Басургин]Family name [null]Gender [M]Current Class [B]club [N-Club]Reg.Date [Mon Jan 01 00:00:00 MSK 2001]
-02:26:44,223  INFO RunClass:44 - Personal Code [28]Name [Леонид]Last name [Пантелеев]Family name [Игоревич]Gender [M]Current Class [A]club [Остров,Vesta]Reg.Date [Mon Jan 01 00:00:00 MSK 2001]
-02:26:44,223  INFO RunClass:44 - Personal Code [41]Name [Артём]Last name [Вишенин]Family name [Александрович]Gender [M]Current Class [A]club [Reverie Dance]Reg.Date [Mon Jan 01 00:00:00 MSK 2001]
-02:26:44,223  INFO RunClass:44 - Personal Code [51]Name [Евгений]Last name [Васильев]Family name [null]Gender [M]Current Class [C]club [Экспромт]Reg.Date [Mon Jan 01 00:00:00 MSK 2001]
-02:26:44,223  INFO RunClass:44 - Personal Code [55]Name [Максим]Last name [Пантелеев]Family name [null]Gender [M]Current Class [C]club [самост.]Reg.Date [Mon Jan 01 00:00:00 MSK 2001]
-02:26:44,224  INFO RunClass:44 - Personal Code [71]Name [Евгений]Last name [Галактионов]Family name [null]Gender [M]Current Class [C]club [N-Club]Reg.Date [Mon Jan 01 00:00:00 MSK 2001]
-02:26:44,225  INFO RunClass:44 - Personal Code [75]Name [Пётр]Last name [Базанов]Family name [null]Gender [M]Current Class [C]club [Центральный]Reg.Date [Mon Jan 01 00:00:00 MSK 2001]
-02:26:44,225  INFO RunClass:44 - Personal Code [76]Name [Евгений]Last name [Данилов]Family name [Андреевич]Gender [M]Current Class [A]club [Nova Dance Studio]Reg.Date [Mon Jan 01 00:00:00 MSK 2001]
-02:26:44,225  INFO RunClass:44 - Personal Code [78]Name [Андрей]Last name [Коньков]Family name [Николаевич]Gender [M]Current Class [A]club [Движение]Reg.Date [Mon Jan 01 00:00:00 MSK 2001]
-02:26:44,225  INFO RunClass:44 - Personal Code [81]Name [Алексей]Last name [Чернов]Family name [null]Gender [M]Current Class [C]club [ДАРР (г.Иваново)]Reg.Date [Mon Jan 01 00:00:00 MSK 2001]
+01:10:52,898  INFO RunClass:49 - fuck up
+java.lang.NullPointerException
+	at aorlov.ashdb.filereader.FileReaderImpl.getEvents(FileReaderImpl.java:136)
+	at aorlov.RunClass.main(RunClass.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:120)
+01:33:28,729  INFO RunClass:49 - fuck up
+java.lang.NullPointerException
+	at aorlov.ashdb.filereader.FileReaderImpl.getEvents(FileReaderImpl.java:136)
+	at aorlov.RunClass.main(RunClass.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:120)
+01:58:17,583  INFO RunClass:49 - fuck up
+java.util.NoSuchElementException
+	at java.util.TreeMap$PrivateEntryIterator.nextEntry(TreeMap.java:1113)
+	at java.util.TreeMap$ValueIterator.next(TreeMap.java:1160)
+	at aorlov.ashdb.filereader.FileReaderImpl.getEvents(FileReaderImpl.java:117)
+	at aorlov.RunClass.main(RunClass.java:47)
+01:58:26,976  INFO RunClass:49 - fuck up
+java.util.NoSuchElementException
+	at java.util.TreeMap$PrivateEntryIterator.nextEntry(TreeMap.java:1113)
+	at java.util.TreeMap$ValueIterator.next(TreeMap.java:1160)
+	at aorlov.ashdb.filereader.FileReaderImpl.getEvents(FileReaderImpl.java:117)
+	at aorlov.RunClass.main(RunClass.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:120)
+03:17:02,102 ERROR FileReaderImpl:135 - NOT DATE
+03:20:58,075 ERROR FileReaderImpl:135 - NOT DATE

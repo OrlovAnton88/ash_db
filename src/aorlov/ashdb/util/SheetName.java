@@ -13,4 +13,6 @@ public interface SheetName {
 
     static final String DANCERS = "список танцоров";
 
+    static final String RATING = "rating";
+
 }
