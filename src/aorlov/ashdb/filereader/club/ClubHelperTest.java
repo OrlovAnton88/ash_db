@@ -11,8 +11,8 @@ import org.apache.poi.ss.usermodel.Row;
 public class ClubHelperTest extends TestCase {
     public void testDecodeClubName() throws Exception {
 
-       String input = "Sole Dance (г.Омск)";
-        Club club  = new Club();
+        String input = "Sole Dance (г.Омск)";
+        Club club = new Club();
 
         HSSFWorkbook book = new HSSFWorkbook();
         HSSFSheet sheet = book.createSheet("Sample sheet");
@@ -20,9 +20,9 @@ public class ClubHelperTest extends TestCase {
         Cell cell = row.createCell(0);
         cell.setCellValue(input);
 
-        ClubHelper.decodeClubName(club,cell);
-        assertEquals("Sole Dance",club.getName());
-        assertEquals("Омск",club.getCity());
+        ClubHelper.decodeClubName(club, cell);
+        assertEquals("Sole Dance", club.getName());
+        assertEquals("Омск", club.getCity());
 
 
     }

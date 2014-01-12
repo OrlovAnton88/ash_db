@@ -34,15 +34,16 @@ public class FileReaderHelper {
         }
     }
 
-    public static void constructClub(Club clubIn,String fieldName, Cell cellIn ) throws Exception{
+    public static void constructClub(Club clubIn, String fieldName, Cell cellIn) throws Exception {
         switch (fieldName) {
             case "club":
-                ClubHelper.decodeClubName(clubIn,cellIn);
+                ClubHelper.decodeClubName(clubIn, cellIn);
                 break;
             default:
                 LOGGER.error("Unable to decode parameter [" + cellIn.toString() + "]");
+        }
     }
-    }
+
     public static void constructPerson(Dancer dancerIn, String fieldName, Cell cellIn) {
         switch (fieldName) {
             case "personalcode":
@@ -72,9 +73,9 @@ public class FileReaderHelper {
     }
 
     private static Date decodeRegDate(Cell cellIn) {
-         if(cellIn.getCellType() == Cell.CELL_TYPE_NUMERIC)  {
-           return cellIn.getDateCellValue();
-         }
+        if (cellIn.getCellType() == Cell.CELL_TYPE_NUMERIC) {
+            return cellIn.getDateCellValue();
+        }
         return new Date();
     }
 
@@ -117,15 +118,15 @@ public class FileReaderHelper {
 
     }
 
-    public static String removeLineBreak(String valueIn){
+    public static String removeLineBreak(String valueIn) {
         String toReturn = valueIn;
-        if(valueIn.contains("\n")){
+        if (valueIn.contains("\n")) {
             toReturn = valueIn.replace("\n", " ");
         }
         return toReturn;
     }
 
-    public static Row getHeaderRow(XSSFSheet sheetIn){
+    public static Row getHeaderRow(XSSFSheet sheetIn) {
         XSSFSheet sheet = sheetIn;
         Iterator<Row> rowIterator = sheet.iterator();
         Row header = rowIterator.next();
@@ -133,13 +134,12 @@ public class FileReaderHelper {
     }
 
     /**
-     *
      * @param headerIn
      * @param fieldColumnMap
-     * @return    number of columns
+     * @return number of columns
      * @deprecated
      */
-    public static Integer doColumnToFieldMatching(Row headerIn, Map<Integer, String> fieldColumnMap){
+    public static Integer doColumnToFieldMatching(Row headerIn, Map<Integer, String> fieldColumnMap) {
         Iterator<Cell> headerСellIterator = headerIn.cellIterator();
         int counter = 0;
         while (headerСellIterator.hasNext()) {
@@ -151,7 +151,7 @@ public class FileReaderHelper {
         return counter;
     }
 
-    public static Map <Integer, String> getColumnToFiledMap(Row headerIn){
+    public static Map<Integer, String> getColumnToFiledMap(Row headerIn) {
         Map<Integer, String> columnFieldMap = new HashMap<Integer, String>();
         Iterator<Cell> headerСellIterator = headerIn.cellIterator();
         int counter = 0;
@@ -162,7 +162,7 @@ public class FileReaderHelper {
             counter++;
         }
 
-    return columnFieldMap;
+        return columnFieldMap;
     }
 
     private static String decodeHeaderValue(Cell cellIn) {
@@ -180,6 +180,7 @@ public class FileReaderHelper {
 
     /**
      * Get Excel Sheet by name
+     *
      * @param fileName
      * @param sheetName
      * @return
@@ -195,7 +196,7 @@ public class FileReaderHelper {
             throw new Exception("Error in creating work book", ex);
         }
         int index = workbook.getSheetIndex(sheetName);
-        LOGGER.debug("Sheet index: [" + index +']');
+        LOGGER.debug("Sheet index: [" + index + ']');
 
         XSSFSheet sheet = workbook.getSheetAt(index);
         return sheet;

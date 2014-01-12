@@ -5,13 +5,19 @@ import aorlov.ashdb.core.Dancer;
 import aorlov.ashdb.core.Event;
 import aorlov.ashdb.util.FileName;
 import aorlov.ashdb.util.SheetName;
+import com.sun.xml.internal.fastinfoset.util.CharArrayString;
 import org.apache.log4j.Logger;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Comment;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.*;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 
 public class FileReaderImpl implements FileReader {
@@ -109,8 +115,11 @@ public class FileReaderImpl implements FileReader {
         Iterator<Cell> dateCellIterator = datesRow.iterator();
         Iterator<Cell> nameCellIterator = namesNow.iterator();
 
-        skipCells(dateCellIterator, cellNum);
-        skipCells(nameCellIterator, cellNum);
+        //todo: WTH how it's possible?
+        // 7 != 9
+
+        skipCells(dateCellIterator, 9);
+        skipCells(nameCellIterator, 7);
 
         while (nameCellIterator.hasNext() && dateCellIterator.hasNext()) {
             Event event = new Event(cellNum);
@@ -120,26 +129,77 @@ public class FileReaderImpl implements FileReader {
                 continue;
             }
             if (!parseDateCell(event, dateCell)) {
-                continue;
+//                continue;
             }
 
             events.add(event);
             LOGGER.debug(event.toString());
             cellNum++;
+//            if(cellNum == 30){
+//                break;
+//            }
         }
 
         return null;
     }
 
-    private boolean parseDateCell(Event eventIn, Cell dateCell) {
+    private boolean parseDateCell(Event eventIn, Cell dateCell) throws Exception {
+        Date resultDate = null;
+        if (Cell.CELL_TYPE_NUMERIC == dateCell.getCellType()) {
+            String cellToString = dateCell.toString();
+            LOGGER.debug("getDate() - Cell.toString: " + cellToString);
+            if (cellToString.indexOf('-') > 0) {
+                resultDate = dateCell.getDateCellValue();
+            } else if (cellToString.contains("E")) {
+                StringBuffer toReturn = new StringBuffer();
+                CharSequence charSequence = new CharArrayString(cellToString);
+                for (int i = 0; i < charSequence.length(); i++) {
+                    char ch = charSequence.charAt(i);
+                    if (ch == '.') {
+                        continue;
+                    } else if (ch == 'E') {
+                        break;
+                    }
+                    toReturn.append(ch);
+
+                }
+                DateFormat df = new SimpleDateFormat("yyyyMMdd");
+                try {
+                    resultDate = df.parse(toReturn.toString());
+                } catch (ParseException ex) {
+                    String error = "Error in parsing double to date";
+                    LOGGER.error(error);
+//                    throw new Exception(error, ex);
+                }
+                if (resultDate == null) {
+                    Comment comment = dateCell.getCellComment();
+                    resultDate = parseCommentToGetDate(comment);
+                }
+            }
+            if (resultDate != null) {
+                eventIn.setEventDate(resultDate);
+                return true;
+            }
+        } else {
+            LOGGER.error("DateCell is not numeric type.");
+        }
+        return false;
+    }
+
+    @Deprecated
+    private boolean parseDateCellOld(Event eventIn, Cell dateCell) {
         if (Cell.CELL_TYPE_STRING == dateCell.getCellType()) {
-            LOGGER.error("NOT DATE");
+            LOGGER.debug("parseDateCell() - CELL_TYPE_STRING: " + dateCell.toString());
             return false;
 
         } else if (Cell.CELL_TYPE_NUMERIC == dateCell.getCellType()) {
-//            LOGGER.debug("DateCell type is Numeric");
-//            Date cellValue = dateCell.getDateCellValue();
-//            LOGGER.debug("Cell value [" + cellValue + ']');
+            LOGGER.debug("parseDateCell() - CELL_TYPE_NUMERIC: " + dateCell.toString());
+            try {
+                Date date = dateCell.getDateCellValue();
+                LOGGER.info("dateCell.getDateCellValue(): " + date);
+            } catch (Exception ex) {
+                LOGGER.error("");
+            }
             eventIn.setEventDate(getDate(dateCell));
             return true;
         }
@@ -148,36 +208,56 @@ public class FileReaderImpl implements FileReader {
 
     private Date getDate(Cell dateCell) {
         String cellToString = dateCell.toString();
+        LOGGER.debug("getDate() - Cell.toString: " + cellToString);
         if (cellToString.indexOf('-') > 0) {
             return dateCell.getDateCellValue();
         } else {
             try {
-                Date dateToReturn = new Date();
                 Comment comment = dateCell.getCellComment();
-                parseCommentToGetDate(comment);
-
-                cellToString = cellToString.trim();
-                return null;
+                return parseCommentToGetDate(comment);
 
             } catch (Exception ex) {
-                //do nothing
+                LOGGER.error("Error in getting date from cell " + ex.getMessage());
                 return null;
             }
         }
     }
 
-    public Date parseCommentToGetDate(Comment comment){
+    public Date parseCommentToGetDate(Comment comment) {
         String str = comment.getString().toString();
+        String pattern1 = "\\d{4}.\\d{2}.\\d{2}";
+        String pattern2 = "\\d{2}.\\d{2}.\\d{4}";
+        String pattern3 = "\\d{1}.\\d{2}.\\d{4}";
+        Map<String, String> patterDateMaskMap = new HashMap();
+        patterDateMaskMap.put(pattern1, "yyyy.MM.dd");
+        patterDateMaskMap.put(pattern2, "dd.MM.yyyy");
+        patterDateMaskMap.put(pattern3, "d.MM.yyyy");
+        Set<String> patternSet = patterDateMaskMap.keySet();
 
-//
-//        int year = Integer.valueOf(cellToString.substring(0, 3));
-//        int month = Integer.valueOf(cellToString.substring(4, 5));
-//        int day = Integer.valueOf(cellToString.substring(6, 7));
-//        Calendar calendar = new GregorianCalendar(year, month, day);
-//        return calendar.getTime();
+        String resultDate = "";
+        String resultPattern = "";
+        for (String pattern : patternSet) {
+            Matcher matcher = Pattern.compile(pattern).matcher(str);
+            if (matcher.find()) {
+                resultDate = matcher.group();
+                resultPattern = pattern;
+                LOGGER.info("Date found: " + resultDate);
+                break;
+            }
+        }
+        if (resultDate.length() == 0) {
+            LOGGER.error("Unable to get date from string: " + str);
+        }
 
+        DateFormat df = new SimpleDateFormat(patterDateMaskMap.get(resultPattern));
+        Date result = null;
+        try {
+            result = df.parse(resultDate);
+        } catch (ParseException ex) {
+            LOGGER.error("Error in parsing date string to Date object " + ex);
+        }
 
-             return new Date();
+        return result;
     }
 
     private boolean parseNameCell(Event eventIn, Cell nameCell) {

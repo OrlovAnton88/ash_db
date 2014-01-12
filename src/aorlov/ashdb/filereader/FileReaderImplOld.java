@@ -21,23 +21,23 @@ public class FileReaderImplOld implements FileReader {
     private Map<String, Integer> coulumnMatching = new HashMap();
 
 
-
     public Set<Club> getClubs() throws Exception {
-      return null;
+        return null;
     }
 
-    public List<Dancer> getDancers() throws Exception{
+    public List<Dancer> getDancers() throws Exception {
         return null;
 
     }
 
 
-    public List<Dancer> getDancers(int maxNumber) throws Exception{
+    public List<Dancer> getDancers(int maxNumber) throws Exception {
 
         List<Dancer> personsList = new ArrayList();
 
         //Get first sheet from the workbook
-        XSSFSheet sheet = getSheet(FileName.ASH_XLSX, 0);;
+        XSSFSheet sheet = getSheet(FileName.ASH_XLSX, 0);
+        ;
 
         //Get iterator to all the rows in current sheet
         Iterator<Row> rowIterator = sheet.iterator();
@@ -69,8 +69,6 @@ public class FileReaderImplOld implements FileReader {
         return personsList;
 
     }
-
-
 
 
     public Dancer constructPerson(Row header, Row row) {

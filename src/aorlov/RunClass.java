@@ -25,7 +25,8 @@ public class RunClass {
         FileReaderImplOld flOld = new FileReaderImplOld();
         PersonHelperImpl helper = new PersonHelperImpl();
 
-       Map<String, City> cityMap =  XMLReader.getInstance().getCityMap();
+//       Map<String, City> cityMap =  XMLReader.getInstance().getCityMap();
+
 
 
         try{
@@ -44,7 +45,7 @@ public class RunClass {
 //               logger.info(dancer.toString());
 //            }
 
-//            fl.getEvents ();
+            fl.getEvents ();
         } catch(Exception ex){
             logger.info("fuck up", ex);
         }

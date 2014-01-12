@@ -21,17 +21,17 @@ public class ClubHelper {
 
         String clubName = params[0].trim();
         clubIn.setName(clubName);
-        if(params.length>1){
-        String dirtyCity = params[1].trim();
-        String city = dirtyCity;
-        if (dirtyCity.contains("г.")) {
-            int index = dirtyCity.lastIndexOf("г.");
-            city = dirtyCity.substring(index+2, dirtyCity.length());
+        if (params.length > 1) {
+            String dirtyCity = params[1].trim();
+            String city = dirtyCity;
+            if (dirtyCity.contains("г.")) {
+                int index = dirtyCity.lastIndexOf("г.");
+                city = dirtyCity.substring(index + 2, dirtyCity.length());
+            }
+            clubIn.setCity(city);
         }
-        clubIn.setCity(city);
-        }
-        if(params.length >2){
-            LOGGER.warn("Not standart value"+ value);
+        if (params.length > 2) {
+            LOGGER.warn("Not standart value" + value);
         }
 
     }

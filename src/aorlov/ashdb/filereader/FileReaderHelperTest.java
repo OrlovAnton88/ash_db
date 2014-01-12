@@ -2,7 +2,7 @@ package aorlov.ashdb.filereader;
 
 import junit.framework.TestCase;
 
-public class FileReaderHelperTest extends TestCase{
+public class FileReaderHelperTest extends TestCase {
 
     public void testDecodePersonalCode() throws Exception {
         String value1 = "1.0";

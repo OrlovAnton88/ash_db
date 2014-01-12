@@ -14,7 +14,7 @@ import java.util.Collection;
  */
 public class RatingSheetReader {
 
-    public Collection<Dancer> getDancers(int maxNumber){
+    public Collection<Dancer> getDancers(int maxNumber) {
         Collection dancers = new ArrayList<Dancer>();
 
 
