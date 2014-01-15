@@ -2,6 +2,7 @@ package aorlov;
 
 import aorlov.ashdb.core.Club;
 import aorlov.ashdb.core.Dancer;
+import aorlov.ashdb.core.Event;
 import aorlov.ashdb.core.geo.City;
 import aorlov.ashdb.filereader.FileReaderImpl;
 import aorlov.ashdb.persist.ClubHelper;
@@ -28,36 +29,12 @@ public class RunClass {
 
 
         try{
-//            Set<Club> clubs = fl.getClubs();
-//            for(Club club: clubs){
-//                logger.info(club.toString());
-//                String clubCity = club.getCity();
-//                if(cityMap.containsKey(clubCity)){
-//                    logger.debug("MATCH!!! ");
-//                }
-//
-//            }
-//            flOld.getDancers(100);
-//           List<Dancer> list = (List) fl.getDancers(100);
-//           for(Dancer dancer : list){
-//               logger.info(dancer.toString());
-//            }
-//            Set<Club> list = fl.getClubs();
-//            Collection list = Arrays.asList(clubs.toArray());
+            Collection <Event> events = fl.getEvents(10);
 
-            ClubHelper helper1 = new ClubHelperImpl();
-//            helper1.persistClubs(list);
-//           Collection<Club> clubs = helper1.getClubs();
-//            for(Club club : clubs){
-//                LOGGER.debug(club.toString());
-//            }
+            for(Event event : events){
+                LOGGER.debug(event.toString());
+            }
 
-            Collection<Dancer> list = fl.getDancers();
-
-           PersonHelperImpl personHelper = new PersonHelperImpl();
-           personHelper.persistPersons(list);
-
-//            fl.getEvents ();
         } catch(Exception ex){
             LOGGER.info("fuck up", ex);
         }

@@ -1,6 +1,7 @@
 package aorlov.ashdb.test.filereader;
 
 import aorlov.ashdb.core.Dancer;
+import aorlov.ashdb.core.Event;
 import aorlov.ashdb.filereader.FileReaderImpl;
 import com.sun.xml.internal.fastinfoset.util.CharArray;
 import com.sun.xml.internal.fastinfoset.util.CharArrayString;
@@ -12,8 +13,7 @@ import org.junit.Test;
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.Date;
-import java.util.Locale;
+import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -83,4 +83,24 @@ public class FileReaderImplTest extends TestCase {
         Date result  =  df.parse(toReturn.toString());
         System.out.println(result);
     }
+
+    public void testGetEvents() throws Exception{
+        Event toTest = new Event();
+        toTest.setEventDate(new Date());
+        toTest.setName("N/A");
+        FileReaderImpl fl = new FileReaderImpl();
+        Collection<Event> events = fl.getEvents(10);
+        for(Event event: events){
+            if("Открытый  турнир  г.Красноярск".equals(event.getFullName().trim())){
+                toTest = event;
+                break;
+            }
+        }
+        Calendar calendar = new GregorianCalendar(2013,11,8);
+        Date date = new Date(calendar.getTimeInMillis());
+        assertEquals(date, toTest.getEventDate());
+
+
+    }
 }
+

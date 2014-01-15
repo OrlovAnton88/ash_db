@@ -1,9 +1,6 @@
 package aorlov.ashdb.filereader;
 
-import aorlov.ashdb.core.Club;
-import aorlov.ashdb.core.Dancer;
-import aorlov.ashdb.core.Event;
-import aorlov.ashdb.core.Vocabulary;
+import aorlov.ashdb.core.*;
 import aorlov.ashdb.util.FileName;
 import aorlov.ashdb.util.SheetName;
 import com.sun.xml.internal.fastinfoset.util.CharArrayString;
@@ -27,6 +24,7 @@ public class FileReaderImpl implements FileReader {
 
     /**
      * Get dancers score by name and personal code
+     *
      * @param dancer
      * @return
      * @throws Exception
@@ -56,10 +54,10 @@ public class FileReaderImpl implements FileReader {
             } else {
                 Cell cell = row.getCell(collumnToSearch);
                 if (Cell.CELL_TYPE_FORMULA == cell.getCellType()) {
-                    String dancerString =cell.getStringCellValue();
+                    String dancerString = cell.getStringCellValue();
                     String name = dancer.getName();
                     String lastName = dancer.getLastName();
-                    if(dancerString.indexOf(name) > -1 && dancerString.indexOf(lastName)> -1){
+                    if (dancerString.indexOf(name) > -1 && dancerString.indexOf(lastName) > -1) {
                         LOGGER.debug("PersonFound: " + dancerString);
                         //iterate row and get scores
 
@@ -97,7 +95,7 @@ public class FileReaderImpl implements FileReader {
         while (rowIterator.hasNext()) {
             //if more than 50 rows one by one are empty - stop
             int stop = 0;
-            if ((counter > maxNumber && maxNumber !=-1) || stop > 50) {
+            if ((counter > maxNumber && maxNumber != -1) || stop > 50) {
                 break;
             }
 
@@ -106,11 +104,11 @@ public class FileReaderImpl implements FileReader {
             for (int i = 0; i < numOfColumns; i++) {
                 String columnName = fieldColumnMap.get(i);
                 Cell cell = row.getCell(i);
-                if(cell != null){
-                if (columnName != null && cell.toString().length() > 0) {
-                    FileReaderHelper.constructPerson(dancer, columnName, cell);
-                }
-                }else{
+                if (cell != null) {
+                    if (columnName != null && cell.toString().length() > 0) {
+                        FileReaderHelper.constructPerson(dancer, columnName, cell);
+                    }
+                } else {
                     stop++;
                 }
 
@@ -156,20 +154,173 @@ public class FileReaderImpl implements FileReader {
     }
 
 
+    /**
+     * get all events from xls doc
+     *
+     * @return
+     * @throws Exception
+     */
     public Collection<Event> getEvents() throws Exception {
+        return getEvents(-1);
+    }
+
+    /**
+     * get all events
+     *
+     * @param maxNum
+     * @return
+     * @throws Exception
+     */
+    public Collection<Event> getEvents(int maxNum) throws Exception {
+
         Collection<Event> events = new ArrayList<>();
 
         HSSFSheet sheet = FileReaderHelper.getSheet(FileName.ASH_TEST_XLSX, SheetName.RATING);
         Map<String, Integer> rowMap = EventHelper.determineRows(sheet);
         int indexOfNamesRow = rowMap.get(EventHelper.EVENT_NAME_ROW);
         int indexOfDateRow = rowMap.get(EventHelper.EVENT_DATE);
+        int eClassNumRow = rowMap.get(EventHelper.EVENT_E_CLASS);
+        int dClassNumRow = rowMap.get(EventHelper.EVENT_D_CLASS);
+        int cClassNumRow = rowMap.get(EventHelper.EVENT_C_CLASS);
+        int bClassNumRow = rowMap.get(EventHelper.EVENT_B_CLASS);
+        int aClassNumRow = rowMap.get(EventHelper.EVENT_A_CLASS);
+
+//        int cellNum = rowMap.get(EventHelper.EVENT_NAME_START_CELL);
+
+        Row namesNow = sheet.getRow(indexOfNamesRow);
+        Row datesRow = sheet.getRow(indexOfDateRow);
+        Row eClassRow = sheet.getRow(eClassNumRow);
+        Row dClassRow = sheet.getRow(dClassNumRow);
+        Row cClassRow = sheet.getRow(cClassNumRow);
+        Row bClassRow = sheet.getRow(bClassNumRow);
+        Row aClassRow = sheet.getRow(aClassNumRow);
+
+
+        boolean start = false;
+
+        int length = namesNow.getLastCellNum();
+
+        if (maxNum != -1) {
+            length = maxNum + 13;
+        }
+
+        for (int i = 0; i < length; i++) {
+            if (start) {
+                Event event = new Event(i);
+                Cell nameCell = namesNow.getCell(i);
+                Cell dateCell = datesRow.getCell(i);
+                Cell eClass = eClassRow.getCell(i);
+                Cell dClass = dClassRow.getCell(i);
+                Cell cClass = cClassRow.getCell(i);
+                Cell bClass = bClassRow.getCell(i);
+                Cell aClass = aClassRow.getCell(i);
+                if (!parseNameCell(event, nameCell)) {
+                    continue;
+                }
+
+                parseDateCell(event, dateCell);
+
+                parseParticipantsCell(event, eClass, HustleClass.CLASS_E);
+                parseParticipantsCell(event, dClass, HustleClass.CLASS_D);
+                parseParticipantsCell(event, cClass, HustleClass.CLASS_C);
+                parseParticipantsCell(event, bClass, HustleClass.CLASS_B);
+                parseParticipantsCell(event, aClass, HustleClass.CLASS_A);
+                events.add(event);
+            } else {
+                Cell cell = eClassRow.getCell(i);
+                if (Cell.CELL_TYPE_STRING == cell.getCellType()) {
+                    String cellValue = cell.getStringCellValue();
+//                    Matcher matcher = Pattern.compile(EventHelper.numOfEPairs).matcher(cellValue);
+
+                    if (EventHelper.numOfEPairs.equals(cellValue)) {
+                        start = true;
+                    }
+                }
+            }
+        }
+
+        return events;
+    }
+
+
+    private void parseParticipantsCell(Event eventIn, Cell cellIn, char classId) {
+        int toReturn = 0;
+
+        if (cellIn != null && Cell.CELL_TYPE_STRING == cellIn.getCellType()) {
+            String cellValue = cellIn.getStringCellValue();
+
+            Matcher matcher = Pattern.compile(EventHelper.PARTICIPANTS_CELL_PATTERN)
+                    .matcher(cellValue);
+
+            if (matcher.find()) {
+                String toParse = matcher.group();
+                Matcher matcher2 = Pattern.compile("\\d{2}")
+                        .matcher(toParse);
+                if (matcher2.find()) {
+                    String num = matcher2.group();
+                    try {
+                        toReturn = Integer.valueOf(num);
+                    } catch (NumberFormatException ex) {
+                        LOGGER.error("Error parsing number: " + ex.getMessage());
+                    }
+                }
+
+            }
+        }
+        switch (classId){
+            case HustleClass.CLASS_E:
+                eventIn.seteClassPairs(toReturn);
+                break;
+            case HustleClass.CLASS_D:
+                eventIn.setdClassPairs(toReturn);
+                break;
+            case HustleClass.CLASS_C:
+                eventIn.setcClassPairs(toReturn);
+                break;
+            case HustleClass.CLASS_B:
+                eventIn.setbClassPairs(toReturn);
+                break;
+            case HustleClass.CLASS_A:
+                eventIn.setaClassPairs(toReturn);
+                break;
+            default:
+                //do nothing;
+        }
+
+    }
+
+
+    /**
+     * Get all events from rating sheet
+     *
+     * @return
+     * @throws Exception
+     * @deprecated
+     */
+    public Collection<Event> getEventsOld(int maxNum) throws Exception {
+        int counter = 0;
+        Collection<Event> events = new ArrayList<>();
+
+        HSSFSheet sheet = FileReaderHelper.getSheet(FileName.ASH_TEST_XLSX, SheetName.RATING);
+        Map<String, Integer> rowMap = EventHelper.determineRows(sheet);
+        int indexOfNamesRow = rowMap.get(EventHelper.EVENT_NAME_ROW);
+        int indexOfDateRow = rowMap.get(EventHelper.EVENT_DATE);
+        int eClassNumRow = rowMap.get(EventHelper.EVENT_E_CLASS);
+        int dClassNumRow = rowMap.get(EventHelper.EVENT_D_CLASS);
+        int cClassNumRow = rowMap.get(EventHelper.EVENT_C_CLASS);
         int cellNum = rowMap.get(EventHelper.EVENT_NAME_START_CELL);
 
         Row namesNow = sheet.getRow(indexOfNamesRow);
         Row datesRow = sheet.getRow(indexOfDateRow);
+        Row eClassRow = sheet.getRow(eClassNumRow);
+        Row dClassRow = sheet.getRow(dClassNumRow);
+        Row cClassRow = sheet.getRow(cClassNumRow);
 
         Iterator<Cell> dateCellIterator = datesRow.iterator();
         Iterator<Cell> nameCellIterator = namesNow.iterator();
+        Iterator<Cell> eClassCellIterator = eClassRow.iterator();
+        Iterator<Cell> dClassCellIterator = eClassRow.iterator();
+        Iterator<Cell> cClassCellIterator = eClassRow.iterator();
 
         //todo: WTH how it's possible?
         // 7 != 9
@@ -191,19 +342,19 @@ public class FileReaderImpl implements FileReader {
             events.add(event);
             LOGGER.debug(event.toString());
             cellNum++;
-//            if(cellNum == 30){
-//                break;
-//            }
+            if (maxNum != -1 && counter > maxNum) {
+                break;
+            }
         }
 
-        return null;
+        return events;
     }
 
     private boolean parseDateCell(Event eventIn, Cell dateCell) throws Exception {
         Date resultDate = null;
         if (Cell.CELL_TYPE_NUMERIC == dateCell.getCellType()) {
             String cellToString = dateCell.toString();
-            LOGGER.debug("getDate() - Cell.toString: " + cellToString);
+//            LOGGER.debug("getDate() - Cell.toString: " + cellToString);
             if (cellToString.indexOf('-') > 0) {
                 resultDate = dateCell.getDateCellValue();
             } else if (cellToString.contains("E")) {
