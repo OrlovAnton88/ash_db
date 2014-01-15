@@ -1,5 +1,7 @@
-package aorlov.ashdb.filereader;
+package aorlov.ashdb.test.filereader;
 
+import aorlov.ashdb.core.Dancer;
+import aorlov.ashdb.filereader.FileReaderImpl;
 import com.sun.xml.internal.fastinfoset.util.CharArray;
 import com.sun.xml.internal.fastinfoset.util.CharArrayString;
 import junit.framework.TestCase;
@@ -23,6 +25,18 @@ import java.util.regex.Pattern;
  * To change this template use File | Settings | File Templates.
  */
 public class FileReaderImplTest extends TestCase {
+
+
+    public void testGetDancerHistory() throws Exception{
+        Dancer dancer = new Dancer();
+        dancer.setName("Григорий");
+        dancer.setLastName("Аверин");
+        dancer.setFamilyName("Анатольевич");
+
+        FileReaderImpl fl = new FileReaderImpl();
+        fl.getDancerHistory(dancer);
+
+    }
     @Test
     public void testParseCommentToGetDate() throws Exception {
         String str = "Название: Зимний Кубок Спб \n" +

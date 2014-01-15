@@ -3,14 +3,15 @@ package aorlov.ashdb.filereader;
 import aorlov.ashdb.core.Club;
 import aorlov.ashdb.core.Dancer;
 import aorlov.ashdb.core.Event;
+import aorlov.ashdb.core.Vocabulary;
 import aorlov.ashdb.util.FileName;
 import aorlov.ashdb.util.SheetName;
 import com.sun.xml.internal.fastinfoset.util.CharArrayString;
 import org.apache.log4j.Logger;
+import org.apache.poi.hssf.usermodel.HSSFSheet;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Comment;
 import org.apache.poi.ss.usermodel.Row;
-import org.apache.poi.xssf.usermodel.XSSFSheet;
 
 import java.text.DateFormat;
 import java.text.ParseException;
@@ -24,6 +25,51 @@ public class FileReaderImpl implements FileReader {
 
     private static Logger LOGGER = Logger.getLogger(FileReaderImpl.class);
 
+    /**
+     * Get dancers score by name and personal code
+     * @param dancer
+     * @return
+     * @throws Exception
+     */
+    public Collection getDancerHistory(Dancer dancer) throws Exception {
+        HSSFSheet sheet = FileReaderHelper.getSheet(FileName.ASH_TEST_XLSX, SheetName.RATING);
+        Iterator<Row> rowIterator = sheet.iterator();
+        boolean startSearch = false;
+        int collumnToSearch = -1;
+
+        while (rowIterator.hasNext()) {
+            Row row = rowIterator.next();
+
+            if (!startSearch) {
+                Iterator<Cell> cellIterator = row.iterator();
+                while (cellIterator.hasNext()) {
+                    Cell cell = cellIterator.next();
+                    if (Cell.CELL_TYPE_STRING == cell.getCellType()) {
+                        String cellContent = cell.getStringCellValue();
+                        if (cellContent.indexOf(Vocabulary.LAST_NAME_RUS) > -1) {
+                            startSearch = true;
+                            collumnToSearch = cell.getColumnIndex();
+                            break;
+                        }
+                    }
+                }
+            } else {
+                Cell cell = row.getCell(collumnToSearch);
+                if (Cell.CELL_TYPE_FORMULA == cell.getCellType()) {
+                    String dancerString =cell.getStringCellValue();
+                    String name = dancer.getName();
+                    String lastName = dancer.getLastName();
+                    if(dancerString.indexOf(name) > -1 && dancerString.indexOf(lastName)> -1){
+                        LOGGER.debug("PersonFound: " + dancerString);
+                        //iterate row and get scores
+
+                    }
+                }
+            }
+
+        }
+        return new ArrayList();
+    }
 
     @Override
     public Collection<Dancer> getDancers() throws Exception {
@@ -35,8 +81,9 @@ public class FileReaderImpl implements FileReader {
         //to control max munber of persons to return
         int counter = 0;
         List<Dancer> dancers = new ArrayList();
-        XSSFSheet sheet = FileReaderHelper.getSheet(FileName.ASH_XLSX, SheetName.DANCERS);
+        HSSFSheet sheet = FileReaderHelper.getSheet(FileName.ASH_TEST_XLSX, SheetName.DANCERS);
         Iterator<Row> rowIterator = sheet.iterator();
+        Row updateDate = rowIterator.next();
         Row header = rowIterator.next();
 
         int numOfColumns = header.getLastCellNum();
@@ -48,20 +95,29 @@ public class FileReaderImpl implements FileReader {
         LOGGER.debug(fieldColumnMap.toString());
 
         while (rowIterator.hasNext()) {
-            if (counter > maxNumber) {
+            //if more than 50 rows one by one are empty - stop
+            int stop = 0;
+            if ((counter > maxNumber && maxNumber !=-1) || stop > 50) {
                 break;
             }
+
             Row row = rowIterator.next();
             Dancer dancer = new Dancer();
             for (int i = 0; i < numOfColumns; i++) {
                 String columnName = fieldColumnMap.get(i);
                 Cell cell = row.getCell(i);
+                if(cell != null){
                 if (columnName != null && cell.toString().length() > 0) {
                     FileReaderHelper.constructPerson(dancer, columnName, cell);
+                }
+                }else{
+                    stop++;
                 }
 
             }
             counter++;
+            FileReaderHelper.matchAndSetClubId(dancer);
+            LOGGER.debug(dancer.toString());
             dancers.add(dancer);
         }
 
@@ -73,7 +129,7 @@ public class FileReaderImpl implements FileReader {
     public Set<Club> getClubs() throws Exception {
         Set<Club> clubs = new HashSet<Club>();
 
-        XSSFSheet sheet = FileReaderHelper.getSheet(FileName.ASH_XLSX, SheetName.CLUB_NAME);
+        HSSFSheet sheet = FileReaderHelper.getSheet(FileName.ASH_TEST_XLSX, SheetName.CLUB_NAME);
         Iterator<Row> rowIterator = sheet.iterator();
         Row header = rowIterator.next();
         Map<Integer, String> fieldColumnMap = new HashMap<Integer, String>();
@@ -103,7 +159,7 @@ public class FileReaderImpl implements FileReader {
     public Collection<Event> getEvents() throws Exception {
         Collection<Event> events = new ArrayList<>();
 
-        XSSFSheet sheet = FileReaderHelper.getSheet(FileName.ASH_XLSX, SheetName.RATING);
+        HSSFSheet sheet = FileReaderHelper.getSheet(FileName.ASH_TEST_XLSX, SheetName.RATING);
         Map<String, Integer> rowMap = EventHelper.determineRows(sheet);
         int indexOfNamesRow = rowMap.get(EventHelper.EVENT_NAME_ROW);
         int indexOfDateRow = rowMap.get(EventHelper.EVENT_DATE);
@@ -118,8 +174,8 @@ public class FileReaderImpl implements FileReader {
         //todo: WTH how it's possible?
         // 7 != 9
 
-        skipCells(dateCellIterator, 9);
-        skipCells(nameCellIterator, 7);
+        skip(dateCellIterator, 9);
+        skip(nameCellIterator, 7);
 
         while (nameCellIterator.hasNext() && dateCellIterator.hasNext()) {
             Event event = new Event(cellNum);
@@ -182,26 +238,6 @@ public class FileReaderImpl implements FileReader {
             }
         } else {
             LOGGER.error("DateCell is not numeric type.");
-        }
-        return false;
-    }
-
-    @Deprecated
-    private boolean parseDateCellOld(Event eventIn, Cell dateCell) {
-        if (Cell.CELL_TYPE_STRING == dateCell.getCellType()) {
-            LOGGER.debug("parseDateCell() - CELL_TYPE_STRING: " + dateCell.toString());
-            return false;
-
-        } else if (Cell.CELL_TYPE_NUMERIC == dateCell.getCellType()) {
-            LOGGER.debug("parseDateCell() - CELL_TYPE_NUMERIC: " + dateCell.toString());
-            try {
-                Date date = dateCell.getDateCellValue();
-                LOGGER.info("dateCell.getDateCellValue(): " + date);
-            } catch (Exception ex) {
-                LOGGER.error("");
-            }
-            eventIn.setEventDate(getDate(dateCell));
-            return true;
         }
         return false;
     }
@@ -271,10 +307,11 @@ public class FileReaderImpl implements FileReader {
         return false;
     }
 
-    private void skipCells(Iterator iterator, int numOfCellsToSkip) {
-        for (int counter = 0; counter < numOfCellsToSkip; counter++) {
+    private void skip(Iterator iterator, int num) {
+        for (int counter = 0; counter < num; counter++) {
             iterator.next();
         }
     }
+
 }
 

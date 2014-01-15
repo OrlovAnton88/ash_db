@@ -2,9 +2,9 @@ package aorlov.ashdb.filereader;
 
 import aorlov.ashdb.core.Event;
 import org.apache.log4j.Logger;
+import org.apache.poi.hssf.usermodel.HSSFSheet;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
-import org.apache.poi.xssf.usermodel.XSSFSheet;
 
 import java.util.Date;
 import java.util.HashMap;
@@ -42,7 +42,7 @@ public class EventHelper {
 
     }
 
-    public static Map<String, Integer> determineRows(XSSFSheet sheetIn) {
+    public static Map<String, Integer> determineRows(HSSFSheet sheetIn) {
 
         //stub
         Map<String, Integer> map = new HashMap<>();

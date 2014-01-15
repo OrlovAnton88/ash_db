@@ -14,6 +14,13 @@ import java.util.Set;
  */
 public class Vocabulary {
 
+    public static final String NAME_RUS = "Имя";
+    public static final String LAST_NAME_RUS = "Фамилия";
+//    public static final String NAME_AND_SURNAME = "SurnameAndName";
+//    public static final String FAMILY_NAME = "familyName";
+    public static final String CLUB_RUS = "Клуб";
+
+
     private static Vocabulary instance = null;
     private Map<String, String> vocabularyMap = null;
 
@@ -30,7 +37,7 @@ public class Vocabulary {
         vocabularyMap.put("Отчество", "familyName");
         vocabularyMap.put("Клуб", "club");
         vocabularyMap.put("Текущ. класс", "currentClass");
-        vocabularyMap.put("Дата пост.в базу", "registrationDate");
+        vocabularyMap.put("Дата пост. в базу", "registrationDate");
     }
 
     private void moveIntoLowerCase(Map<String, String> mapIn) {

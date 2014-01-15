@@ -16,8 +16,6 @@ public class RatingSheetReader {
 
     public Collection<Dancer> getDancers(int maxNumber) {
         Collection dancers = new ArrayList<Dancer>();
-
-
         return dancers;
 
     }

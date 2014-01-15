@@ -4,16 +4,18 @@ import aorlov.ashdb.core.Club;
 import aorlov.ashdb.core.Dancer;
 import aorlov.ashdb.core.Vocabulary;
 import aorlov.ashdb.filereader.club.ClubHelper;
+import aorlov.ashdb.persist.ClubHelperImpl;
 import org.apache.log4j.Logger;
+import org.apache.poi.hssf.usermodel.HSSFSheet;
+import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
-import org.apache.poi.xssf.usermodel.XSSFSheet;
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.sql.SQLException;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Iterator;
@@ -126,8 +128,8 @@ public class FileReaderHelper {
         return toReturn;
     }
 
-    public static Row getHeaderRow(XSSFSheet sheetIn) {
-        XSSFSheet sheet = sheetIn;
+    public static Row getHeaderRow(HSSFSheet sheetIn) {
+        HSSFSheet sheet = sheetIn;
         Iterator<Row> rowIterator = sheet.iterator();
         Row header = rowIterator.next();
         return header;
@@ -186,33 +188,33 @@ public class FileReaderHelper {
      * @return
      * @throws Exception
      */
-    public static XSSFSheet getSheet(String fileName, String sheetName) throws Exception {
+    public static HSSFSheet getSheet(String fileName, String sheetName) throws Exception {
 
         FileInputStream fileInputStream = getInputStream(fileName);
-        XSSFWorkbook workbook = null;
+        HSSFWorkbook workbook = null;
         try {
-            workbook = new XSSFWorkbook(fileInputStream);
+            workbook = new HSSFWorkbook(fileInputStream);
         } catch (IOException ex) {
             throw new Exception("Error in creating work book", ex);
         }
         int index = workbook.getSheetIndex(sheetName);
         LOGGER.debug("Sheet index: [" + index + ']');
 
-        XSSFSheet sheet = workbook.getSheetAt(index);
+        HSSFSheet sheet = workbook.getSheetAt(index);
         return sheet;
     }
 
 
-    public static XSSFSheet getSheet(String fileName, int sheetNumber) throws Exception {
+    public static HSSFSheet getSheet(String fileName, int sheetNumber) throws Exception {
 
         FileInputStream fileInputStream = getInputStream(fileName);
-        XSSFWorkbook workbook = null;
+        HSSFWorkbook workbook = null;
         try {
-            workbook = new XSSFWorkbook(fileInputStream);
+            workbook = new HSSFWorkbook(fileInputStream);
         } catch (IOException ex) {
             throw new Exception("Error in creating work book", ex);
         }
-        XSSFSheet sheet = workbook.getSheetAt(sheetNumber);
+        HSSFSheet sheet = workbook.getSheetAt(sheetNumber);
         return sheet;
     }
 
@@ -223,8 +225,26 @@ public class FileReaderHelper {
         } catch (FileNotFoundException ex) {
             String error = "File " + fileName + "not found";
             LOGGER.error(error);
-            throw new Exception("File " + fileName + "not found");
+            throw new Exception("File " + fileName + " not found");
         }
         return fileInputStream;
+    }
+
+    public static void matchAndSetClubId(Dancer dancer) throws Exception{
+        String clubName = dancer.getClub();
+        if(clubName == null){
+            return;
+        }
+        Club club = null;
+        try{
+        ClubHelperImpl helper = new ClubHelperImpl();
+        club = helper.getClubByName(clubName);
+        }catch (SQLException ex){
+           throw new Exception("Error matchAndSetClubId clubname ["+clubName+"]", ex);
+        }
+        if(club !=  null){
+            dancer.setClubId(club.getId());
+        }
+
     }
 }

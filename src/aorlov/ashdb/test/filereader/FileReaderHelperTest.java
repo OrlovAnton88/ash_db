@@ -1,5 +1,6 @@
-package aorlov.ashdb.filereader;
+package aorlov.ashdb.test.filereader;
 
+import aorlov.ashdb.core.Dancer;
 import junit.framework.TestCase;
 
 public class FileReaderHelperTest extends TestCase {
@@ -12,6 +13,12 @@ public class FileReaderHelperTest extends TestCase {
 //
 //        Integer result = FileReaderHelper.decodePersonalCode(value1);
 //        assertEquals(result, new Integer(1));
+
+        Dancer dancer = new Dancer();
+        dancer.setPersonalCode(123);
+        System.out.println(dancer.getPersonalCodeString());
     }
+
+
 
 }

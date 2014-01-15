@@ -16,6 +16,8 @@ public class Dancer {
     private char gender;
     private String club;
 
+    private int clubId;
+
     private char currentClass;
 
     private int personalCode;
@@ -25,6 +27,15 @@ public class Dancer {
     private Collection history;
 
     private Date registrationDate;
+
+    public int getClubId() {
+        return clubId;
+    }
+
+    public void setClubId(int clubId) {
+        this.clubId = clubId;
+    }
+
 
     /**
      * @return the name
@@ -117,11 +128,25 @@ public class Dancer {
         return personalCode;
     }
 
+    public String getPersonalCodeString(){
+        int lenght = String.valueOf(personalCode).length();
+        if(lenght<5){
+            int zeroToAdd = 5-lenght;
+            StringBuffer value = new StringBuffer(String.valueOf(personalCode));
+            for(int i = 0; i< zeroToAdd; i++){
+                value.insert(0,'0');
+            }
+            return value.toString();
+        }else {
+            return String.valueOf(personalCode);
+        }
+    }
+
     /**
      * @param personalCode the personalCode to set
      */
     public void setPersonalCode(int personalCode) {
-        this.personalCode = personalCode;
+            this.personalCode = personalCode;
     }
 
     /**
@@ -163,7 +188,7 @@ public class Dancer {
     public String toString() {
         StringBuffer toReturn = new StringBuffer();
         toReturn.append("Personal Code [");
-        toReturn.append(personalCode);
+        toReturn.append(getPersonalCodeString());
         toReturn.append(']');
         toReturn.append("Name [");
         toReturn.append(name);
@@ -179,6 +204,9 @@ public class Dancer {
         toReturn.append(']');
         toReturn.append("Current Class [");
         toReturn.append(currentClass);
+        toReturn.append(']');
+        toReturn.append("clubId [");
+        toReturn.append(club);
         toReturn.append(']');
         toReturn.append("club [");
         toReturn.append(club);
