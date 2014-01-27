@@ -1,4 +1,4 @@
-package aorlov.ashdb.test.filereader;
+package aorlov.test.filereader;
 
 import aorlov.ashdb.core.Dancer;
 import junit.framework.TestCase;

@@ -22,6 +22,50 @@ public class FileReaderImpl implements FileReader {
 
     private static Logger LOGGER = Logger.getLogger(FileReaderImpl.class);
 
+    public int[][] getScoresMatrix() throws Exception{
+        HSSFSheet sheet = FileReaderHelper.getSheet(FileName.SCORES, 0);
+        Iterator<Row> rowIterator = sheet.iterator();
+        skip(rowIterator,4);
+        int numOfRows = sheet.getPhysicalNumberOfRows();
+        LOGGER.debug("Phusical num of rows: " + numOfRows);
+        int [][] matrix = new int [numOfRows-4][];
+        int counter =0;
+        while (rowIterator.hasNext()) {
+            Row row = rowIterator.next();
+            Iterator <Cell> cellIterator = row.iterator();
+            skip(cellIterator,1);
+            int numOfCells =  row.getPhysicalNumberOfCells();
+            matrix[counter] = new int [numOfCells];
+            int innerCounter = 0;
+            while(cellIterator.hasNext()){
+                Cell cell = cellIterator.next();
+                if(cell.getCellType() == Cell.CELL_TYPE_NUMERIC){
+                  Double doubleValue = new Double(cell.getNumericCellValue());
+                    int value = doubleValue.intValue();
+                    matrix[counter][innerCounter] = value;
+//                    LOGGER.debug("counter["+counter+"]inner["+innerCounter+']');
+                }
+                innerCounter++;
+//                innerCounter++;
+
+            }
+            counter++;
+        }
+/**
+        for (int i=0; i < matrix.length; i++ ){
+                LOGGER.debug("matrix.length: "+matrix.length +"i: " + i);
+            for(int x = 0; x < matrix[i].length; x++){
+                   LOGGER.debug("matrix[i].length: "+matrix[i].length + "x: "+x) ;
+                System.out.print(matrix[i][x] + " ");
+            }
+            System.out.println();
+        }
+        **/
+
+
+        return matrix;
+    }
+
     /**
      * Get dancers score by name and personal code
      *

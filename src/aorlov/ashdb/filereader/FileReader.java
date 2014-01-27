@@ -20,4 +20,7 @@ public interface FileReader {
 
     public Collection getDancerHistory(Dancer dancer) throws Exception;
 
+
+    public int[][] getScoresMatrix() throws Exception;
+
 }

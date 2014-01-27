@@ -1,4 +1,4 @@
-package aorlov.ashdb.test.filereader;
+package aorlov.test.filereader;
 
 import aorlov.ashdb.core.Dancer;
 import aorlov.ashdb.core.Event;
@@ -100,6 +100,14 @@ public class FileReaderImplTest extends TestCase {
         Date date = new Date(calendar.getTimeInMillis());
         assertEquals(date, toTest.getEventDate());
 
+
+    }
+
+
+
+    public void testGetScrores() throws Exception{
+        FileReaderImpl fl = new FileReaderImpl();
+        fl.getScoresMatrix();
 
     }
 }
