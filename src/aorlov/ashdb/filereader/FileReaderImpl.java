@@ -3,7 +3,6 @@ package aorlov.ashdb.filereader;
 import aorlov.ashdb.core.*;
 import aorlov.ashdb.util.FileName;
 import aorlov.ashdb.util.SheetName;
-import com.sun.xml.internal.fastinfoset.util.CharArrayString;
 import org.apache.log4j.Logger;
 import org.apache.poi.hssf.usermodel.HSSFSheet;
 import org.apache.poi.ss.usermodel.Cell;
@@ -134,12 +133,9 @@ public class FileReaderImpl implements FileReader {
         //MAP with numbers of column and it's name
         Map<Integer, String> fieldColumnMap = FileReaderHelper.getColumnToFiledMap(header);
 
-        LOGGER.debug(fieldColumnMap.toString());
-
         while (rowIterator.hasNext()) {
-            //if more than 50 rows one by one are empty - stop
-            int stop = 0;
-            if ((counter > maxNumber && maxNumber != -1) || stop > 50) {
+
+            if ((counter > maxNumber && maxNumber != -1)) {
                 break;
             }
 
@@ -152,8 +148,6 @@ public class FileReaderImpl implements FileReader {
                     if (columnName != null && cell.toString().length() > 0) {
                         FileReaderHelper.constructPerson(dancer, columnName, cell);
                     }
-                } else {
-                    stop++;
                 }
 
             }
@@ -217,7 +211,7 @@ public class FileReaderImpl implements FileReader {
      */
     public Collection<Event> getEvents(int maxNum) throws Exception {
 
-        Collection<Event> events = new ArrayList<>();
+        Collection<Event> events = new ArrayList<Event>();
 
         HSSFSheet sheet = FileReaderHelper.getSheet(FileName.ASH_TEST_XLSX, SheetName.RATING);
         Map<String, Integer> rowMap = EventHelper.determineRows(sheet);
@@ -269,6 +263,10 @@ public class FileReaderImpl implements FileReader {
                 parseParticipantsCell(event, cClass, HustleClass.CLASS_C);
                 parseParticipantsCell(event, bClass, HustleClass.CLASS_B);
                 parseParticipantsCell(event, aClass, HustleClass.CLASS_A);
+                XSLMetaData metaData = new XSLMetaData();
+                metaData.setColumnNum(nameCell.getColumnIndex());
+                metaData.setSheetName(sheet.getSheetName());
+                event.setMetadata(metaData);
                 events.add(event);
             } else {
                 Cell cell = eClassRow.getCell(i);
@@ -343,7 +341,7 @@ public class FileReaderImpl implements FileReader {
      */
     public Collection<Event> getEventsOld(int maxNum) throws Exception {
         int counter = 0;
-        Collection<Event> events = new ArrayList<>();
+        Collection<Event> events = new ArrayList<Event>();
 
         HSSFSheet sheet = FileReaderHelper.getSheet(FileName.ASH_TEST_XLSX, SheetName.RATING);
         Map<String, Integer> rowMap = EventHelper.determineRows(sheet);
@@ -403,7 +401,8 @@ public class FileReaderImpl implements FileReader {
                 resultDate = dateCell.getDateCellValue();
             } else if (cellToString.contains("E")) {
                 StringBuffer toReturn = new StringBuffer();
-                CharSequence charSequence = new CharArrayString(cellToString);
+                CharSequence charSequence = cellToString;
+//                CharSequence charSequence = new CharArrayString(cellToString);
                 for (int i = 0; i < charSequence.length(); i++) {
                     char ch = charSequence.charAt(i);
                     if (ch == '.') {
@@ -495,7 +494,7 @@ public class FileReaderImpl implements FileReader {
         if (Cell.CELL_TYPE_STRING == nameCell.getCellType()) {
             String eventName = FileReaderHelper.removeLineBreak(nameCell.getStringCellValue());
             if (eventName != null && eventName.length() > 0) {
-                eventIn.setFullName(eventName);
+                eventIn.setName(eventName);
                 return true;
             }
         }

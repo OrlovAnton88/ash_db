@@ -19,6 +19,8 @@ public class Vocabulary {
 //    public static final String NAME_AND_SURNAME = "SurnameAndName";
 //    public static final String FAMILY_NAME = "familyName";
     public static final String CLUB_RUS = "Клуб";
+    public static final String PERSONAL_CODE_RUS = "Код";
+    public static final String PERSONAL_CODE_KEY = "personalcode";
 
 
     private static Vocabulary instance = null;

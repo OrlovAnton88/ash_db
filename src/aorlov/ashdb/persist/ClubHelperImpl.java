@@ -87,7 +87,7 @@ public class ClubHelperImpl extends JDBCDAOImpl implements ClubHelper {
     }
 
     public Collection getClubs() throws SQLException {
-        Collection<Club> clubs = new ArrayList<>();
+        Collection<Club> clubs = new ArrayList<Club>();
         Connection connection = getConnection();
         Statement statement = null;
         ResultSet resultSet = null;

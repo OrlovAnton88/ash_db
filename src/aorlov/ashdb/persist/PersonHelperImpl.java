@@ -5,11 +5,23 @@ import aorlov.ashdb.core.Dancer;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.Collection;
 import java.util.Date;
+import java.util.List;
 
 public class PersonHelperImpl extends JDBCDAOImpl implements PersonHelper {
+
+    private static final String SELECT_DANCERS = "select id," +
+            "name, " +
+            "lastname, " +
+            "familyname, " +
+            "gender, " +
+            "currentclass, " +
+            "clubid, " +
+            "registration_tms " +
+            "from  dancer where id=?";
 
     private static final String INSERT_PERSON = "insert into dancer(id,name, lastname, familyname, gender, currentclass, clubid, registration_tms) \n" +
             "values(?,?,?,?,?,?,?,?);";
@@ -21,13 +33,43 @@ public class PersonHelperImpl extends JDBCDAOImpl implements PersonHelper {
     }
 
     @Override
-    public Dancer getPersonById() {
-        return new Dancer();
+    public Dancer getPersonById(int id) throws SQLException{
+        Connection connection = getConnection();
+        PreparedStatement preparedStatement = connection.prepareStatement(SELECT_DANCERS);
+        ResultSet resultSet = null;
+        preparedStatement.setInt(1,id);
+        try {
+            resultSet = preparedStatement.executeQuery();
+            if(resultSet.next()){
+                Dancer dancer = new Dancer(id);
+                dancer.setName(resultSet.getString("name"));
+                dancer.setLastName(resultSet.getString("lastname"));
+                dancer.setFamilyName(resultSet.getString("familyname"));
+                dancer.setGender(resultSet.getString("gender").charAt(0));
+                dancer.setCurrentClass(resultSet.getString("currentclass").charAt(0));
+                dancer.setClubId(resultSet.getInt("clubid"));
+                dancer.setRegistrationDate(resultSet.getDate("registration_tms"));
+                return dancer;
+            }
+        } catch (SQLException ex) {
+            throw new SQLException("Error during selecting persond with id["+id+"]", ex);
+        } finally {
+            preparedStatement.close();
+            resultSet.close();
+            connection.close();
+
+        }
+        return null;
+
     }
 
     @Override
     public Dancer getPersonByName(String name, String lastName, String familyName) {
-        return null;  //To change body of implemented methods use File | Settings | File Templates.
+        throw new UnsupportedOperationException();
+    }
+    @Override
+    public List<Dancer> getPersons() throws SQLException{
+        throw new UnsupportedOperationException();
     }
 
     @Override

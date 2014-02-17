@@ -1,0 +1,5 @@
+select ev.* from metadata md
+inner join event ev on ev.id = md.ref_id
+where md.meta_type = 'Event'
+and md.meta_key='Column'
+and md.meta_value = '50';

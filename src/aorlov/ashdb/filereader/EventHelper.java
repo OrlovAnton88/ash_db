@@ -28,30 +28,10 @@ public class EventHelper {
     public static final String PARTICIPANTS_CELL_PATTERN = "\"[A-Z]{1}\" \\d{2} пар";
 
 
-    public static void decodeEventName(Event event, String dirtyName) {
-        String name = FileReaderHelper.removeLineBreak(dirtyName);
-        LOGGER.info(name);
-        String toExtract = name;
-        String city = "Unknown";
-        int cityIndex = toExtract.length();
-        if (toExtract.contains("г.")) {
-            cityIndex = toExtract.lastIndexOf("г.");
-            city = toExtract.substring(cityIndex + 2, toExtract.length());
-            cityIndex = cityIndex - 1;
-        }
-        name = name.substring(0, cityIndex);
-
-        event.setName(name);
-        event.setLocation(city);
-//        LOGGER.info(dirtyName);
-//        LOGGER.info(name + " - " + city);
-
-    }
-
     public static Map<String, Integer> determineRows(HSSFSheet sheetIn) {
 
         //stub
-        Map<String, Integer> map = new HashMap<>();
+        Map<String, Integer> map = new HashMap<String,Integer>();
         map.put(EVENT_NAME_ROW, 1);
         map.put(EVENT_DATE, 2);
         map.put(EVENT_E_CLASS, 3);

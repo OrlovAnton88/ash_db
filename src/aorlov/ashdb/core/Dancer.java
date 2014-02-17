@@ -28,6 +28,8 @@ public class Dancer {
 
     private Date registrationDate;
 
+    private XSLMetaData metaData;
+
     public int getClubId() {
         return clubId;
     }
@@ -36,6 +38,13 @@ public class Dancer {
         this.clubId = clubId;
     }
 
+    public Dancer(){
+
+    }
+
+    public Dancer(int id){
+        this.personalCode = id;
+    }
 
     /**
      * @return the name
@@ -128,6 +137,10 @@ public class Dancer {
         return personalCode;
     }
 
+    /**
+     * return personal code of 6  digits as in ASH db-file
+     * @return
+     */
     public String getPersonalCodeString(){
         int lenght = String.valueOf(personalCode).length();
         if(lenght<5){
@@ -183,6 +196,15 @@ public class Dancer {
 
     public void setRegistrationDate(Date registrationDate) {
         this.registrationDate = registrationDate;
+    }
+
+
+    public XSLMetaData getMetaData() {
+        return metaData;
+    }
+
+    public void setMetaData(XSLMetaData metaData) {
+        this.metaData = metaData;
     }
 
     public String toString() {

@@ -5,6 +5,8 @@ import java.util.Map;
 
 public class Event {
 
+    public static final String EVENT_TYPE = "Event";
+
 
     private int id;
     private String fullName;
@@ -17,6 +19,18 @@ public class Event {
     private int bClassPairs;
     private int aClassPairs;
     private Map<Character, Dancer> numberOfParticipantsByClass;
+    private XSLMetaData metadata;
+
+    /**
+     * Default constructor
+     */
+    public Event(){
+
+    }
+
+    public Event(int id) {
+        this.id = id;
+    }
 
 
     public Map<Character, Dancer> getNumberOfParticipantsByClass() {
@@ -67,15 +81,13 @@ public class Event {
         this.aClassPairs = aClassPairs;
     }
 
-    /**
-     * Default constructor
-     */
-    public Event(){
 
+    public XSLMetaData getMetadata() {
+        return metadata;
     }
 
-    public Event(int id) {
-        this.id = id;
+    public void setMetadata(XSLMetaData metadata) {
+        this.metadata = metadata;
     }
 
     public int getId() {
@@ -86,21 +98,12 @@ public class Event {
         this.id = id;
     }
 
-    public String getFullName() {
+    public String getName() {
         return fullName;
     }
 
-    public void setFullName(String fullName) {
+    public void setName(String fullName) {
         this.fullName = fullName;
-    }
-
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
     }
 
     public String getLocation() {
@@ -119,6 +122,7 @@ public class Event {
         this.eventDate = eventDate;
     }
 
+    @Override
     public String toString(){
         StringBuffer i = new StringBuffer("Event id[");
         i.append(id);
@@ -137,6 +141,7 @@ public class Event {
         i.append("] aClassPairs[");
         i.append(aClassPairs);
         i.append(']');
+        i.append(getMetadata().toString());
         return i.toString();
     }
 

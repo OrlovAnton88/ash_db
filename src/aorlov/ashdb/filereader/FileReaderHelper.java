@@ -5,6 +5,7 @@ import aorlov.ashdb.core.Dancer;
 import aorlov.ashdb.core.Vocabulary;
 import aorlov.ashdb.filereader.club.ClubHelper;
 import aorlov.ashdb.persist.ClubHelperImpl;
+import aorlov.ashdb.util.FileName;
 import org.apache.log4j.Logger;
 import org.apache.poi.hssf.usermodel.HSSFSheet;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
@@ -20,7 +21,6 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
-
 
 public class FileReaderHelper {
     private static Logger LOGGER = Logger.getLogger(FileReaderHelper.class);
@@ -125,7 +125,12 @@ public class FileReaderHelper {
         if (valueIn.contains("\n")) {
             toReturn = valueIn.replace("\n", " ");
         }
-        return toReturn;
+
+        if (toReturn.contains("  ")) {
+            toReturn = toReturn.replace("  ", " ");
+        }
+
+        return toReturn.trim();
     }
 
     public static Row getHeaderRow(HSSFSheet sheetIn) {
@@ -198,10 +203,14 @@ public class FileReaderHelper {
             throw new Exception("Error in creating work book", ex);
         }
         int index = workbook.getSheetIndex(sheetName);
-        LOGGER.debug("Sheet index: [" + index + ']');
+//        LOGGER.debug("Sheet index: [" + index + ']');
 
         HSSFSheet sheet = workbook.getSheetAt(index);
         return sheet;
+    }
+
+    public static HSSFSheet getSheet(String sheetNameIn) throws Exception{
+        return FileReaderHelper.getSheet(FileName.ASH_TEST_XLSX, sheetNameIn);
     }
 
 
@@ -240,7 +249,7 @@ public class FileReaderHelper {
         ClubHelperImpl helper = new ClubHelperImpl();
         club = helper.getClubByName(clubName);
         }catch (SQLException ex){
-           throw new Exception("Error matchAndSetClubId clubname ["+clubName+"]", ex);
+           LOGGER.error("Error matchAndSetClubId clubname ["+clubName+"]", ex);
         }
         if(club !=  null){
             dancer.setClubId(club.getId());
